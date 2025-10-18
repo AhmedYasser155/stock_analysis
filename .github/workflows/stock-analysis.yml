@@ -41,9 +41,6 @@ jobs:
           echo "✅ TELEGRAM_CHAT_ID is set"
         fi
     
-    - name: Run stock analysis
-      env:
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    - name: Run stock analysis (test version)
       run: |
-        python run_single.py
+        python test_github_actions.py
