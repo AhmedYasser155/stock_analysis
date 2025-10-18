@@ -3,17 +3,18 @@ Simple Telegram Bot Messaging Script
 This script demonstrates how to send messages to Telegram using a bot.
 """
 
+import os
 import requests
 import json
 from datetime import datetime
 
 # Telegram Bot Configuration
-BOT_TOKEN = "8369324693:AAFXewPCtGDs0rMLSZwtO5miaXxcCyRvtrM"  # Replace with your actual bot token
-CHAT_ID = "819131470"      # Replace with your chat ID
+# Get from environment variables for GitHub Actions, fallback to hardcoded for local testing
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8369324693:AAFXewPCtGDs0rMLSZwtO5miaXxcCyRvtrM")
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "819131470")
 
-# Example (replace with your actual values):
-# BOT_TOKEN = "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"
-# CHAT_ID = "123456789"
+print(f"🔧 BOT_TOKEN loaded: {'✅ from environment' if 'TELEGRAM_BOT_TOKEN' in os.environ else '⚠️ using fallback'}")
+print(f"🔧 CHAT_ID loaded: {'✅ from environment' if 'TELEGRAM_CHAT_ID' in os.environ else '⚠️ using fallback'}")
 
 def send_telegram_message(message, parse_mode="HTML"):
     """

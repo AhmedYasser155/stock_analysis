@@ -22,6 +22,25 @@ jobs:
       run: |
         pip install -r requirements.txt
     
+    - name: Check environment variables
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        echo "Checking environment variables..."
+        echo "TELEGRAM_BOT_TOKEN length: ${#TELEGRAM_BOT_TOKEN}"
+        echo "TELEGRAM_CHAT_ID length: ${#TELEGRAM_CHAT_ID}"
+        if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+          echo "❌ TELEGRAM_BOT_TOKEN is empty!"
+        else
+          echo "✅ TELEGRAM_BOT_TOKEN is set"
+        fi
+        if [ -z "$TELEGRAM_CHAT_ID" ]; then
+          echo "❌ TELEGRAM_CHAT_ID is empty!"
+        else
+          echo "✅ TELEGRAM_CHAT_ID is set"
+        fi
+    
     - name: Run stock analysis
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
