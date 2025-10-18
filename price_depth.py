@@ -99,7 +99,7 @@ MAX_RETRIES = 5              # max attempts per stock per cycle
 BACKOFF_BASE = 2             # exponential backoff base
 MAX_WORKERS = 12             # thread pool size (avoid exhausting DB)
 INTERVAL_SECONDS = 10        # loop interval seconds
-START_TIME = dtime(10, 0)
+START_TIME = dtime(00, 0)
 END_TIME = dtime(14, 15)
 
 # Dynamic Bearer token management
