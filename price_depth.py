@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 import time
 import csv
-import oracledb
+# import oracledb  # Commented out for GitHub Actions deployment
 import threading
 import concurrent.futures
 from datetime import time as dtime
@@ -182,63 +182,69 @@ def fetch_and_store_one(stock_row):
                 time.sleep(1)
                 continue
             snapshot_timestamp = datetime.now()
-            try:
-                with oracledb.connect(user="AYD_ADMIN", password="MySecret123", dsn="localhost/XEPDB1") as connection:
-                    cursor = connection.cursor()
-                    total_bids_and_asks = data.get("total_bids_and_asks", {})
-                    total_bids = to_number(total_bids_and_asks.get("total_bids", 0))
-                    total_asks = to_number(total_bids_and_asks.get("total_asks", 0))
-                    cursor.execute(
-                        """
-                        INSERT INTO STOCK_PRICE_DEPTH (STOCK_CODE, SNAPSHOT_TIMESTAMP, TOTAL_BIDS, TOTAL_ASKS)
-                        VALUES (:1, :2, :3, :4)
-                        """,
-                        [stock_code, snapshot_timestamp, total_bids, total_asks]
-                    )
-                    cursor.execute(
-                        "SELECT ID FROM STOCK_PRICE_DEPTH WHERE STOCK_CODE=:1 AND SNAPSHOT_TIMESTAMP=:2 ORDER BY ID DESC FETCH FIRST 1 ROWS ONLY",
-                        [stock_code, snapshot_timestamp]
-                    )
-                    row = cursor.fetchone()
-                    if not row:
-                        raise RuntimeError("Failed to get inserted depth ID")
-                    depth_id = row[0]
-
-                    for bid in data.get("bids_per_price", []):
-                        cursor.execute(
-                            """
-                            INSERT INTO BIDS_PER_PRICE (DEPTH_ID, ORDER_PRICE, VOLUME_TRADED, SPLIT, VOLUME_TRADED_CUM_SUM)
-                            VALUES (:1, :2, :3, :4, :5)
-                            """,
-                            [
-                                depth_id,
-                                to_number(bid.get("order_price")),
-                                to_number(bid.get("volume_traded")),
-                                to_number(bid.get("split")),
-                                to_number(bid.get("volume_traded_cum_sum"))
-                            ]
-                        )
-                    for ask in data.get("asks_per_price", []):
-                        cursor.execute(
-                            """
-                            INSERT INTO ASKS_PER_PRICE (DEPTH_ID, ORDER_PRICE, VOLUME_TRADED, SPLIT, VOLUME_TRADED_CUM_SUM)
-                            VALUES (:1, :2, :3, :4, :5)
-                            """,
-                            [
-                                depth_id,
-                                to_number(ask.get("order_price")),
-                                to_number(ask.get("volume_traded")),
-                                to_number(ask.get("split")),
-                                to_number(ask.get("volume_traded_cum_sum"))
-                            ]
-                        )
-                    connection.commit()
-                analyze_bid_ask(stock_code, data)
-                return  # success
-            except Exception as db_err:
-                log_notification(f"{stock_code} DB ERROR attempt {attempt}: {db_err}")
-                time.sleep(min(30, BACKOFF_BASE ** min(attempt, 6)))
-                continue
+            
+            # === DATABASE STORAGE COMMENTED OUT FOR GITHUB ACTIONS ===
+            # try:
+            #     with oracledb.connect(user="AYD_ADMIN", password="MySecret123", dsn="localhost/XEPDB1") as connection:
+            #         cursor = connection.cursor()
+            #         total_bids_and_asks = data.get("total_bids_and_asks", {})
+            #         total_bids = to_number(total_bids_and_asks.get("total_bids", 0))
+            #         total_asks = to_number(total_bids_and_asks.get("total_asks", 0))
+            #         cursor.execute(
+            #             """
+            #             INSERT INTO STOCK_PRICE_DEPTH (STOCK_CODE, SNAPSHOT_TIMESTAMP, TOTAL_BIDS, TOTAL_ASKS)
+            #             VALUES (:1, :2, :3, :4)
+            #             """,
+            #             [stock_code, snapshot_timestamp, total_bids, total_asks]
+            #         )
+            #         cursor.execute(
+            #             "SELECT ID FROM STOCK_PRICE_DEPTH WHERE STOCK_CODE=:1 AND SNAPSHOT_TIMESTAMP=:2 ORDER BY ID DESC FETCH FIRST 1 ROWS ONLY",
+            #             [stock_code, snapshot_timestamp]
+            #         )
+            #         row = cursor.fetchone()
+            #         if not row:
+            #             raise RuntimeError("Failed to get inserted depth ID")
+            #         depth_id = row[0]
+            #
+            #         for bid in data.get("bids_per_price", []):
+            #             cursor.execute(
+            #                 """
+            #                 INSERT INTO BIDS_PER_PRICE (DEPTH_ID, ORDER_PRICE, VOLUME_TRADED, SPLIT, VOLUME_TRADED_CUM_SUM)
+            #                 VALUES (:1, :2, :3, :4, :5)
+            #                 """,
+            #                 [
+            #                     depth_id,
+            #                     to_number(bid.get("order_price")),
+            #                     to_number(bid.get("volume_traded")),
+            #                     to_number(bid.get("split")),
+            #                     to_number(bid.get("volume_traded_cum_sum"))
+            #                 ]
+            #             )
+            #         for ask in data.get("asks_per_price", []):
+            #             cursor.execute(
+            #                 """
+            #                 INSERT INTO ASKS_PER_PRICE (DEPTH_ID, ORDER_PRICE, VOLUME_TRADED, SPLIT, VOLUME_TRADED_CUM_SUM)
+            #                 VALUES (:1, :2, :3, :4, :5)
+            #                 """,
+            #                 [
+            #                     depth_id,
+            #                     to_number(ask.get("order_price")),
+            #                     to_number(ask.get("volume_traded")),
+            #                     to_number(ask.get("split")),
+            #                     to_number(ask.get("volume_traded_cum_sum"))
+            #                 ]
+            #             )
+            #         connection.commit()
+            #     analyze_bid_ask(stock_code, data)
+            #     return  # success
+            # except Exception as db_err:
+            #     log_notification(f"{stock_code} DB ERROR attempt {attempt}: {db_err}")
+            #     time.sleep(min(30, BACKOFF_BASE ** min(attempt, 6)))
+            #     continue
+            
+            # Skip database storage and proceed directly to analysis
+            analyze_bid_ask(stock_code, data)
+            return  # success
         elif status == 429:
             # Rate limited; backoff and retry
             time.sleep(min(30, BACKOFF_BASE ** min(attempt, 6)))

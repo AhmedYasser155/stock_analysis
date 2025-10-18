@@ -1,4 +1,4 @@
 requests==2.31.0
-oracledb==2.0.1
+# oracledb==2.0.1  # Commented out - not needed for GitHub Actions
 schedule==1.2.1
 python-telegram-bot==20.7
