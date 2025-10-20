@@ -22,19 +22,17 @@ except ImportError:
 try:
     from telegram_msg import send_telegram_message, format_stock_alert, format_market_summary
     TELEGRAM_ENABLED = True
-    print("✅ Telegram integration enabled")
 except ImportError:
     TELEGRAM_ENABLED = False
-    print("⚠️ Telegram integration not available. Check telegram_msg.py and requests library")
+    print("⚠️ Telegram not available")
 
 # Token management system
 try:
     from token_manager import wait_for_token_at_startup, check_for_new_token, get_api_token
     TOKEN_MANAGER_ENABLED = True
-    print("✅ Dynamic token management enabled")
 except ImportError:
     TOKEN_MANAGER_ENABLED = False
-    print("⚠️ Token manager not available. Using static token.")
+    print("⚠️ Token manager not available")
 
 def log_notification(msg):
     with open("notification_log.txt", "a", encoding="utf-8") as f:
@@ -50,6 +48,8 @@ def send_telegram_notification(stock_code, alert_type, score, ratio, change_pct)
         success = send_telegram_message(message)
         
         if success:
+            # Track alert statistics
+            alert_counts[alert_type] = alert_counts.get(alert_type, 0) + 1
             log_notification(f"📱 Telegram alert sent for {stock_code}")
         else:
             log_notification(f"❌ Failed to send Telegram alert for {stock_code}")
@@ -74,6 +74,221 @@ def send_telegram_summary(strong_count, take_care_count, top_stocks, total_stock
     except Exception as e:
         log_notification(f"❌ Telegram summary error: {e}")
 
+def send_start_of_day_message():
+    """Send start-of-day message with today's stock watchlist."""
+    if not TELEGRAM_ENABLED:
+        return
+        
+    try:
+        current_time = datetime.now()
+        date_str = current_time.strftime('%Y-%m-%d')
+        time_str = current_time.strftime('%H:%M:%S')
+        
+        # Create stock list for the message
+        stock_codes = [stock[0] for stock in stocks_list]
+        stock_chunks = [stock_codes[i:i+10] for i in range(0, len(stock_codes), 10)]
+        
+        stock_list_text = ""
+        for i, chunk in enumerate(stock_chunks):
+            stock_list_text += f"{'📋' if i == 0 else '   '} {', '.join(chunk)}\n"
+        
+        start_message = f"""
+🌅 <b>STOCK ANALYSIS - START OF DAY</b>
+
+📅 <b>Date:</b> {date_str}
+🕘 <b>Time:</b> {time_str}
+📊 <b>Trading Hours:</b> {TRADING_START_TIME.strftime('%H:%M')} - {TRADING_END_TIME.strftime('%H:%M')}
+📈 <b>Monitoring {len(stocks_list)} Stocks Today:</b>
+
+{stock_list_text.strip()}
+
+🚀 <b>System Status:</b> Online and ready
+⏰ <b>Preparation Phase:</b> {PREP_START_TIME.strftime('%H:%M')} - {TRADING_START_TIME.strftime('%H:%M')}
+📈 <b>Active Trading:</b> {TRADING_START_TIME.strftime('%H:%M')} - {TRADING_END_TIME.strftime('%H:%M')}
+📊 <b>Summary Phase:</b> {TRADING_END_TIME.strftime('%H:%M')} - {SYSTEM_END_TIME.strftime('%H:%M')}
+
+<i>Good morning! System is ready to monitor today's market opportunities.</i>
+        """
+        
+        success = send_telegram_message(start_message.strip())
+        
+        if success:
+            print("📱 Start-of-day message sent to Telegram")
+            log_notification("📱 Start-of-day message sent to Telegram")
+        else:
+            print("❌ Failed to send start-of-day message")
+            log_notification("❌ Failed to send start-of-day message")
+            
+    except Exception as e:
+        print(f"❌ Error sending start-of-day message: {e}")
+        log_notification(f"❌ Start-of-day message error: {e}")
+
+
+def get_current_stock_price(stock_code):
+    """Extract current stock price from the latest API data"""
+    try:
+        # Make API request to get current stock data
+        url = f"https://xt4wgzrep2.execute-api.us-east-1.amazonaws.com/default/EGXAPI-V2?market=EGX&action=getBook5&symbol={stock_code}"
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if data and 'data' in data and data['data']:
+                stock_data = data['data']
+                # Try to get last price, or use best bid/ask average
+                if 'lastPrice' in stock_data and stock_data['lastPrice']:
+                    return float(stock_data['lastPrice'])
+                elif 'bestBid' in stock_data and 'bestAsk' in stock_data:
+                    bid = float(stock_data.get('bestBid', 0))
+                    ask = float(stock_data.get('bestAsk', 0))
+                    if bid > 0 and ask > 0:
+                        return (bid + ask) / 2  # Midpoint price
+                    elif bid > 0:
+                        return bid
+                    elif ask > 0:
+                        return ask
+        
+        print(f"⚠️ Could not extract price for {stock_code}")
+        return None
+        
+    except Exception as e:
+        print(f"❌ Error getting price for {stock_code}: {e}")
+        return None
+
+
+def capture_end_of_day_prices():
+    """Capture end-of-day prices for all stocks that had strong recommendations"""
+    if not strong_recommendations:
+        return
+        
+    print("📊 Capturing end-of-day prices for strong recommendations...")
+    
+    for stock_code in strong_recommendations.keys():
+        try:
+            end_price = get_current_stock_price(stock_code)
+            if end_price is not None:
+                end_of_day_prices[stock_code] = end_price
+                print(f"📈 End price for {stock_code}: {end_price:.3f}")
+            else:
+                print(f"⚠️ Could not capture end price for {stock_code}")
+        except Exception as e:
+            print(f"❌ Error capturing end price for {stock_code}: {e}")
+
+
+def send_end_of_day_summary():
+    """Send end of day summary with trading statistics"""
+    if not TELEGRAM_ENABLED:
+        return
+        
+    try:
+        current_date = datetime.now().strftime("%Y-%m-%d")
+        current_time = datetime.now().strftime("%H:%M")
+        
+        # Capture end-of-day prices first
+        capture_end_of_day_prices()
+        
+        # Calculate session statistics
+        total_alerts = sum(alert_counts.values()) if alert_counts else 0
+        active_stocks = len([score for score in signal_scores.values() if score > 60])
+        top_performers = sorted(signal_scores.items(), key=lambda x: x[1], reverse=True)[:5]
+        
+        # Analyze recommendation performance
+        successful_recs = 0
+        failed_recs = 0
+        total_gain_loss = 0.0
+        
+        message_parts = [
+            f"🌙 <b>END OF TRADING DAY SUMMARY</b> 📊",
+            f"📅 <b>Date:</b> {current_date} | <b>Time:</b> {current_time}",
+            "",
+            "📈 <b>Session Statistics:</b>",
+            f"• Total Alerts Sent: {total_alerts}",
+            f"• Strong Recommendations: {len(strong_recommendations)}",
+            f"• Active Stocks (Score >60): {active_stocks}",
+            f"• Total Stocks Monitored: {len(stocks_list)}",
+            ""
+        ]
+        
+        # Add recommendation performance analysis
+        if strong_recommendations:
+            message_parts.append("🎯 <b>Strong Recommendations Performance:</b>")
+            
+            for stock_code, rec_data in strong_recommendations.items():
+                alert_price = rec_data.get('alert_price')
+                end_price = end_of_day_prices.get(stock_code)
+                alert_time = rec_data.get('alert_time')
+                
+                if alert_price and end_price:
+                    price_change = end_price - alert_price
+                    price_change_pct = (price_change / alert_price) * 100
+                    total_gain_loss += price_change_pct
+                    
+                    if price_change_pct > 0:
+                        successful_recs += 1
+                        status_emoji = "✅"
+                    else:
+                        failed_recs += 1
+                        status_emoji = "❌"
+                    
+                    alert_time_str = alert_time.strftime('%H:%M') if alert_time else 'N/A'
+                    message_parts.append(
+                        f"{status_emoji} {stock_code}: {alert_price:.3f} → {end_price:.3f} "
+                        f"({price_change_pct:+.2f}%) at {alert_time_str}"
+                    )
+                else:
+                    message_parts.append(f"⚠️ {stock_code}: Price data incomplete")
+            
+            # Summary of performance
+            total_recs = len(strong_recommendations)
+            success_rate = (successful_recs / total_recs * 100) if total_recs > 0 else 0
+            avg_gain_loss = total_gain_loss / total_recs if total_recs > 0 else 0
+            
+            message_parts.extend([
+                "",
+                f"📊 <b>Performance Summary:</b>",
+                f"• Success Rate: {success_rate:.1f}% ({successful_recs}/{total_recs})",
+                f"• Average Gain/Loss: {avg_gain_loss:+.2f}%",
+                f"• Total Performance: {total_gain_loss:+.2f}%",
+                ""
+            ])
+        
+        if top_performers:
+            message_parts.append("🏆 <b>Top 5 Performers Today:</b>")
+            for i, (symbol, score) in enumerate(top_performers, 1):
+                message_parts.append(f"{i}. {symbol}: {score:.1f} points")
+            message_parts.append("")
+        
+        # Add alert breakdown if available
+        if alert_counts:
+            message_parts.append("🔔 <b>Alert Breakdown:</b>")
+            for alert_type, count in alert_counts.items():
+                message_parts.append(f"• {alert_type}: {count}")
+            message_parts.append("")
+        
+        message_parts.extend([
+            "⏰ <b>Tomorrow's Schedule:</b>",
+            f"• System starts: {PREP_START_TIME.strftime('%H:%M')}",
+            f"• Trading begins: {TRADING_START_TIME.strftime('%H:%M')}",
+            "",
+            "<i>Thank you for trading with us today! 🙏</i>",
+            "<i>See you tomorrow for another great trading session! 🚀</i>"
+        ])
+        
+        summary_message = "\n".join(message_parts)
+        success = send_telegram_message(summary_message)
+        
+        if success:
+            print("📱 End-of-day summary sent to Telegram")
+            log_notification("📱 End-of-day summary sent to Telegram")
+        else:
+            print("❌ Failed to send end-of-day summary")
+            log_notification("❌ Failed to send end-of-day summary")
+        
+    except Exception as e:
+        print(f"❌ Error sending end-of-day summary: {e}")
+        log_notification(f"❌ End-of-day summary error: {e}")
+
+
 ############################################
 # Runtime State / Globals
 ############################################
@@ -81,6 +296,9 @@ stock_ratios = {}      # latest ratios each cycle
 volumes = {}           # volume snapshot (bids)
 previous_ratios = {}   # ratios from previous cycle
 daily_risers = {}      # stock_code -> list of positive % changes
+alert_counts = {}      # track different types of alerts sent
+strong_recommendations = {}  # track strong recommendations: {stock_code: {'alert_time': datetime, 'alert_price': float, 'score': float}}
+end_of_day_prices = {}      # store end-of-day prices for comparison
 token_expired = False
 lock = threading.Lock()  # protect shared writes
 
@@ -99,18 +317,18 @@ MAX_RETRIES = 5              # max attempts per stock per cycle
 BACKOFF_BASE = 2             # exponential backoff base
 MAX_WORKERS = 12             # thread pool size (avoid exhausting DB)
 INTERVAL_SECONDS = 10        # loop interval seconds
-START_TIME = dtime(00, 0)
-END_TIME = dtime(14, 15)
+PREP_START_TIME = dtime(9, 45)   # 9:45 AM - preparation time
+TRADING_START_TIME = dtime(10, 0)  # 10:00 AM - actual trading start
+TRADING_END_TIME = dtime(14, 15)   # 2:15 PM - trading end
+SYSTEM_END_TIME = dtime(14, 30)    # 2:30 PM - system shutdown with summary
 
 # Dynamic Bearer token management
 if TOKEN_MANAGER_ENABLED:
-    print("🔍 Checking for API token...")
     TOKEN = wait_for_token_at_startup()
-    print(f"✅ Using token: {TOKEN[:20]}...")
 else:
     # Fallback to static token
     TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6ImNFbURJUnMxV2J0WE9RX2lfYUdfMG5rUmEwSjh1ZWozbnN4eU1jSUxqVXMifQ.eyJzY29wZXMiOlsiYXNzZXRzOndyaXRlIiwib3JkZXI6cmVhZCIsInVzZXI6d3JpdGUiLCJtYXJrZXRfZWd5cHQ6cmVhZCIsImt5Y19jaGFsbGVuZ2U6d3JpdGUiLCJjaGFydHM6cmVhZCIsIm1hcmtldF9kZXB0aDpyZWFkIiwicG9zdDp3cml0ZSIsImZ1bmRpbmc6cmVhZCIsImZ1bmRpbmc6d3JpdGUiLCJ3YXRjaGxpc3Q6d3JpdGUiLCJmZWVkOnJlYWQiLCJtYXJrZXRfc2ltdWxhdG9yOndyaXRlIiwibm90aWZpY2F0aW9uczpyZWFkIiwiaW52ZXN0b3I6cmVhZCIsImFuYWx5c2lzOnJlYWQiLCJub3RpZmljYXRpb25zOndyaXRlIiwib3JkZXI6d3JpdGUiLCJmaWxlczp3cml0ZSIsImRvY3VtZW50OndyaXRlIiwiaW52ZXN0b3I6d3JpdGUiLCJtYXJrZXRfc2ltdWxhdG9yOnJlYWQiLCJ3YXRjaGxpc3Q6cmVhZCIsInN1YnNjcmlwdGlvbjp3cml0ZSIsInVzZXI6cmVhZCIsIm1hcmtldF9lZ3lwdDp3cml0ZSIsImFzc2V0czpyZWFkIiwicG9zdDpyZWFkIiwic3Vic2NyaXB0aW9uOnJlYWQiLCJreWNfY2hhbGxlbmdlOnJlYWQiXSwidWlkIjoiOXJOYlZRRGRTWk5zMzVDcDNoV09VV3BoMzVRMiIsImFscGFjYV9pZCI6bnVsbCwidXR5cGUiOiJ2ZXJpZmllZCIsImlhdCI6MTc2MDY0NzMyNCwiZXhwIjoxNzYwNjY4OTI0LCJkYXRhIjp7ImVtYWlsIjoiYWhtZWQueS5kYXdhbHlAZ21haWwuY29tIiwibmFtZSI6IkFobWVkIFlhc3NlciIsInVzZXJuYW1lIjoic3M4N2Y5aGZndiJ9fQ.g16qt5eXocLl5FJgb5_zhWYMHYvaOZFCMaNLX2ad_TgpScO25gk-nUOJWk0mVJUh77IRhalcRXjUTGu2nxRuig'
-    print("⚠️ Using static token (token manager not available)")
+    print("⚠️ Using static token (no token manager)")
 
 price_depth_url = 'https://prod.thndr.app/assets-service/market-depth/' 
 price_url = 'https://web.thndr.app/assets/'
@@ -254,6 +472,15 @@ def fetch_and_store_one(stock_row):
             log_notification(msg)
             if toaster:
                 toaster.show_toast("Stock Notification", msg, duration=8, threaded=True)
+            
+            # Send immediate Telegram notification about token expiration
+            if TELEGRAM_ENABLED:
+                try:
+                    send_telegram_notification(stock_code, "TOKEN_EXPIRED", 0, 0, 0)
+                    print(f"📱 Token expiry alert sent for {stock_code}")
+                except Exception as e:
+                    print(f"❌ Failed to send token expiry alert: {e}")
+            
             token_expired = True
             return
         else:
@@ -434,30 +661,48 @@ def process_notifications():
         notify_type = None
         msg = ""
         
-        # STRONG RECOMMEND: High composite score + ratio > 1
-        if score >= 60 and ratio > 1:
+        # STRONG RECOMMEND: Very high composite score + ratio > 1 (raised threshold for higher selectivity)
+        if score >= 75 and ratio > 1.2:  # More selective: higher score and ratio thresholds
+            # Double-check ratio consistency to prevent false alerts
+            current_ratio_check = stock_ratios.get(stock_code, 0)
+            if current_ratio_check <= 1.2:
+                print(f"⚠️ Data inconsistency detected for {stock_code}: calculated ratio={ratio:.2f}, current ratio={current_ratio_check:.2f}")
+                continue  # Skip this alert due to data inconsistency
+                
             change_pct = (ratio - prev_ratio) / prev_ratio * 100 if prev_ratio else 0
             msg = f"STRONG RECOMMEND: {stock_code}: Score={score:.1f}, Ratio={ratio:.2f}, Change={change_pct:+.2f}%"
             notify_type = "STRONG"
-            strong_recommendations.append(stock_code)
             last_recommendations[stock_code] = current_time
+            
+            # Capture price for tracking performance
+            try:
+                current_price = get_current_stock_price(stock_code)
+                strong_recommendations[stock_code] = {
+                    'alert_time': current_time,
+                    'alert_price': current_price,
+                    'score': score,
+                    'ratio': ratio
+                }
+                print(f"📊 Captured price for {stock_code}: {current_price:.3f}")
+            except Exception as e:
+                print(f"⚠️ Could not capture price for {stock_code}: {e}")
             
             # Send to Telegram
             send_telegram_notification(stock_code, "STRONG", score, ratio, change_pct)
             
-        # TAKE CARE: Ratio dropped significantly or score dropped significantly
-        elif prev_ratio is not None and prev_ratio > 1 and ratio < 1:
-            change_pct = (ratio - prev_ratio) / prev_ratio * 100
-            msg = f"TAKE CARE: {stock_code}: Ratio dropped below 1! Previous={prev_ratio:.2f}, Now={ratio:.2f}, Score={score:.1f}"
-            notify_type = "TAKE_CARE"
-            take_care_alerts.append(stock_code)
-            last_recommendations[stock_code] = current_time
+        # TAKE CARE alerts are now DISABLED - commented out
+        # elif prev_ratio is not None and prev_ratio > 1 and ratio < 1:
+        #     change_pct = (ratio - prev_ratio) / prev_ratio * 100
+        #     msg = f"TAKE CARE: {stock_code}: Ratio dropped below 1! Previous={prev_ratio:.2f}, Now={ratio:.2f}, Score={score:.1f}"
+        #     notify_type = "TAKE_CARE"
+        #     take_care_alerts.append(stock_code)
+        #     last_recommendations[stock_code] = current_time
+        #     
+        #     # Send to Telegram
+        #     send_telegram_notification(stock_code, "TAKE_CARE", score, ratio, change_pct)
             
-            # Send to Telegram
-            send_telegram_notification(stock_code, "TAKE_CARE", score, ratio, change_pct)
-            
-        # Medium confidence signals (log but don't toast)
-        elif score >= 40 and ratio > 1:
+        # High potential signals (logged but no alerts) - raised threshold
+        elif score >= 65 and ratio > 1:
             change_pct = (ratio - prev_ratio) / prev_ratio * 100 if prev_ratio else 0
             msg = f"MEDIUM SIGNAL: {stock_code}: Score={score:.1f}, Ratio={ratio:.2f}, Change={change_pct:+.2f}%"
             
@@ -471,7 +716,7 @@ def process_notifications():
             log_notification(msg)
             
         # Toast notification for high-confidence signals only
-        if toaster and notify_type in ("STRONG", "TAKE_CARE"):
+        if toaster and notify_type == "STRONG":
             toaster.show_toast("Stock Notification", msg, duration=8, threaded=True)
 
     # Track positive changes
@@ -488,10 +733,12 @@ def process_notifications():
     print(f"\n=== Summary of Tracked Stocks ({len(stock_ratios)} total) ===")
     
     if strong_recommendations:
-        print(f"🚀 STRONG RECOMMENDATIONS ({len(strong_recommendations)}): {', '.join(strong_recommendations)}")
+        strong_rec_list = list(strong_recommendations.keys())
+        print(f"🚀 STRONG RECOMMENDATIONS ({len(strong_rec_list)}): {', '.join(strong_rec_list)}")
     
-    if take_care_alerts:
-        print(f"⚠️  TAKE CARE ALERTS ({len(take_care_alerts)}): {', '.join(take_care_alerts)}")
+    # TAKE CARE alerts are now disabled
+    # if take_care_alerts:
+    #     print(f"⚠️  TAKE CARE ALERTS ({len(take_care_alerts)}): {', '.join(take_care_alerts)}")
     
     # Top scoring stocks
     sorted_by_score = sorted(signal_scores.items(), key=lambda x: x[1], reverse=True)
@@ -517,8 +764,7 @@ def process_notifications():
     
     # Send summary if there's activity or every 6th cycle (every minute at 10s intervals)
     if (process_notifications.cycle_count % 6 == 0 or 
-        len(strong_recommendations) > 0 or 
-        len(take_care_alerts) > 0):
+        len(strong_recommendations) > 0):
         
         # Prepare top stocks data for Telegram
         telegram_top_stocks = []
@@ -539,48 +785,50 @@ def process_notifications():
     print("=" * 60)
 
 def show_system_status():
-    """Display system configuration and current status."""
-    print("=" * 60)
-    print("📊 ENHANCED STOCK MONITORING SYSTEM")
-    print("=" * 60)
-    print(f"📋 Configuration:")
-    print(f"  • Monitored stocks: {len(stocks_list)}")
-    print(f"  • Trading hours: {START_TIME} - {END_TIME}")
-    print(f"  • Fetch interval: {INTERVAL_SECONDS}s")
-    print(f"  • Max workers: {MAX_WORKERS}")
-    print(f"  • History buffer: {HISTORY_SIZE} snapshots")
-    print(f"  • Recommendation cooldown: {cooldown_minutes} minutes")
-    print(f"  • Request timeout: {REQUEST_TIMEOUT}s")
-    print(f"")
-    print(f"🎯 Enhanced Decision Factors:")
-    print(f"  • Basic ratio strength (0-25 pts)")
-    print(f"  • Ratio velocity/momentum (0-20 pts)")  
-    print(f"  • Multi-level order imbalance (0-20 pts)")
-    print(f"  • Price momentum (0-15 pts)")
-    print(f"  • Depth/activity bonus (0-10 pts)")
-    print(f"  • Consistency bonus (0-10 pts)")
-    print(f"  • Spread penalty (0 to -10 pts)")
-    print(f"")
-    print(f"🚨 Alert Thresholds:")
-    print(f"  • STRONG RECOMMEND: Score ≥ 60 + Ratio > 1")
-    print(f"  • MEDIUM SIGNAL: Score ≥ 40 + Ratio > 1") 
-    print(f"  • TAKE CARE: Ratio drops below 1")
+    """Display minimal system status."""
+    print(f"� Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"📈 Monitoring {len(stocks_list)} stocks: {', '.join([stock[0] for stock in stocks_list[:10]])}{', ...' if len(stocks_list) > 10 else ''}")
     print("=" * 60)
 
 def main_loop():
     global token_expired, TOKEN, headers
     show_system_status()
+    
+    # Send start-of-day message with stock list
+    send_start_of_day_message()
+    
     print("Starting enhanced stock monitoring...")
     
     # Token refresh counter
     token_check_counter = 0
+    day_started = False  # Track if we've sent start-of-day message
     
     while True:
         if token_expired:
-            print("💔 Token expired. Checking for new token...")
+            print("💔 Token expired. Waiting for new token via Telegram...")
             
+            # Send Telegram notification about token expiration (once)
+            if not hasattr(token_expired, '_notified'):
+                if TELEGRAM_ENABLED:
+                    try:
+                        expiry_message = f"""
+🔴 <b>STOCK ANALYSIS - TOKEN EXPIRED</b>
+
+💔 <b>Status:</b> API Token has expired
+🕐 <b>Time:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+⚠️ <b>Action Needed:</b> Send new token via Telegram
+
+<i>Waiting for new token. Send the new token in a message to resume monitoring.</i>
+                        """
+                        send_telegram_message(expiry_message.strip())
+                        print("📱 Token expiry notification sent")
+                    except Exception as e:
+                        print(f"❌ Failed to send notification: {e}")
+                token_expired._notified = True
+            
+            # Wait for new token from Telegram
             if TOKEN_MANAGER_ENABLED:
-                # Check for new token from Telegram
+                print("⏳ Checking for new token...")
                 check_for_new_token()
                 new_token = get_api_token()
                 
@@ -588,15 +836,36 @@ def main_loop():
                     TOKEN = new_token
                     headers = {"Authorization": f"Bearer {TOKEN}"}
                     token_expired = False
-                    print(f"✅ Token updated! New token: {TOKEN[:20]}...")
-                    log_notification(f"✅ Token automatically updated from Telegram")
+                    delattr(token_expired, '_notified')  # Reset notification flag
+                    print(f"✅ New token received! Resuming monitoring...")
+                    
+                    # Send success notification
+                    if TELEGRAM_ENABLED:
+                        try:
+                            success_message = f"""
+✅ <b>TOKEN UPDATED SUCCESSFULLY</b>
+
+🔄 <b>Status:</b> New token activated
+🕐 <b>Time:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+🚀 <b>Result:</b> Stock monitoring resumed
+
+<i>System is back online and monitoring stocks.</i>
+                            """
+                            send_telegram_message(success_message.strip())
+                            print("📱 Token update success notification sent")
+                        except Exception as e:
+                            print(f"❌ Failed to send success notification: {e}")
+                    
+                    log_notification("✅ Token updated - monitoring resumed")
+                    continue
                 else:
-                    print("⏳ No new token found. Waiting...")
+                    print("⏳ No new token found. Waiting 30 seconds...")
                     time.sleep(30)
                     continue
             else:
-                print("❌ Token manager not available. Please restart with new token.")
-                break
+                print("❌ Token manager not available. Cannot auto-update token.")
+                time.sleep(60)  # Wait longer without token manager
+                continue
         
         # Check for token updates every 10 cycles (roughly every 1.5 minutes)
         if TOKEN_MANAGER_ENABLED and token_check_counter % 10 == 0:
@@ -611,21 +880,56 @@ def main_loop():
         token_check_counter += 1
         
         now = datetime.now().time()
-        if START_TIME <= now <= END_TIME:
-            with lock:
-                stock_ratios.clear()
-                signal_scores.clear()
-            with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-                futures = {executor.submit(fetch_and_store_one, row): row[0] for row in stocks_list}
-                for fut in concurrent.futures.as_completed(futures):
-                    code = futures[fut]
-                    try:
-                        fut.result()
-                    except Exception as e:
-                        log_notification(f"UNHANDLED {code}: {e}")
-            process_notifications()
+        current_datetime = datetime.now()
+        
+        if PREP_START_TIME <= now <= SYSTEM_END_TIME:
+            # We're within the system operating window
+            
+            if PREP_START_TIME <= now < TRADING_START_TIME:
+                # Preparation phase: Token checks, system prep
+                print(f"📋 Preparation phase - {now.strftime('%H:%M:%S')}")
+                if not day_started:
+                    send_start_of_day_message()
+                    day_started = True
+                
+            elif TRADING_START_TIME <= now <= TRADING_END_TIME:
+                # Active trading phase: Full monitoring
+                print(f"📈 Active trading - {now.strftime('%H:%M:%S')}")
+                with lock:
+                    stock_ratios.clear()
+                    signal_scores.clear()
+                with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                    futures = {executor.submit(fetch_and_store_one, row): row[0] for row in stocks_list}
+                    for fut in concurrent.futures.as_completed(futures):
+                        code = futures[fut]
+                        try:
+                            fut.result()
+                        except Exception as e:
+                            log_notification(f"UNHANDLED {code}: {e}")
+                process_notifications()
+                
+            elif TRADING_END_TIME < now <= SYSTEM_END_TIME:
+                # Summary phase: Final analysis and wrap-up
+                print(f"📊 Summary phase - {now.strftime('%H:%M:%S')}")
+                
+                # Only send summary once
+                if not hasattr(send_end_of_day_summary, 'sent'):
+                    send_end_of_day_summary()
+                    send_end_of_day_summary.sent = True
+                    print("🏁 End of trading day. System shutting down.")
+                    log_notification("🏁 End of trading day - system shutdown")
+                    break  # Exit the main loop
+                
         else:
-            print("Outside trading hours. Waiting...")
+            # Outside operating hours
+            current_time_str = now.strftime('%H:%M:%S')
+            next_start = PREP_START_TIME.strftime('%H:%M')
+            print(f"⏰ Outside operating hours ({current_time_str}). Next start at {next_start}")
+            
+            # Reset day_started flag for next day
+            if now < PREP_START_TIME:
+                day_started = False
+                
         time.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":

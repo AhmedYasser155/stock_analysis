@@ -5027,3 +5027,1224 @@
 2025-10-16 23:47:02: ABUK Score=40.0: Imbalance=7.13 (+20.0), Depth=348 (+10.0), Consistency (+10)
 2025-10-16 23:47:14: ABUK Score=40.0: Imbalance=7.13 (+20.0), Depth=348 (+10.0), Consistency (+10)
 2025-10-16 23:47:26: ABUK Score=40.0: Imbalance=7.13 (+20.0), Depth=348 (+10.0), Consistency (+10)
+2025-10-19 00:51:10: AUTH EXPIRED BIOC status=401
+2025-10-19 00:51:10: AUTH EXPIRED ECAP status=401
+2025-10-19 00:51:10: AUTH EXPIRED EPCO status=401
+2025-10-19 00:51:10: AUTH EXPIRED EFID status=401
+2025-10-19 00:51:10: AUTH EXPIRED EMFD status=401
+2025-10-19 00:51:10: AUTH EXPIRED ATQA status=401
+2025-10-19 00:51:10: AUTH EXPIRED DOMT status=401
+2025-10-19 00:53:17: AUTH EXPIRED ENGC status=401
+2025-10-19 00:53:17: AUTH EXPIRED ECAP status=401
+2025-10-19 00:53:17: AUTH EXPIRED EMFD status=401
+2025-10-19 00:53:17: AUTH EXPIRED BIOC status=401
+2025-10-19 00:53:17: AUTH EXPIRED EHDR status=401
+2025-10-19 00:53:27: 📱 Telegram alert sent for ENGC
+2025-10-19 00:53:27: 📱 Telegram alert sent for EPCO
+2025-10-19 00:53:27: 📱 Telegram alert sent for ATQA
+2025-10-19 00:53:27: 📱 Telegram alert sent for EFID
+2025-10-19 00:53:27: 📱 Telegram alert sent for FWRY
+2025-10-19 00:53:27: 📱 Telegram alert sent for ECAP
+2025-10-19 00:53:28: 📱 Telegram alert sent for ARCC
+2025-10-19 00:53:28: 📱 Telegram alert sent for EHDR
+2025-10-19 00:53:28: 📱 Telegram alert sent for AMER
+2025-10-19 00:53:28: 📱 Telegram alert sent for EMFD
+2025-10-19 00:53:28: 📱 Telegram alert sent for BIOC
+2025-10-19 00:53:48: 💔 Token expired - system stopped
+2025-10-19 01:03:03: TALM: Ratio=1.15, Score=0.0, Change=N/A (first record)
+2025-10-19 01:03:03: ZMID: Ratio=1.65, Score=0.0, Change=N/A (first record)
+2025-10-19 01:03:03: AMER: Ratio=1.27, Score=0.0, Change=N/A (first record)
+2025-10-19 01:03:35: TALM Score=33.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0)
+2025-10-19 01:05:18: TALM: Ratio=1.15, Score=33.8, Change=+0.00%
+2025-10-19 01:05:18: ZMID: Ratio=1.65, Score=26.3, Change=+0.00%
+2025-10-19 01:05:18: AMER: Ratio=1.27, Score=16.7, Change=+0.00%
+2025-10-19 01:05:56: TALM Score=33.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0)
+2025-10-19 01:10:25: AMER: Ratio=1.27, Score=0.0, Change=N/A (first record)
+2025-10-19 01:10:25: ZMID: Ratio=1.65, Score=0.0, Change=N/A (first record)
+2025-10-19 01:10:25: TALM: Ratio=1.15, Score=0.0, Change=N/A (first record)
+2025-10-19 01:10:58: TALM Score=33.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0)
+2025-10-19 01:14:48: TALM: Ratio=1.15, Score=0.0, Change=N/A (first record)
+2025-10-19 01:14:48: ZMID: Ratio=1.65, Score=0.0, Change=N/A (first record)
+2025-10-19 01:14:48: AMER: Ratio=1.27, Score=0.0, Change=N/A (first record)
+2025-10-19 01:15:17: TALM Score=33.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0)
+2025-10-19 01:16:02: AMER: Ratio=1.27, Score=16.7, Change=+0.00%
+2025-10-19 01:16:12: 📱 Telegram alert sent for TALM
+2025-10-19 01:16:12: STRONG RECOMMEND: TALM: Score=33.8, Ratio=1.15, Change=+0.00%
+2025-10-19 01:16:12: ZMID: Ratio=1.65, Score=26.3, Change=+0.00%
+2025-10-19 01:16:22: 📱 Telegram market summary sent
+2025-10-19 01:16:48: TALM Score=33.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0)
+2025-10-19 01:18:47: 📱 Telegram alert sent for TALM
+2025-10-19 01:18:47: STRONG RECOMMEND: TALM: Score=33.8, Ratio=1.15, Change=+0.00%
+2025-10-19 01:18:47: ZMID: Ratio=1.65, Score=26.3, Change=+0.00%
+2025-10-19 01:18:47: AMER: Ratio=1.27, Score=16.7, Change=+0.00%
+2025-10-19 01:18:58: 📱 Telegram market summary sent
+2025-10-19 01:19:08: DOMT Score=40.0: Imbalance=2.74 (+20.0), Depth=87 (+10.0), Consistency (+10)
+2025-10-19 01:19:08: ARCC Score=40.0: Imbalance=3.96 (+20.0), Depth=139 (+10.0), Consistency (+10)
+2025-10-19 01:19:11: ECAP Score=40.0: Imbalance=2.42 (+20.0), Depth=134 (+10.0), Consistency (+10)
+2025-10-19 01:19:14: IFAP Score=40.0: Imbalance=5.64 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 01:19:16: CRST Score=40.0: Imbalance=2.87 (+20.0), Depth=73 (+10.0), Consistency (+10)
+2025-10-19 01:19:16: GDWA Score=37.9: Imbalance=3.51 (+20.0), SpreadPenalty=3.05% (-2.1), Depth=30 (+10.0), Consistency (+10)
+2025-10-19 01:19:19: MOED Score=31.4: Imbalance=1.57 (+11.4), Depth=82 (+10.0), Consistency (+10)
+2025-10-19 01:19:22: ISMQ Score=40.0: Imbalance=3.47 (+20.0), Depth=133 (+10.0), Consistency (+10)
+2025-10-19 01:19:24: EFID Score=40.0: Imbalance=4.76 (+20.0), Depth=98 (+10.0), Consistency (+10)
+2025-10-19 01:19:24: ATQA Score=40.0: Imbalance=33.51 (+20.0), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 01:19:28: ZMID Score=36.3: Ratio=1.65 (+16.3), Depth=107 (+10.0), Consistency (+10)
+2025-10-19 01:19:35: TALM Score=43.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0), Consistency (+10)
+2025-10-19 01:19:38: PRCL Score=39.1: Imbalance=1.96 (+19.1), Depth=116 (+10.0), Consistency (+10)
+2025-10-19 01:20:12: EHDR Score=40.0: Imbalance=4.06 (+20.0), Depth=99 (+10.0), Consistency (+10)
+2025-10-19 01:20:12: BIOC Score=40.0: Imbalance=3.29 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 01:20:53: 📱 Telegram alert sent for ZMID
+2025-10-19 01:20:53: STRONG RECOMMEND: ZMID: Score=36.3, Ratio=1.65, Change=+0.00%
+2025-10-19 01:21:03: 📱 Telegram alert sent for TALM
+2025-10-19 01:21:03: STRONG RECOMMEND: TALM: Score=43.8, Ratio=1.15, Change=+0.00%
+2025-10-19 01:21:03: AMER: Ratio=1.27, Score=26.7, Change=+0.00%
+2025-10-19 01:21:14: 📱 Telegram market summary sent
+2025-10-19 01:21:24: BIOC Score=40.0: Imbalance=3.29 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 01:21:24: ARCC Score=40.0: Imbalance=3.96 (+20.0), Depth=139 (+10.0), Consistency (+10)
+2025-10-19 01:21:27: EHDR Score=40.0: Imbalance=4.06 (+20.0), Depth=99 (+10.0), Consistency (+10)
+2025-10-19 01:21:27: ECAP Score=40.0: Imbalance=2.42 (+20.0), Depth=134 (+10.0), Consistency (+10)
+2025-10-19 01:21:30: IFAP Score=40.0: Imbalance=5.64 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 01:21:32: GDWA Score=37.9: Imbalance=3.51 (+20.0), SpreadPenalty=3.05% (-2.1), Depth=30 (+10.0), Consistency (+10)
+2025-10-19 01:21:32: CRST Score=40.0: Imbalance=2.87 (+20.0), Depth=73 (+10.0), Consistency (+10)
+2025-10-19 01:21:35: MOED Score=31.4: Imbalance=1.57 (+11.4), Depth=82 (+10.0), Consistency (+10)
+2025-10-19 01:21:44: ZMID Score=36.3: Ratio=1.65 (+16.3), Depth=107 (+10.0), Consistency (+10)
+2025-10-19 01:21:46: TALM Score=43.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0), Consistency (+10)
+2025-10-19 01:21:46: ISMQ Score=40.0: Imbalance=3.47 (+20.0), Depth=133 (+10.0), Consistency (+10)
+2025-10-19 01:21:54: PRCL Score=39.1: Imbalance=1.96 (+19.1), Depth=116 (+10.0), Consistency (+10)
+2025-10-19 01:21:56: EFID Score=40.0: Imbalance=4.76 (+20.0), Depth=98 (+10.0), Consistency (+10)
+2025-10-19 01:22:27: DOMT Score=40.0: Imbalance=2.74 (+20.0), Depth=87 (+10.0), Consistency (+10)
+2025-10-19 01:22:58: ATQA Score=40.0: Imbalance=33.51 (+20.0), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 01:23:08: 📱 Telegram alert sent for ZMID
+2025-10-19 01:23:08: STRONG RECOMMEND: ZMID: Score=36.3, Ratio=1.65, Change=+0.00%
+2025-10-19 01:23:19: 📱 Telegram alert sent for TALM
+2025-10-19 01:23:19: STRONG RECOMMEND: TALM: Score=43.8, Ratio=1.15, Change=+0.00%
+2025-10-19 01:23:19: AMER: Ratio=1.27, Score=26.7, Change=+0.00%
+2025-10-19 01:23:29: 📱 Telegram market summary sent
+2025-10-19 01:23:40: ECAP Score=40.0: Imbalance=2.42 (+20.0), Depth=134 (+10.0), Consistency (+10)
+2025-10-19 01:23:40: CRST Score=40.0: Imbalance=2.87 (+20.0), Depth=73 (+10.0), Consistency (+10)
+2025-10-19 01:23:45: ISMQ Score=40.0: Imbalance=3.47 (+20.0), Depth=133 (+10.0), Consistency (+10)
+2025-10-19 01:23:46: MOED Score=31.4: Imbalance=1.57 (+11.4), Depth=82 (+10.0), Consistency (+10)
+2025-10-19 01:23:56: GDWA Score=37.9: Imbalance=3.51 (+20.0), SpreadPenalty=3.05% (-2.1), Depth=30 (+10.0), Consistency (+10)
+2025-10-19 01:24:05: PRCL Score=39.1: Imbalance=1.96 (+19.1), Depth=116 (+10.0), Consistency (+10)
+2025-10-19 01:24:12: DOMT Score=40.0: Imbalance=2.74 (+20.0), Depth=87 (+10.0), Consistency (+10)
+2025-10-19 01:24:29: TALM Score=43.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0), Consistency (+10)
+2025-10-19 01:24:29: ZMID Score=36.3: Ratio=1.65 (+16.3), Depth=107 (+10.0), Consistency (+10)
+2025-10-19 01:24:42: BIOC Score=40.0: Imbalance=3.29 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 01:24:43: ARCC Score=40.0: Imbalance=3.96 (+20.0), Depth=139 (+10.0), Consistency (+10)
+2025-10-19 01:25:13: EFID Score=40.0: Imbalance=4.76 (+20.0), Depth=98 (+10.0), Consistency (+10)
+2025-10-19 01:25:13: EHDR Score=40.0: Imbalance=4.06 (+20.0), Depth=99 (+10.0), Consistency (+10)
+2025-10-19 01:25:44: ATQA Score=40.0: Imbalance=33.51 (+20.0), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 01:25:44: IFAP Score=40.0: Imbalance=5.64 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 01:25:44: AMER: Ratio=1.27, Score=26.7, Change=+0.00%
+2025-10-19 01:25:55: 📱 Telegram alert sent for TALM
+2025-10-19 01:25:55: STRONG RECOMMEND: TALM: Score=43.8, Ratio=1.15, Change=+0.00%
+2025-10-19 01:26:05: 📱 Telegram alert sent for ZMID
+2025-10-19 01:26:05: STRONG RECOMMEND: ZMID: Score=36.3, Ratio=1.65, Change=+0.00%
+2025-10-19 01:26:16: 📱 Telegram market summary sent
+2025-10-19 01:26:26: EHDR Score=40.0: Imbalance=4.06 (+20.0), Depth=99 (+10.0), Consistency (+10)
+2025-10-19 01:26:29: DOMT Score=40.0: Imbalance=2.74 (+20.0), Depth=87 (+10.0), Consistency (+10)
+2025-10-19 01:26:32: IFAP Score=40.0: Imbalance=5.64 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 01:26:34: GDWA Score=37.9: Imbalance=3.51 (+20.0), SpreadPenalty=3.05% (-2.1), Depth=30 (+10.0), Consistency (+10)
+2025-10-19 01:26:34: CRST Score=40.0: Imbalance=2.87 (+20.0), Depth=73 (+10.0), Consistency (+10)
+2025-10-19 01:26:37: MOED Score=31.4: Imbalance=1.57 (+11.4), Depth=82 (+10.0), Consistency (+10)
+2025-10-19 01:26:42: ATQA Score=40.0: Imbalance=33.51 (+20.0), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 01:26:48: TALM Score=43.8: Ratio=1.15 (+3.8), Imbalance=4.45 (+20.0), Depth=48 (+10.0), Consistency (+10)
+2025-10-19 01:26:48: ZMID Score=36.3: Ratio=1.65 (+16.3), Depth=107 (+10.0), Consistency (+10)
+2025-10-19 01:26:54: PRCL Score=39.1: Imbalance=1.96 (+19.1), Depth=116 (+10.0), Consistency (+10)
+2025-10-19 01:26:58: BIOC Score=40.0: Imbalance=3.29 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 01:27:35: ISMQ Score=40.0: Imbalance=3.47 (+20.0), Depth=133 (+10.0), Consistency (+10)
+2025-10-19 01:28:00: ECAP Score=40.0: Imbalance=2.42 (+20.0), Depth=134 (+10.0), Consistency (+10)
+2025-10-19 01:28:00: ARCC Score=40.0: Imbalance=3.96 (+20.0), Depth=139 (+10.0), Consistency (+10)
+2025-10-19 10:15:35: DAPH Score=38.6: Imbalance=3.50 (+20.0), PriceMomentum=0.86% (+8.6), Depth=128 (+10.0)
+2025-10-19 10:15:38: ZMID Score=33.7: Ratio=1.35 (+8.7), PriceMomentum=1.65% (+15.0), Depth=136 (+10.0)
+2025-10-19 10:17:00: 📱 Telegram alert sent for ZMID
+2025-10-19 10:17:00: STRONG RECOMMEND: ZMID: Score=33.7, Ratio=1.35, Change=+36.70%
+2025-10-19 10:17:10: 📱 Telegram market summary sent
+2025-10-19 10:17:27: ISMQ Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.09 (+20.0), Depth=150 (+10.0)
+2025-10-19 10:17:33: PHDC Score=30.5: Velocity=0.010 (+0.5), Imbalance=2.13 (+20.0), Depth=176 (+10.0)
+2025-10-19 10:17:40: ZMID Score=66.0: Ratio=2.14 (+25.0), Velocity=0.385 (+19.2), PriceMomentum=1.18% (+11.8), Depth=135 (+10.0)
+2025-10-19 10:17:44: DAPH Score=31.3: Velocity=0.025 (+1.3), Imbalance=6.27 (+20.0), Depth=128 (+10.0)
+2025-10-19 10:18:24: BIOC Score=31.2: Imbalance=3.05 (+20.0), PriceMomentum=0.12% (+1.2), Depth=204 (+10.0)
+2025-10-19 10:19:37: 📱 Telegram alert sent for ZMID
+2025-10-19 10:19:37: STRONG RECOMMEND: ZMID: Score=66.0, Ratio=2.14, Change=+58.77%
+2025-10-19 10:19:47: 📱 Telegram market summary sent
+2025-10-19 10:20:05: ISMA Score=30.6: Velocity=0.005 (+0.3), Imbalance=2.57 (+20.0), PriceMomentum=0.04% (+0.4), Depth=158 (+10.0)
+2025-10-19 10:20:17: SNFC Score=32.3: Velocity=0.003 (+0.2), Imbalance=2.59 (+20.0), PriceMomentum=0.21% (+2.1), Depth=119 (+10.0)
+2025-10-19 10:20:21: ZMID Score=31.2: Ratio=1.55 (+13.7), Velocity=0.067 (+3.3), Imbalance=1.21 (+4.1), Depth=144 (+10.0)
+2025-10-19 10:20:26: DAPH Score=54.5: Velocity=0.093 (+4.6), Imbalance=4.43 (+20.0), PriceMomentum=0.99% (+9.9), Depth=128 (+10.0), Consistency (+10)
+2025-10-19 10:21:44: 📱 Telegram alert sent for ZMID
+2025-10-19 10:21:44: STRONG RECOMMEND: ZMID: Score=31.2, Ratio=1.55, Change=-27.65%
+2025-10-19 10:21:54: 📱 Telegram market summary sent
+2025-10-19 10:22:05: ECAP Score=30.1: Velocity=0.001 (+0.1), Imbalance=5.91 (+20.0), Depth=177 (+10.0)
+2025-10-19 10:22:13: EHDR Score=30.3: Velocity=0.006 (+0.3), Imbalance=2.99 (+20.0), Depth=116 (+10.0)
+2025-10-19 10:22:20: SNFC Score=35.5: Velocity=0.004 (+0.2), Imbalance=2.17 (+20.0), PriceMomentum=0.53% (+5.3), Depth=121 (+10.0)
+2025-10-19 10:22:25: ZMID Score=41.0: Ratio=1.44 (+11.0), Imbalance=2.79 (+20.0), Depth=145 (+10.0)
+2025-10-19 10:22:26: DAPH Score=32.6: Velocity=0.052 (+2.6), Imbalance=5.94 (+20.0), Depth=132 (+10.0)
+2025-10-19 10:23:09: GDWA Score=30.5: Velocity=0.010 (+0.5), Imbalance=2.03 (+20.0), Depth=42 (+10.0)
+2025-10-19 10:23:50: 📱 Telegram alert sent for ZMID
+2025-10-19 10:23:51: STRONG RECOMMEND: ZMID: Score=41.0, Ratio=1.44, Change=-6.97%
+2025-10-19 10:24:01: 📱 Telegram market summary sent
+2025-10-19 10:24:15: EHDR Score=32.1: Velocity=0.016 (+0.8), Imbalance=2.17 (+20.0), PriceMomentum=0.13% (+1.3), Depth=117 (+10.0)
+2025-10-19 10:24:32: ZMID Score=40.7: Ratio=1.43 (+10.7), Imbalance=2.84 (+20.0), Depth=147 (+10.0)
+2025-10-19 10:24:35: DAPH Score=30.7: Imbalance=3.65 (+20.0), PriceMomentum=0.07% (+0.7), Depth=131 (+10.0)
+2025-10-19 10:24:46: EFID Score=30.4: Velocity=0.008 (+0.4), Imbalance=2.11 (+20.0), Depth=115 (+10.0)
+2025-10-19 10:25:18: GDWA Score=40.2: Velocity=0.005 (+0.2), Imbalance=2.11 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 10:25:59: 📱 Telegram alert sent for ZMID
+2025-10-19 10:25:59: STRONG RECOMMEND: ZMID: Score=40.7, Ratio=1.43, Change=-0.77%
+2025-10-19 10:26:10: 📱 Telegram market summary sent
+2025-10-19 10:26:23: EFID Score=30.6: Velocity=0.012 (+0.6), Imbalance=12.80 (+20.0), Depth=117 (+10.0)
+2025-10-19 10:26:43: TALM Score=30.2: Velocity=0.004 (+0.2), Imbalance=3.57 (+20.0), Depth=92 (+10.0)
+2025-10-19 10:26:44: ZMID Score=40.3: Ratio=1.41 (+10.3), Imbalance=4.14 (+20.0), Depth=147 (+10.0)
+2025-10-19 10:27:24: ECAP Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.18 (+20.0), Depth=176 (+10.0)
+2025-10-19 10:28:05: 📱 Telegram alert sent for ZMID
+2025-10-19 10:28:06: STRONG RECOMMEND: ZMID: Score=40.3, Ratio=1.41, Change=-1.29%
+2025-10-19 10:28:17: 📱 Telegram market summary sent
+2025-10-19 10:28:41: PHDC Score=30.5: Velocity=0.009 (+0.5), Imbalance=2.08 (+20.0), Depth=175 (+10.0)
+2025-10-19 10:28:48: ZMID Score=37.7: Ratio=1.31 (+7.7), Imbalance=3.84 (+20.0), Depth=147 (+10.0)
+2025-10-19 10:29:00: EFID Score=31.1: Velocity=0.000 (+0.0), Imbalance=6.84 (+20.0), PriceMomentum=0.11% (+1.1), Depth=118 (+10.0)
+2025-10-19 11:29:50: EMFD NET ERROR attempt 6: HTTPSConnectionPool(host='prod.thndr.app', port=443): Max retries exceeded with url: /assets-service/market-depth/7e055f68-bec7-4624-9564-02777716a08e (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A1576AB0>: Failed to resolve 'prod.thndr.app' ([Errno 11001] getaddrinfo failed)"))
+2025-10-19 11:29:50: ENGC NET ERROR attempt 6: HTTPSConnectionPool(host='prod.thndr.app', port=443): Max retries exceeded with url: /assets-service/market-depth/0bed6b0b-cee6-4bc6-9ca0-dd62d3873a96 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A1577E90>: Failed to resolve 'prod.thndr.app' ([Errno 11001] getaddrinfo failed)"))
+2025-10-19 11:29:51: EHDR NET ERROR attempt 6: HTTPSConnectionPool(host='prod.thndr.app', port=443): Max retries exceeded with url: /assets-service/market-depth/3d09d809-50ab-4539-bc34-7ef2a273e201 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A15D1940>: Failed to resolve 'prod.thndr.app' ([Errno 11001] getaddrinfo failed)"))
+2025-10-19 11:29:51: FWRY NET ERROR attempt 6: HTTPSConnectionPool(host='prod.thndr.app', port=443): Max retries exceeded with url: /assets-service/market-depth/8deaa69a-bffe-4c5a-99e6-2ba172ccaa2f (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A15D2CF0>: Failed to resolve 'prod.thndr.app' ([Errno 11001] getaddrinfo failed)"))
+2025-10-19 11:29:51: ARCC NET ERROR attempt 6: HTTPSConnectionPool(host='prod.thndr.app', port=443): Max retries exceeded with url: /assets-service/market-depth/58338a21-6a90-482f-a6b0-0f7fb3ee8a6a (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A15D3B30>: Failed to resolve 'prod.thndr.app' ([Errno 11001] getaddrinfo failed)"))
+2025-10-19 11:30:23: FWRY Score=35.6: Velocity=0.193 (+9.7), Imbalance=1.66 (+13.1), PriceMomentum=0.28% (+2.8), Depth=194 (+10.0)
+2025-10-19 11:30:55: EHDR Score=39.9: Velocity=0.099 (+4.9), PriceMomentum=3.78% (+15.0), Depth=115 (+10.0), Consistency (+10)
+2025-10-19 11:31:35: 📱 Telegram alert sent for ZMID
+2025-10-19 11:31:35: STRONG RECOMMEND: ZMID: Score=37.7, Ratio=1.31, Change=-7.30%
+2025-10-19 11:31:35: AMER: Ratio=1.02, Score=28.0, Change=+17.42%
+2025-10-19 11:31:46: 📱 Telegram market summary sent
+2025-10-19 11:31:58: GDWA Score=33.2: Velocity=0.064 (+3.2), Imbalance=2.90 (+20.0), Depth=42 (+10.0)
+2025-10-19 11:31:58: CRST Score=65.8: Ratio=1.55 (+13.9), Velocity=0.326 (+16.3), Imbalance=1.53 (+10.6), PriceMomentum=3.06% (+15.0), Depth=108 (+10.0)
+2025-10-19 11:32:03: MOED Score=30.4: Velocity=0.007 (+0.4), Imbalance=3.13 (+20.0), Depth=114 (+10.0)
+2025-10-19 11:32:08: PHDC Score=31.7: Velocity=0.013 (+0.6), Imbalance=1.30 (+6.0), PriceMomentum=1.55% (+15.0), Depth=174 (+10.0)
+2025-10-19 11:32:16: TALM Score=33.6: Velocity=0.030 (+1.5), Imbalance=8.38 (+20.0), PriceMomentum=0.21% (+2.1), Depth=108 (+10.0)
+2025-10-19 11:32:17: GGCC Score=52.3: Velocity=0.154 (+7.7), Imbalance=1.49 (+9.7), PriceMomentum=1.48% (+14.8), Depth=113 (+10.0), Consistency (+10)
+2025-10-19 11:32:20: ZMID Score=37.5: Ratio=1.30 (+7.5), Imbalance=2.01 (+20.0), Depth=143 (+10.0)
+2025-10-19 11:32:22: JUFO Score=30.4: Velocity=0.007 (+0.4), Imbalance=3.09 (+20.0), Depth=275 (+10.0)
+2025-10-19 11:32:24: ODIN Score=30.3: Velocity=0.071 (+3.6), Imbalance=1.83 (+16.7), Depth=57 (+10.0)
+2025-10-19 11:33:02: ATQA Score=32.8: Velocity=0.070 (+3.5), Imbalance=1.79 (+15.7), PriceMomentum=0.36% (+3.6), Depth=216 (+10.0)
+2025-10-19 11:33:33: EFID Score=31.1: Velocity=0.021 (+1.1), Imbalance=96.84 (+20.0), Depth=126 (+10.0)
+2025-10-19 11:33:43: 📱 Telegram alert sent for CRST
+2025-10-19 11:33:43: STRONG RECOMMEND: CRST: Score=65.8, Ratio=1.55, Change=+174.34%
+2025-10-19 11:33:43: AMER: Ratio=1.01, Score=18.1, Change=-0.89%
+2025-10-19 11:33:54: 📱 Telegram alert sent for ZMID
+2025-10-19 11:33:54: STRONG RECOMMEND: ZMID: Score=37.5, Ratio=1.30, Change=-0.47%
+2025-10-19 11:34:04: 📱 Telegram market summary sent
+2025-10-19 11:34:16: CRST Score=30.7: Ratio=1.29 (+7.2), Velocity=0.241 (+12.0), Imbalance=1.07 (+1.4), Depth=106 (+10.0)
+2025-10-19 11:34:16: GDWA Score=35.1: Velocity=0.103 (+5.1), Imbalance=2.87 (+20.0), Depth=42 (+10.0)
+2025-10-19 11:34:21: MOED Score=30.3: Velocity=0.007 (+0.3), Imbalance=2.60 (+20.0), Depth=113 (+10.0)
+2025-10-19 11:34:24: NCCW Score=30.9: Velocity=0.019 (+0.9), Imbalance=2.06 (+20.0), Depth=113 (+10.0)
+2025-10-19 11:34:32: BIOC Score=30.1: Imbalance=5.56 (+20.0), PriceMomentum=0.01% (+0.1), Depth=220 (+10.0)
+2025-10-19 11:34:35: JUFO Score=30.7: Velocity=0.005 (+0.2), Imbalance=2.87 (+20.0), PriceMomentum=0.05% (+0.5), Depth=273 (+10.0)
+2025-10-19 11:34:38: TALM Score=31.6: Velocity=0.032 (+1.6), Imbalance=8.38 (+20.0), Depth=107 (+10.0)
+2025-10-19 11:34:41: DAPH Score=30.3: Imbalance=2.37 (+20.0), PriceMomentum=0.03% (+0.3), Depth=135 (+10.0)
+2025-10-19 11:34:43: GGCC Score=48.9: Velocity=0.178 (+8.9), Imbalance=2.49 (+20.0), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 11:34:47: ZMID Score=35.3: Ratio=1.30 (+7.5), Imbalance=1.89 (+17.8), Depth=143 (+10.0)
+2025-10-19 11:34:50: IFAP Score=31.4: Velocity=0.029 (+1.4), Imbalance=3.07 (+20.0), Depth=174 (+10.0)
+2025-10-19 11:35:19: EFID Score=41.0: Velocity=0.021 (+1.0), Imbalance=98.58 (+20.0), Depth=126 (+10.0), Consistency (+10)
+2025-10-19 11:35:20: AMER: Ratio=1.01, Score=16.0, Change=+0.06%
+2025-10-19 11:35:32: 📱 Telegram alert sent for CRST
+2025-10-19 11:35:32: STRONG RECOMMEND: CRST: Score=30.7, Ratio=1.29, Change=-17.10%
+2025-10-19 11:35:43: 📱 Telegram alert sent for ZMID
+2025-10-19 11:35:43: STRONG RECOMMEND: ZMID: Score=35.3, Ratio=1.30, Change=+0.03%
+2025-10-19 11:35:53: 📱 Telegram market summary sent
+2025-10-19 11:36:23: FWRY Score=30.7: Velocity=0.015 (+0.7), Imbalance=2.25 (+20.0), Depth=193 (+10.0)
+2025-10-19 11:36:26: ISMA Score=30.3: Velocity=0.006 (+0.3), Imbalance=9.15 (+20.0), Depth=161 (+10.0)
+2025-10-19 11:36:26: IFAP Score=42.7: Velocity=0.001 (+0.1), Imbalance=2.03 (+20.0), PriceMomentum=0.27% (+2.7), Depth=174 (+10.0), Consistency (+10)
+2025-10-19 11:36:28: CRST Score=39.3: Ratio=1.37 (+9.3), Imbalance=4.46 (+20.0), Depth=104 (+10.0)
+2025-10-19 11:36:42: TALM Score=40.0: Imbalance=8.38 (+20.0), Depth=107 (+10.0), Consistency (+10)
+2025-10-19 11:36:42: ZMID Score=36.0: Ratio=1.30 (+7.6), Velocity=0.001 (+0.0), Imbalance=1.92 (+18.3), Depth=143 (+10.0)
+2025-10-19 11:36:47: GGCC Score=31.1: Velocity=0.022 (+1.1), Imbalance=8.55 (+20.0), Depth=115 (+10.0)
+2025-10-19 11:36:50: DAPH Score=30.1: Velocity=0.003 (+0.1), Imbalance=2.37 (+20.0), Depth=136 (+10.0)
+2025-10-19 11:37:24: EFID Score=30.0: Velocity=0.000 (+0.0), Imbalance=80.49 (+20.0), Depth=124 (+10.0)
+2025-10-19 11:38:05: 📱 Telegram alert sent for CRST
+2025-10-19 11:38:05: STRONG RECOMMEND: CRST: Score=39.3, Ratio=1.37, Change=+6.39%
+2025-10-19 11:38:16: 📱 Telegram alert sent for ZMID
+2025-10-19 11:38:16: STRONG RECOMMEND: ZMID: Score=36.0, Ratio=1.30, Change=+0.14%
+2025-10-19 11:38:26: 📱 Telegram alert sent for AMER
+2025-10-19 11:38:26: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.01, Now=1.00, Score=15.3
+2025-10-19 11:38:37: 📱 Telegram market summary sent
+2025-10-19 11:38:48: CRST Score=63.6: Ratio=1.78 (+19.6), Velocity=0.165 (+8.2), Imbalance=8.59 (+20.0), PriceMomentum=0.57% (+5.7), Depth=107 (+10.0)
+2025-10-19 11:38:50: ENGC Score=44.0: Velocity=0.050 (+2.5), Imbalance=2.13 (+20.0), PriceMomentum=0.15% (+1.5), Depth=161 (+10.0), Consistency (+10)
+2025-10-19 11:38:56: ISMA Score=33.4: Velocity=0.013 (+0.6), Imbalance=2.15 (+20.0), PriceMomentum=0.27% (+2.7), Depth=160 (+10.0)
+2025-10-19 11:39:07: ZMID Score=37.0: Ratio=1.30 (+7.5), Imbalance=1.97 (+19.4), Depth=143 (+10.0)
+2025-10-19 11:39:08: GGCC Score=33.7: Imbalance=5.26 (+20.0), PriceMomentum=0.37% (+3.7), Depth=116 (+10.0)
+2025-10-19 11:40:33: 📱 Telegram alert sent for CRST
+2025-10-19 11:40:33: STRONG RECOMMEND: CRST: Score=63.6, Ratio=1.78, Change=+30.09%
+2025-10-19 11:40:44: 📱 Telegram alert sent for ZMID
+2025-10-19 11:40:44: STRONG RECOMMEND: ZMID: Score=37.0, Ratio=1.30, Change=-0.23%
+2025-10-19 11:40:54: 📱 Telegram market summary sent
+2025-10-19 11:41:06: GDWA Score=30.0: Velocity=0.000 (+0.0), Imbalance=2.26 (+20.0), Depth=42 (+10.0)
+2025-10-19 11:41:11: ISMA Score=40.4: Velocity=0.007 (+0.4), Imbalance=4.13 (+20.0), Depth=161 (+10.0), Consistency (+10)
+2025-10-19 11:41:22: CRST Score=46.9: Ratio=1.67 (+16.9), Velocity=0.101 (+5.1), PriceMomentum=1.94% (+15.0), Depth=103 (+10.0)
+2025-10-19 11:41:24: SNFC Score=40.4: Velocity=0.007 (+0.4), Imbalance=4.26 (+20.0), Depth=126 (+10.0), Consistency (+10)
+2025-10-19 11:42:09: EMFD Score=30.2: Velocity=0.003 (+0.2), Imbalance=2.02 (+20.0), Depth=157 (+10.0)
+2025-10-19 11:42:40: ENGC Score=34.0: Velocity=0.017 (+0.8), Imbalance=1.65 (+13.1), PriceMomentum=0.01% (+0.1), Depth=161 (+10.0), Consistency (+10)
+2025-10-19 11:42:50: 📱 Telegram alert sent for CRST
+2025-10-19 11:42:50: STRONG RECOMMEND: CRST: Score=46.9, Ratio=1.67, Change=-6.08%
+2025-10-19 11:42:50: ZMID: Ratio=1.29, Score=24.5, Change=-1.06%
+2025-10-19 11:43:01: 📱 Telegram market summary sent
+2025-10-19 11:43:15: ATQA Score=30.1: Velocity=0.003 (+0.1), Imbalance=2.19 (+20.0), Depth=215 (+10.0)
+2025-10-19 11:43:18: IFAP Score=30.7: Imbalance=3.08 (+20.0), PriceMomentum=0.07% (+0.7), Depth=177 (+10.0)
+2025-10-19 11:43:18: ISMA Score=35.0: Velocity=0.006 (+0.3), Imbalance=1.70 (+14.0), PriceMomentum=0.08% (+0.8), Depth=163 (+10.0), Consistency (+10)
+2025-10-19 11:43:20: GDWA Score=36.8: Velocity=0.045 (+2.2), Imbalance=1.84 (+16.9), PriceMomentum=0.77% (+7.7), Depth=42 (+10.0)
+2025-10-19 11:43:30: SNFC Score=40.6: Velocity=0.001 (+0.1), Imbalance=2.44 (+20.0), PriceMomentum=0.05% (+0.5), Depth=125 (+10.0), Consistency (+10)
+2025-10-19 11:43:33: TALM Score=30.0: Velocity=0.000 (+0.0), Imbalance=7.84 (+20.0), Depth=107 (+10.0)
+2025-10-19 11:43:34: DAPH Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.54 (+20.0), Depth=136 (+10.0)
+2025-10-19 11:43:41: JUFO Score=32.9: Velocity=0.058 (+2.9), Imbalance=2.22 (+20.0), Depth=277 (+10.0)
+2025-10-19 11:44:46: EHDR Score=37.7: Velocity=0.005 (+0.3), Imbalance=1.87 (+17.4), Depth=121 (+10.0), Consistency (+10)
+2025-10-19 11:44:47: ZMID: Ratio=1.31, Score=19.6, Change=+1.61%
+2025-10-19 11:44:47: CRST: Ratio=1.33, Score=18.2, Change=-20.67%
+2025-10-19 11:44:58: EFID Score=30.2: Imbalance=103.00 (+20.0), PriceMomentum=0.02% (+0.2), Depth=124 (+10.0)
+2025-10-19 11:45:06: ATQA Score=30.9: Velocity=0.019 (+0.9), Imbalance=4.75 (+20.0), Depth=216 (+10.0)
+2025-10-19 11:45:06: CRST Score=30.9: Ratio=1.32 (+7.9), Imbalance=1.65 (+13.0), Depth=107 (+10.0)
+2025-10-19 11:45:08: MOED Score=30.1: Velocity=0.001 (+0.1), Imbalance=4.12 (+20.0), Depth=113 (+10.0)
+2025-10-19 11:45:16: SNFC Score=40.0: Velocity=0.000 (+0.0), Imbalance=2.44 (+20.0), Depth=125 (+10.0), Consistency (+10)
+2025-10-19 11:45:19: ZMID Score=37.9: Ratio=1.31 (+7.6), Velocity=0.006 (+0.3), Imbalance=2.14 (+20.0), Depth=144 (+10.0)
+2025-10-19 11:45:19: JUFO Score=35.0: Velocity=0.099 (+5.0), Imbalance=3.52 (+20.0), Depth=279 (+10.0)
+2025-10-19 11:45:20: DAPH Score=40.2: Velocity=0.002 (+0.1), Imbalance=2.15 (+20.0), PriceMomentum=0.01% (+0.1), Depth=137 (+10.0), Consistency (+10)
+2025-10-19 11:46:33: IFAP Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.59 (+20.0), Depth=177 (+10.0)
+2025-10-19 11:46:44: 📱 Telegram alert sent for CRST
+2025-10-19 11:46:44: STRONG RECOMMEND: CRST: Score=30.9, Ratio=1.32, Change=-0.92%
+2025-10-19 11:46:54: 📱 Telegram alert sent for ZMID
+2025-10-19 11:46:54: STRONG RECOMMEND: ZMID: Score=37.9, Ratio=1.31, Change=-0.19%
+2025-10-19 11:47:05: 📱 Telegram market summary sent
+2025-10-19 11:47:22: IFAP Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.59 (+20.0), Depth=177 (+10.0)
+2025-10-19 11:47:24: ATQA Score=31.2: Velocity=0.006 (+0.3), Imbalance=2.64 (+20.0), PriceMomentum=0.09% (+0.9), Depth=216 (+10.0)
+2025-10-19 11:47:32: SNFC Score=40.0: Imbalance=2.44 (+20.0), Depth=125 (+10.0), Consistency (+10)
+2025-10-19 11:47:36: ZMID Score=37.6: Ratio=1.30 (+7.6), Imbalance=2.17 (+20.0), Depth=143 (+10.0)
+2025-10-19 11:47:40: JUFO Score=42.0: Velocity=0.040 (+2.0), Imbalance=3.52 (+20.0), Depth=280 (+10.0), Consistency (+10)
+2025-10-19 11:47:40: DAPH Score=40.5: Velocity=0.005 (+0.2), Imbalance=3.23 (+20.0), PriceMomentum=0.02% (+0.2), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 11:48:20: EFID Score=33.0: Velocity=0.006 (+0.3), Imbalance=27.22 (+20.0), PriceMomentum=0.27% (+2.7), Depth=123 (+10.0)
+2025-10-19 11:49:02: 📱 Telegram alert sent for ZMID
+2025-10-19 11:49:02: STRONG RECOMMEND: ZMID: Score=37.6, Ratio=1.30, Change=-0.02%
+2025-10-19 11:49:12: 📱 Telegram alert sent for CRST
+2025-10-19 11:49:12: TAKE CARE: CRST: Ratio dropped below 1! Previous=1.32, Now=0.88, Score=10.0
+2025-10-19 11:49:23: 📱 Telegram market summary sent
+2025-10-19 11:49:36: EFID Score=30.4: Velocity=0.007 (+0.4), Imbalance=30.05 (+20.0), Depth=123 (+10.0)
+2025-10-19 11:49:38: ISMA Score=30.1: Velocity=0.003 (+0.1), Imbalance=3.00 (+20.0), Depth=164 (+10.0)
+2025-10-19 11:49:39: MOED Score=32.7: Velocity=0.002 (+0.1), Imbalance=3.59 (+20.0), PriceMomentum=0.26% (+2.6), Depth=112 (+10.0)
+2025-10-19 11:49:42: MPRC Score=30.4: Velocity=0.025 (+1.2), Imbalance=1.45 (+9.0), PriceMomentum=0.02% (+0.2), Depth=181 (+10.0), Consistency (+10)
+2025-10-19 11:49:46: PHDC Score=38.8: Velocity=0.003 (+0.1), Imbalance=1.93 (+18.6), Depth=174 (+10.0), Consistency (+10)
+2025-10-19 11:49:50: EMFD Score=30.3: Velocity=0.005 (+0.3), Imbalance=2.25 (+20.0), Depth=157 (+10.0)
+2025-10-19 11:49:53: JUFO Score=40.1: Velocity=0.001 (+0.1), Imbalance=5.97 (+20.0), Depth=280 (+10.0), Consistency (+10)
+2025-10-19 11:49:54: SNFC Score=38.6: Velocity=0.000 (+0.0), Imbalance=1.93 (+18.6), Depth=126 (+10.0), Consistency (+10)
+2025-10-19 11:49:56: DAPH Score=40.2: Velocity=0.005 (+0.2), Imbalance=3.23 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 11:51:09: ZMID: Ratio=1.27, Score=18.7, Change=-2.36%
+2025-10-19 11:51:19: EMFD Score=30.4: Velocity=0.008 (+0.4), Imbalance=2.37 (+20.0), Depth=157 (+10.0)
+2025-10-19 11:51:20: CRST Score=44.2: Ratio=1.18 (+4.5), Velocity=0.101 (+5.1), Imbalance=4.35 (+20.0), PriceMomentum=0.46% (+4.6), Depth=110 (+10.0)
+2025-10-19 11:51:22: EFID Score=31.3: Imbalance=20.59 (+20.0), PriceMomentum=0.13% (+1.3), Depth=123 (+10.0)
+2025-10-19 11:51:26: MOED Score=33.0: Velocity=0.006 (+0.3), Imbalance=2.14 (+20.0), PriceMomentum=0.26% (+2.6), Depth=112 (+10.0)
+2025-10-19 11:51:28: ISMA Score=30.1: Velocity=0.003 (+0.1), Imbalance=3.65 (+20.0), Depth=165 (+10.0)
+2025-10-19 11:51:39: GGCC Score=30.9: Imbalance=2.57 (+20.0), PriceMomentum=0.09% (+0.9), Depth=119 (+10.0)
+2025-10-19 11:51:43: ODIN Score=30.2: Velocity=0.003 (+0.2), Imbalance=2.03 (+20.0), Depth=57 (+10.0)
+2025-10-19 11:52:23: ATQA Score=30.6: Velocity=0.013 (+0.6), Imbalance=5.08 (+20.0), Depth=217 (+10.0)
+2025-10-19 11:52:54: BIOC Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.97 (+20.0), Depth=220 (+10.0)
+2025-10-19 11:53:05: 📱 Telegram alert sent for CRST
+2025-10-19 11:53:05: STRONG RECOMMEND: CRST: Score=44.2, Ratio=1.18, Change=+35.74%
+2025-10-19 11:53:05: ZMID: Ratio=1.29, Score=17.2, Change=+1.17%
+2025-10-19 11:53:15: 📱 Telegram market summary sent
+2025-10-19 11:53:32: ISMA Score=30.4: Imbalance=2.29 (+20.0), PriceMomentum=0.04% (+0.4), Depth=163 (+10.0)
+2025-10-19 11:53:34: CRST Score=61.1: Ratio=1.53 (+13.3), Velocity=0.220 (+11.0), Imbalance=2.50 (+20.0), PriceMomentum=0.68% (+6.8), Depth=110 (+10.0)
+2025-10-19 11:53:37: MOED Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.35 (+20.0), Depth=114 (+10.0)
+2025-10-19 11:53:37: MPRC Score=31.3: Velocity=0.006 (+0.3), Imbalance=3.47 (+20.0), PriceMomentum=0.10% (+1.0), Depth=179 (+10.0)
+2025-10-19 11:53:42: FWRY Score=30.3: Velocity=0.005 (+0.3), Imbalance=3.49 (+20.0), Depth=193 (+10.0)
+2025-10-19 11:53:58: ODIN Score=30.1: Velocity=0.003 (+0.1), Imbalance=2.00 (+20.0), Depth=57 (+10.0)
+2025-10-19 11:54:30: ATQA Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.83 (+20.0), Depth=217 (+10.0)
+2025-10-19 11:55:11: 📱 Telegram alert sent for CRST
+2025-10-19 11:55:11: STRONG RECOMMEND: CRST: Score=61.1, Ratio=1.53, Change=+29.68%
+2025-10-19 11:55:11: ZMID: Ratio=1.24, Score=15.9, Change=-3.98%
+2025-10-19 11:55:22: 📱 Telegram market summary sent
+2025-10-19 11:55:39: ISMA Score=31.5: Imbalance=1.99 (+19.9), PriceMomentum=0.16% (+1.6), Depth=164 (+10.0)
+2025-10-19 11:55:43: MPRC Score=31.8: Velocity=0.036 (+1.8), Imbalance=3.51 (+20.0), Depth=178 (+10.0)
+2025-10-19 11:56:06: FWRY Score=33.7: Velocity=0.018 (+0.9), Imbalance=2.96 (+20.0), PriceMomentum=0.28% (+2.8), Depth=194 (+10.0)
+2025-10-19 11:56:37: AMER Score=30.7: Velocity=0.014 (+0.7), Imbalance=3.77 (+20.0), Depth=54 (+10.0)
+2025-10-19 11:57:08: EFID Score=30.0: Velocity=0.000 (+0.0), Imbalance=5.81 (+20.0), Depth=126 (+10.0)
+2025-10-19 11:57:08: CRST: Ratio=1.28, Score=24.3, Change=-16.39%
+2025-10-19 11:57:08: ZMID: Ratio=1.20, Score=15.1, Change=-2.84%
+2025-10-19 11:57:47: MPRC Score=43.3: Velocity=0.021 (+1.0), Imbalance=2.12 (+20.0), PriceMomentum=0.22% (+2.2), Depth=177 (+10.0), Consistency (+10)
+2025-10-19 11:58:40: EFID Score=30.0: Velocity=0.000 (+0.0), Imbalance=5.82 (+20.0), Depth=126 (+10.0)
+2025-10-19 11:59:42: AMER: Ratio=1.05, Score=27.8, Change=+5.46%
+2025-10-19 11:59:42: ZMID: Ratio=1.19, Score=14.7, Change=-1.10%
+2025-10-19 11:59:42: CRST: Ratio=1.17, Score=14.3, Change=-8.53%
+2025-10-19 11:59:54: GDWA Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.73 (+20.0), Depth=42 (+10.0)
+2025-10-19 11:59:56: AMER Score=31.5: Ratio=1.03 (+0.9), Velocity=0.013 (+0.7), Imbalance=3.56 (+20.0), Depth=54 (+10.0)
+2025-10-19 11:59:59: MOED Score=31.8: Imbalance=2.41 (+20.0), PriceMomentum=0.18% (+1.8), Depth=114 (+10.0)
+2025-10-19 12:00:00: MPRC Score=40.9: Velocity=0.018 (+0.9), Imbalance=2.87 (+20.0), Depth=175 (+10.0), Consistency (+10)
+2025-10-19 12:00:10: FWRY Score=31.2: Velocity=0.023 (+1.2), Imbalance=3.28 (+20.0), Depth=192 (+10.0)
+2025-10-19 12:00:16: DAPH Score=31.8: Imbalance=2.26 (+20.0), PriceMomentum=0.18% (+1.8), Depth=136 (+10.0)
+2025-10-19 12:00:18: TALM Score=31.6: Velocity=0.008 (+0.4), Imbalance=7.17 (+20.0), PriceMomentum=0.12% (+1.2), Depth=104 (+10.0)
+2025-10-19 12:00:26: EFID Score=40.5: Velocity=0.000 (+0.0), Imbalance=2.45 (+20.0), PriceMomentum=0.04% (+0.4), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 12:00:30: KZPC Score=30.3: Velocity=0.006 (+0.3), Imbalance=2.61 (+20.0), Depth=142 (+10.0)
+2025-10-19 12:01:28: BIOC Score=30.7: Imbalance=2.35 (+20.0), PriceMomentum=0.07% (+0.7), Depth=209 (+10.0)
+2025-10-19 12:01:28: ECAP Score=35.0: Velocity=0.008 (+0.4), Imbalance=1.73 (+14.6), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 12:01:39: 📱 Telegram alert sent for AMER
+2025-10-19 12:01:39: STRONG RECOMMEND: AMER: Score=31.5, Ratio=1.03, Change=-1.35%
+2025-10-19 12:01:39: ZMID: Ratio=1.19, Score=14.7, Change=-0.09%
+2025-10-19 12:01:39: CRST: Ratio=1.17, Score=20.8, Change=+0.16%
+2025-10-19 12:01:49: 📱 Telegram market summary sent
+2025-10-19 12:02:10: KZPC Score=30.4: Velocity=0.007 (+0.4), Imbalance=2.61 (+20.0), Depth=142 (+10.0)
+2025-10-19 12:02:14: OLFI Score=30.0: Velocity=0.000 (+0.0), Imbalance=2.44 (+20.0), Depth=197 (+10.0)
+2025-10-19 12:02:16: MPRC Score=32.7: Velocity=0.004 (+0.2), Imbalance=2.86 (+20.0), PriceMomentum=0.26% (+2.6), Depth=174 (+10.0)
+2025-10-19 12:02:16: MOED Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.14 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:02:20: TALM Score=43.4: Velocity=0.009 (+0.5), Imbalance=5.51 (+20.0), PriceMomentum=0.30% (+3.0), Depth=105 (+10.0), Consistency (+10)
+2025-10-19 12:03:04: BIOC Score=31.0: Velocity=0.021 (+1.0), Imbalance=3.85 (+20.0), Depth=211 (+10.0)
+2025-10-19 12:03:35: AMER Score=30.7: Ratio=1.03 (+0.7), Imbalance=3.50 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:03:35: GDWA Score=40.6: Velocity=0.013 (+0.6), Imbalance=3.64 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:04:06: ZMID: Ratio=1.15, Score=25.8, Change=-2.91%
+2025-10-19 12:04:17: 📱 Telegram alert sent for AMER
+2025-10-19 12:04:17: STRONG RECOMMEND: AMER: Score=30.7, Ratio=1.03, Change=-0.50%
+2025-10-19 12:04:17: CRST: Ratio=1.14, Score=26.4, Change=-3.13%
+2025-10-19 12:04:27: 📱 Telegram market summary sent
+2025-10-19 12:04:41: ECAP Score=31.4: Imbalance=2.49 (+20.0), PriceMomentum=0.14% (+1.4), Depth=184 (+10.0)
+2025-10-19 12:04:46: EFID Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.37 (+20.0), Depth=123 (+10.0)
+2025-10-19 12:04:46: CRST Score=33.3: Ratio=1.13 (+3.3), Imbalance=2.03 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:05:02: DAPH Score=30.4: Velocity=0.006 (+0.3), Imbalance=3.63 (+20.0), PriceMomentum=0.01% (+0.1), Depth=134 (+10.0)
+2025-10-19 12:05:20: MOED Score=38.6: Velocity=0.001 (+0.1), Imbalance=1.84 (+16.8), PriceMomentum=0.18% (+1.8), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 12:05:42: AMER Score=30.4: Ratio=1.02 (+0.4), Imbalance=3.32 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:06:14: GDWA Score=45.1: Ratio=1.04 (+1.1), Velocity=0.082 (+4.1), Imbalance=3.91 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:06:26: 📱 Telegram alert sent for CRST
+2025-10-19 12:06:26: STRONG RECOMMEND: CRST: Score=33.3, Ratio=1.13, Change=-0.41%
+2025-10-19 12:06:26: ZMID: Ratio=1.16, Score=21.6, Change=+0.40%
+2025-10-19 12:06:37: 📱 Telegram alert sent for AMER
+2025-10-19 12:06:37: STRONG RECOMMEND: AMER: Score=30.4, Ratio=1.02, Change=-1.23%
+2025-10-19 12:06:47: 📱 Telegram alert sent for GDWA
+2025-10-19 12:06:47: STRONG RECOMMEND: GDWA: Score=45.1, Ratio=1.04, Change=+24.95%
+2025-10-19 12:06:58: 📱 Telegram market summary sent
+2025-10-19 12:07:09: ATQA Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.65 (+20.0), Depth=217 (+10.0)
+2025-10-19 12:07:12: ARCC Score=40.7: Velocity=0.013 (+0.7), Imbalance=2.46 (+20.0), Depth=255 (+10.0), Consistency (+10)
+2025-10-19 12:07:15: ISMA Score=31.2: Velocity=0.009 (+0.5), Imbalance=2.69 (+20.0), PriceMomentum=0.08% (+0.8), Depth=166 (+10.0)
+2025-10-19 12:07:26: GDWA Score=46.4: Ratio=1.09 (+2.2), Velocity=0.085 (+4.2), Imbalance=4.53 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:07:26: TALM Score=31.5: Velocity=0.006 (+0.3), Imbalance=3.77 (+20.0), PriceMomentum=0.12% (+1.2), Depth=106 (+10.0)
+2025-10-19 12:07:29: JUFO Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.92 (+20.0), Depth=280 (+10.0)
+2025-10-19 12:07:30: ZMID Score=33.8: Ratio=1.15 (+3.8), Imbalance=3.50 (+20.0), Depth=146 (+10.0)
+2025-10-19 12:07:32: DAPH Score=30.1: Velocity=0.003 (+0.1), Imbalance=3.15 (+20.0), Depth=133 (+10.0)
+2025-10-19 12:07:42: AMER Score=30.6: Ratio=1.02 (+0.6), Imbalance=3.25 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:08:44: ECAP Score=30.2: Velocity=0.005 (+0.2), Imbalance=2.76 (+20.0), Depth=184 (+10.0)
+2025-10-19 12:08:44: CRST: Ratio=1.09, Score=12.2, Change=-3.72%
+2025-10-19 12:08:54: 📱 Telegram alert sent for GDWA
+2025-10-19 12:08:54: STRONG RECOMMEND: GDWA: Score=46.4, Ratio=1.09, Change=+4.38%
+2025-10-19 12:09:05: 📱 Telegram alert sent for ZMID
+2025-10-19 12:09:05: STRONG RECOMMEND: ZMID: Score=33.8, Ratio=1.15, Change=-0.42%
+2025-10-19 12:09:15: 📱 Telegram alert sent for AMER
+2025-10-19 12:09:15: STRONG RECOMMEND: AMER: Score=30.6, Ratio=1.02, Change=+0.60%
+2025-10-19 12:09:25: 📱 Telegram market summary sent
+2025-10-19 12:09:40: ISMA Score=32.7: Velocity=0.018 (+0.9), Imbalance=1.36 (+7.1), PriceMomentum=0.47% (+4.7), Depth=166 (+10.0), Consistency (+10)
+2025-10-19 12:09:58: TALM Score=30.7: Velocity=0.013 (+0.7), Imbalance=3.58 (+20.0), Depth=105 (+10.0)
+2025-10-19 12:09:59: GGCC Score=31.3: Velocity=0.008 (+0.4), Imbalance=2.50 (+20.0), PriceMomentum=0.09% (+0.9), Depth=118 (+10.0)
+2025-10-19 12:10:04: JUFO Score=40.1: Velocity=0.001 (+0.1), Imbalance=2.86 (+20.0), Depth=282 (+10.0), Consistency (+10)
+2025-10-19 12:10:06: ODIN Score=30.2: Velocity=0.003 (+0.2), Imbalance=2.86 (+20.0), Depth=58 (+10.0)
+2025-10-19 12:10:09: EFID Score=30.2: Velocity=0.003 (+0.2), Imbalance=2.42 (+20.0), Depth=124 (+10.0)
+2025-10-19 12:10:10: GDWA Score=50.0: Ratio=1.16 (+4.0), Velocity=0.040 (+2.0), Imbalance=1.81 (+16.2), PriceMomentum=0.77% (+7.7), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:11:11: AMER Score=30.2: Ratio=1.01 (+0.2), Imbalance=3.19 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:11:11: ZMID: Ratio=1.16, Score=21.4, Change=+0.32%
+2025-10-19 12:11:11: CRST: Ratio=1.08, Score=29.3, Change=-1.27%
+2025-10-19 12:11:22: 📱 Telegram alert sent for GDWA
+2025-10-19 12:11:22: STRONG RECOMMEND: GDWA: Score=50.0, Ratio=1.16, Change=+6.71%
+2025-10-19 12:11:32: 📱 Telegram alert sent for AMER
+2025-10-19 12:11:32: STRONG RECOMMEND: AMER: Score=30.2, Ratio=1.01, Change=-1.39%
+2025-10-19 12:11:43: 📱 Telegram market summary sent
+2025-10-19 12:12:02: AMER Score=30.2: Ratio=1.01 (+0.2), Imbalance=3.19 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:12:02: ARCC Score=34.3: Imbalance=3.34 (+20.0), PriceMomentum=0.43% (+4.3), Depth=253 (+10.0)
+2025-10-19 12:12:16: DAPH Score=30.1: Velocity=0.003 (+0.1), Imbalance=3.01 (+20.0), Depth=134 (+10.0)
+2025-10-19 12:12:18: TALM Score=41.6: Velocity=0.002 (+0.1), Imbalance=2.48 (+20.0), PriceMomentum=0.15% (+1.5), Depth=105 (+10.0), Consistency (+10)
+2025-10-19 12:12:28: EFID Score=40.0: Velocity=0.000 (+0.0), Imbalance=2.63 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 12:13:29: GDWA Score=48.1: Ratio=1.23 (+5.8), Velocity=0.048 (+2.4), Imbalance=2.82 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:13:40: 📱 Telegram alert sent for AMER
+2025-10-19 12:13:40: STRONG RECOMMEND: AMER: Score=30.2, Ratio=1.01, Change=-0.00%
+2025-10-19 12:13:40: ZMID: Ratio=1.16, Score=22.1, Change=-0.04%
+2025-10-19 12:13:40: CRST: Ratio=1.08, Score=22.6, Change=+0.16%
+2025-10-19 12:13:51: 📱 Telegram alert sent for GDWA
+2025-10-19 12:13:51: STRONG RECOMMEND: GDWA: Score=48.1, Ratio=1.23, Change=+6.03%
+2025-10-19 12:14:01: 📱 Telegram market summary sent
+2025-10-19 12:14:15: EFID Score=40.0: Velocity=0.000 (+0.0), Imbalance=2.63 (+20.0), Depth=124 (+10.0), Consistency (+10)
+2025-10-19 12:14:16: GDWA Score=36.8: Ratio=1.23 (+5.7), Velocity=0.022 (+1.1), Imbalance=2.81 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:15:27: 📱 Telegram alert sent for GDWA
+2025-10-19 12:15:27: STRONG RECOMMEND: GDWA: Score=36.8, Ratio=1.23, Change=-0.23%
+2025-10-19 12:15:27: CRST: Ratio=1.07, Score=13.6, Change=-0.74%
+2025-10-19 12:15:27: ZMID: Ratio=1.16, Score=29.2, Change=+0.35%
+2025-10-19 12:15:38: 📱 Telegram alert sent for AMER
+2025-10-19 12:15:38: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.01, Now=1.00, Score=30.0
+2025-10-19 12:15:48: 📱 Telegram market summary sent
+2025-10-19 12:16:00: GDWA Score=38.7: Ratio=1.30 (+7.5), Velocity=0.024 (+1.2), Imbalance=2.86 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:16:02: ARCC Score=30.7: Velocity=0.001 (+0.1), Imbalance=5.93 (+20.0), PriceMomentum=0.06% (+0.6), Depth=258 (+10.0)
+2025-10-19 12:16:24: TALM Score=33.0: Velocity=0.034 (+1.7), PriceMomentum=1.13% (+11.3), Depth=108 (+10.0), Consistency (+10)
+2025-10-19 12:18:05: CRST: Ratio=1.08, Score=13.1, Change=+0.79%
+2025-10-19 12:18:15: 📱 Telegram alert sent for GDWA
+2025-10-19 12:18:15: STRONG RECOMMEND: GDWA: Score=38.7, Ratio=1.30, Change=+6.01%
+2025-10-19 12:18:16: ZMID: Ratio=1.15, Score=17.0, Change=-0.65%
+2025-10-19 12:18:26: 📱 Telegram market summary sent
+2025-10-19 12:18:40: AMER Score=30.1: Ratio=1.00 (+0.0), Velocity=0.001 (+0.1), Imbalance=3.20 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:18:57: GDWA Score=40.1: Ratio=1.33 (+8.3), Velocity=0.035 (+1.8), Imbalance=3.06 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:19:01: ODIN Score=31.5: Velocity=0.002 (+0.1), Imbalance=1.57 (+11.4), Depth=57 (+10.0), Consistency (+10)
+2025-10-19 12:19:06: OLFI Score=32.2: Velocity=0.013 (+0.7), Imbalance=3.90 (+20.0), PriceMomentum=0.16% (+1.6), Depth=195 (+10.0)
+2025-10-19 12:19:52: 📱 Telegram alert sent for AMER
+2025-10-19 12:19:52: STRONG RECOMMEND: AMER: Score=30.1, Ratio=1.00, Change=+0.52%
+2025-10-19 12:19:52: CRST: Ratio=1.11, Score=13.3, Change=+2.79%
+2025-10-19 12:20:03: 📱 Telegram alert sent for GDWA
+2025-10-19 12:20:03: STRONG RECOMMEND: GDWA: Score=40.1, Ratio=1.33, Change=+2.43%
+2025-10-19 12:20:03: ZMID: Ratio=1.15, Score=13.8, Change=+0.02%
+2025-10-19 12:20:13: 📱 Telegram market summary sent
+2025-10-19 12:20:40: EFID Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.58 (+20.0), Depth=123 (+10.0)
+2025-10-19 12:20:40: AMER Score=30.3: Ratio=1.01 (+0.1), Velocity=0.003 (+0.2), Imbalance=3.33 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:20:46: MOED Score=30.2: Velocity=0.004 (+0.2), Imbalance=2.26 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:21:04: PRCL Score=31.8: Imbalance=2.93 (+20.0), PriceMomentum=0.18% (+1.8), Depth=182 (+10.0)
+2025-10-19 12:21:13: ARCC Score=30.3: Velocity=0.006 (+0.3), Imbalance=2.61 (+20.0), Depth=254 (+10.0)
+2025-10-19 12:22:15: GDWA Score=49.2: Ratio=1.34 (+8.5), Velocity=0.013 (+0.7), Imbalance=3.35 (+20.0), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:22:26: 📱 Telegram alert sent for AMER
+2025-10-19 12:22:26: STRONG RECOMMEND: AMER: Score=30.3, Ratio=1.01, Change=+0.53%
+2025-10-19 12:22:26: CRST: Ratio=1.03, Score=11.9, Change=-7.07%
+2025-10-19 12:22:26: ZMID: Ratio=1.14, Score=13.5, Change=-1.07%
+2025-10-19 12:22:36: 📱 Telegram alert sent for GDWA
+2025-10-19 12:22:36: STRONG RECOMMEND: GDWA: Score=49.2, Ratio=1.34, Change=+0.65%
+2025-10-19 12:22:47: 📱 Telegram market summary sent
+2025-10-19 12:23:06: MOED Score=38.3: Velocity=0.005 (+0.2), Imbalance=1.91 (+18.1), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 12:23:10: NCCW Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.20 (+20.0), Depth=110 (+10.0)
+2025-10-19 12:23:14: OLFI Score=41.3: Velocity=0.027 (+1.3), Imbalance=7.77 (+20.0), Depth=195 (+10.0), Consistency (+10)
+2025-10-19 12:23:16: GDWA Score=38.3: Ratio=1.33 (+8.3), Imbalance=3.28 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:23:26: DAPH Score=30.1: Imbalance=2.83 (+20.0), PriceMomentum=0.01% (+0.1), Depth=138 (+10.0)
+2025-10-19 12:24:35: ARCC Score=30.5: Velocity=0.010 (+0.5), Imbalance=4.85 (+20.0), Depth=257 (+10.0)
+2025-10-19 12:24:46: 📱 Telegram alert sent for AMER
+2025-10-19 12:24:46: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.01, Now=0.93, Score=29.8
+2025-10-19 12:24:46: CRST: Ratio=1.03, Score=10.7, Change=-0.18%
+2025-10-19 12:24:56: 📱 Telegram alert sent for GDWA
+2025-10-19 12:24:56: STRONG RECOMMEND: GDWA: Score=38.3, Ratio=1.33, Change=-0.72%
+2025-10-19 12:24:56: ZMID: Ratio=1.13, Score=13.3, Change=-0.91%
+2025-10-19 12:25:07: 📱 Telegram market summary sent
+2025-10-19 12:25:20: ARCC Score=40.1: Velocity=0.002 (+0.1), Imbalance=4.63 (+20.0), Depth=257 (+10.0), Consistency (+10)
+2025-10-19 12:25:26: GDWA Score=38.5: Ratio=1.34 (+8.5), Imbalance=3.20 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:25:30: OLFI Score=31.2: Velocity=0.023 (+1.2), Imbalance=8.71 (+20.0), Depth=195 (+10.0)
+2025-10-19 12:25:33: MPRC Score=31.4: Velocity=0.027 (+1.4), Imbalance=3.81 (+20.0), Depth=190 (+10.0)
+2025-10-19 12:25:38: TALM Score=34.8: Velocity=0.019 (+1.0), Imbalance=2.37 (+20.0), PriceMomentum=0.38% (+3.8), Depth=115 (+10.0)
+2025-10-19 12:25:42: DAPH Score=31.8: Velocity=0.027 (+1.3), Imbalance=2.46 (+20.0), PriceMomentum=0.05% (+0.5), Depth=140 (+10.0)
+2025-10-19 12:26:54: CRST: Ratio=1.01, Score=10.3, Change=-1.36%
+2025-10-19 12:27:04: 📱 Telegram alert sent for GDWA
+2025-10-19 12:27:04: STRONG RECOMMEND: GDWA: Score=38.5, Ratio=1.34, Change=+0.55%
+2025-10-19 12:27:04: ZMID: Ratio=1.13, Score=13.2, Change=-0.10%
+2025-10-19 12:27:15: 📱 Telegram market summary sent
+2025-10-19 12:27:29: ARCC Score=41.0: Velocity=0.003 (+0.2), Imbalance=3.00 (+20.0), PriceMomentum=0.08% (+0.8), Depth=258 (+10.0), Consistency (+10)
+2025-10-19 12:27:30: GDWA Score=33.2: Ratio=1.36 (+8.9), Velocity=0.008 (+0.4), Imbalance=1.31 (+6.2), PriceMomentum=0.77% (+7.7), Depth=42 (+10.0)
+2025-10-19 12:27:30: CRST Score=53.4: Ratio=1.35 (+8.8), Velocity=0.108 (+5.4), Imbalance=4.88 (+20.0), PriceMomentum=0.91% (+9.1), Depth=114 (+10.0)
+2025-10-19 12:27:34: ATQA Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.18 (+20.0), Depth=216 (+10.0)
+2025-10-19 12:27:36: MOED Score=40.8: Velocity=0.016 (+0.8), Imbalance=2.05 (+20.0), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 12:27:50: TALM Score=30.5: Velocity=0.058 (+2.9), Imbalance=1.57 (+11.4), PriceMomentum=0.62% (+6.2), Depth=117 (+10.0)
+2025-10-19 12:27:50: PRCL Score=30.4: Velocity=0.008 (+0.4), Imbalance=3.80 (+20.0), Depth=179 (+10.0)
+2025-10-19 12:27:59: ZMID Score=30.1: Ratio=1.12 (+3.1), Imbalance=1.85 (+17.1), Depth=146 (+10.0)
+2025-10-19 12:29:12: 📱 Telegram alert sent for GDWA
+2025-10-19 12:29:12: STRONG RECOMMEND: GDWA: Score=33.2, Ratio=1.36, Change=+1.30%
+2025-10-19 12:29:23: 📱 Telegram alert sent for CRST
+2025-10-19 12:29:23: STRONG RECOMMEND: CRST: Score=53.4, Ratio=1.35, Change=+33.41%
+2025-10-19 12:29:23: FWRY: Ratio=1.02, Score=15.8, Change=+22.45%
+2025-10-19 12:29:34: 📱 Telegram alert sent for ZMID
+2025-10-19 12:29:34: STRONG RECOMMEND: ZMID: Score=30.1, Ratio=1.12, Change=-0.61%
+2025-10-19 12:29:44: 📱 Telegram market summary sent
+2025-10-19 12:29:55: EFID Score=30.0: Velocity=0.001 (+0.0), Imbalance=10.75 (+20.0), Depth=120 (+10.0)
+2025-10-19 12:29:56: GDWA Score=37.1: Ratio=1.37 (+9.2), Velocity=0.010 (+0.5), Imbalance=1.37 (+7.4), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 12:30:01: MOED Score=41.0: Velocity=0.019 (+1.0), Imbalance=2.99 (+20.0), Depth=113 (+10.0), Consistency (+10)
+2025-10-19 12:30:04: MPRC Score=32.0: Velocity=0.017 (+0.9), Imbalance=15.12 (+20.0), PriceMomentum=0.11% (+1.1), Depth=187 (+10.0)
+2025-10-19 12:30:08: OLFI Score=31.6: Imbalance=5.51 (+20.0), PriceMomentum=0.16% (+1.6), Depth=193 (+10.0)
+2025-10-19 12:30:16: DAPH Score=30.1: Imbalance=3.02 (+20.0), PriceMomentum=0.01% (+0.1), Depth=140 (+10.0)
+2025-10-19 12:31:00: ARCC Score=30.3: Velocity=0.003 (+0.2), Imbalance=3.32 (+20.0), PriceMomentum=0.01% (+0.1), Depth=261 (+10.0)
+2025-10-19 12:31:31: CRST: Ratio=1.07, Score=13.8, Change=-20.95%
+2025-10-19 12:31:41: 📱 Telegram alert sent for GDWA
+2025-10-19 12:31:41: STRONG RECOMMEND: GDWA: Score=37.1, Ratio=1.37, Change=+0.92%
+2025-10-19 12:31:52: 📱 Telegram alert sent for FWRY
+2025-10-19 12:31:52: TAKE CARE: FWRY: Ratio dropped below 1! Previous=1.02, Now=1.00, Score=12.8
+2025-10-19 12:31:52: ZMID: Ratio=1.12, Score=21.4, Change=-0.29%
+2025-10-19 12:32:02: 📱 Telegram market summary sent
+2025-10-19 12:32:14: GDWA Score=35.9: Ratio=1.23 (+5.9), Imbalance=2.36 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:32:22: MPRC Score=30.9: Imbalance=3.49 (+20.0), PriceMomentum=0.09% (+0.9), Depth=189 (+10.0)
+2025-10-19 12:32:24: NCCW Score=30.2: Imbalance=1.98 (+19.5), PriceMomentum=0.06% (+0.6), Depth=110 (+10.0)
+2025-10-19 12:32:26: MOED Score=40.9: Velocity=0.018 (+0.9), Imbalance=2.51 (+20.0), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 12:32:39: DAPH Score=30.5: Velocity=0.010 (+0.5), Imbalance=3.02 (+20.0), Depth=140 (+10.0)
+2025-10-19 12:32:56: OLFI Score=30.1: Velocity=0.001 (+0.1), Imbalance=2.41 (+20.0), Depth=196 (+10.0)
+2025-10-19 12:33:48: CRST: Ratio=1.07, Score=11.8, Change=+0.39%
+2025-10-19 12:36:30: ZMID: Ratio=1.14, Score=0.0, Change=N/A (first record)
+2025-10-19 12:36:51: MOED Score=30.9: Imbalance=2.06 (+20.0), PriceMomentum=0.09% (+0.9), Depth=114 (+10.0)
+2025-10-19 12:38:16: ZMID: Ratio=1.13, Score=14.1, Change=-0.43%
+2025-10-19 12:38:34: MOED Score=31.0: Velocity=0.021 (+1.0), Imbalance=2.91 (+20.0), Depth=112 (+10.0)
+2025-10-19 12:38:50: TALM Score=30.9: Velocity=0.018 (+0.9), Imbalance=5.04 (+20.0), Depth=119 (+10.0)
+2025-10-19 12:38:52: JUFO Score=30.6: Velocity=0.005 (+0.3), Imbalance=2.08 (+20.0), PriceMomentum=0.03% (+0.3), Depth=280 (+10.0)
+2025-10-19 12:39:00: AMER Score=30.6: Velocity=0.011 (+0.6), Imbalance=2.19 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:40:02: ATQA Score=30.1: Velocity=0.001 (+0.1), Imbalance=2.62 (+20.0), Depth=215 (+10.0)
+2025-10-19 12:40:33: ZMID: Ratio=1.14, Score=17.5, Change=+0.35%
+2025-10-19 12:40:44: ATQA Score=30.1: Velocity=0.001 (+0.1), Imbalance=2.67 (+20.0), Depth=214 (+10.0)
+2025-10-19 12:40:46: AMER Score=30.8: Velocity=0.015 (+0.8), Imbalance=2.18 (+20.0), Depth=54 (+10.0)
+2025-10-19 12:41:02: OLFI Score=30.2: Velocity=0.000 (+0.0), Imbalance=10.53 (+20.0), PriceMomentum=0.02% (+0.2), Depth=196 (+10.0)
+2025-10-19 12:41:34: TALM Score=30.4: Velocity=0.007 (+0.4), Imbalance=3.01 (+20.0), Depth=119 (+10.0)
+2025-10-19 12:42:19: ZMID: Ratio=1.14, Score=14.3, Change=+0.01%
+2025-10-19 12:42:29: ATQA Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.97 (+20.0), Depth=214 (+10.0)
+2025-10-19 12:42:36: MOED Score=32.6: Imbalance=3.55 (+20.0), PriceMomentum=0.26% (+2.6), Depth=111 (+10.0)
+2025-10-19 12:42:42: PHDC Score=30.9: Velocity=0.019 (+0.9), Imbalance=2.10 (+20.0), Depth=177 (+10.0)
+2025-10-19 12:42:49: DAPH Score=31.5: Velocity=0.005 (+0.3), Imbalance=2.10 (+20.0), PriceMomentum=0.12% (+1.2), Depth=138 (+10.0)
+2025-10-19 12:42:52: TALM Score=31.0: Velocity=0.020 (+1.0), Imbalance=3.32 (+20.0), Depth=119 (+10.0)
+2025-10-19 12:43:33: EFID Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.16 (+20.0), Depth=120 (+10.0)
+2025-10-19 12:44:04: ZMID: Ratio=1.15, Score=24.9, Change=+0.91%
+2025-10-19 12:44:20: MOED Score=35.1: Velocity=0.052 (+2.6), Imbalance=1.82 (+16.3), PriceMomentum=0.61% (+6.1), Depth=111 (+10.0)
+2025-10-19 12:44:26: ISMQ Score=35.8: Velocity=0.071 (+3.5), Imbalance=2.52 (+20.0), PriceMomentum=0.23% (+2.3), Depth=152 (+10.0)
+2025-10-19 12:44:36: DAPH Score=31.5: Imbalance=7.94 (+20.0), PriceMomentum=0.15% (+1.5), Depth=141 (+10.0)
+2025-10-19 12:44:38: TALM Score=40.2: Velocity=0.004 (+0.2), Imbalance=3.70 (+20.0), Depth=119 (+10.0), Consistency (+10)
+2025-10-19 12:45:19: EFID Score=30.2: Imbalance=3.04 (+20.0), PriceMomentum=0.02% (+0.2), Depth=122 (+10.0)
+2025-10-19 12:45:50: ZMID: Ratio=1.14, Score=13.9, Change=-0.71%
+2025-10-19 12:46:01: 📱 Telegram market summary sent
+2025-10-19 12:46:18: ISMQ Score=39.5: Ratio=1.01 (+0.4), Velocity=0.107 (+5.4), Imbalance=2.01 (+20.0), PriceMomentum=0.38% (+3.8), Depth=153 (+10.0)
+2025-10-19 12:46:27: MPRC Score=30.1: Velocity=0.003 (+0.1), Imbalance=2.13 (+20.0), Depth=190 (+10.0)
+2025-10-19 12:46:38: DAPH Score=41.2: Velocity=0.097 (+4.8), Imbalance=14.59 (+20.0), PriceMomentum=0.63% (+6.3), Depth=134 (+10.0)
+2025-10-19 12:46:45: ECAP Score=40.1: Velocity=0.001 (+0.1), Imbalance=2.19 (+20.0), Depth=188 (+10.0), Consistency (+10)
+2025-10-19 12:47:47: ISMQ: Ratio=1.01, Score=39.5, Change=+9.43%
+2025-10-19 12:47:47: ZMID: Ratio=1.14, Score=14.6, Change=+0.16%
+2025-10-19 12:48:06: CRST Score=30.5: Velocity=0.009 (+0.5), Imbalance=4.15 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:48:08: ISMQ Score=46.8: Ratio=1.06 (+1.5), Velocity=0.045 (+2.2), Imbalance=3.22 (+20.0), PriceMomentum=0.30% (+3.0), Depth=152 (+10.0), Consistency (+10)
+2025-10-19 12:48:22: DAPH Score=43.7: Ratio=1.03 (+0.6), Velocity=0.179 (+9.0), Imbalance=10.98 (+20.0), PriceMomentum=0.41% (+4.1), Depth=123 (+10.0)
+2025-10-19 12:48:24: PRCL Score=30.4: Velocity=0.001 (+0.0), Imbalance=2.57 (+20.0), PriceMomentum=0.04% (+0.4), Depth=178 (+10.0)
+2025-10-19 12:48:31: ECAP Score=34.9: Velocity=0.007 (+0.4), Imbalance=1.69 (+13.8), PriceMomentum=0.08% (+0.8), Depth=185 (+10.0), Consistency (+10)
+2025-10-19 12:49:33: MEDIUM SIGNAL: ISMQ: Score=46.8, Ratio=1.06, Change=+4.64%
+2025-10-19 12:49:33: ZMID: Ratio=1.15, Score=21.7, Change=+0.79%
+2025-10-19 12:49:33: MEDIUM SIGNAL: DAPH: Score=43.7, Ratio=1.03, Change=+27.33%
+2025-10-19 12:49:48: CRST Score=43.2: Velocity=0.018 (+0.9), Imbalance=2.82 (+20.0), PriceMomentum=0.23% (+2.3), Depth=114 (+10.0), Consistency (+10)
+2025-10-19 12:49:56: OLFI Score=30.4: Imbalance=7.23 (+20.0), PriceMomentum=0.04% (+0.4), Depth=193 (+10.0)
+2025-10-19 12:50:07: DAPH Score=65.6: Ratio=1.39 (+9.8), Velocity=0.196 (+9.8), Imbalance=3.19 (+20.0), PriceMomentum=0.60% (+6.0), Depth=123 (+10.0), Consistency (+10)
+2025-10-19 12:51:50: ISMQ: Ratio=1.02, Score=12.3, Change=-3.56%
+2025-10-19 12:51:50: ZMID: Ratio=1.13, Score=16.3, Change=-1.19%
+2025-10-19 12:52:00: 📱 Telegram alert sent for DAPH
+2025-10-19 12:52:00: STRONG RECOMMEND: DAPH: Score=65.6, Ratio=1.39, Change=+35.83%
+2025-10-19 12:52:11: 📱 Telegram market summary sent
+2025-10-19 12:52:21: AMER Score=30.8: Velocity=0.016 (+0.8), Imbalance=2.50 (+20.0), Depth=53 (+10.0)
+2025-10-19 12:52:30: CRST Score=30.6: Velocity=0.012 (+0.6), Imbalance=3.39 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:52:30: GDWA Score=30.1: Velocity=0.001 (+0.1), Imbalance=3.38 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:52:44: MPRC Score=30.6: Imbalance=3.90 (+20.0), PriceMomentum=0.06% (+0.6), Depth=188 (+10.0)
+2025-10-19 12:52:46: DAPH Score=41.6: Ratio=1.26 (+6.6), Velocity=0.079 (+4.0), Imbalance=8.16 (+20.0), PriceMomentum=0.11% (+1.1), Depth=123 (+10.0)
+2025-10-19 12:52:55: EHDR Score=30.3: Velocity=0.006 (+0.3), Imbalance=5.11 (+20.0), Depth=119 (+10.0)
+2025-10-19 12:54:07: 📱 Telegram alert sent for ISMQ
+2025-10-19 12:54:07: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.02, Now=0.87, Score=17.2
+2025-10-19 12:54:07: ZMID: Ratio=1.20, Score=19.5, Change=+5.66%
+2025-10-19 12:54:07: MEDIUM SIGNAL: DAPH: Score=41.6, Ratio=1.26, Change=-9.28%
+2025-10-19 12:54:18: 📱 Telegram market summary sent
+2025-10-19 12:54:47: ARCC Score=34.5: Velocity=0.087 (+4.3), Imbalance=2.23 (+20.0), PriceMomentum=0.01% (+0.1), Depth=258 (+10.0)
+2025-10-19 12:55:04: TALM Score=32.4: Velocity=0.012 (+0.6), Imbalance=3.48 (+20.0), PriceMomentum=0.18% (+1.8), Depth=119 (+10.0)
+2025-10-19 12:55:08: DAPH Score=43.3: Ratio=1.32 (+8.0), Imbalance=13.24 (+20.0), PriceMomentum=0.53% (+5.3), Depth=121 (+10.0)
+2025-10-19 12:55:18: AMER Score=40.8: Velocity=0.016 (+0.8), Imbalance=2.51 (+20.0), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 12:55:49: ATQA Score=40.0: Velocity=0.001 (+0.0), Imbalance=3.10 (+20.0), Depth=216 (+10.0), Consistency (+10)
+2025-10-19 12:55:50: ZMID: Ratio=1.21, Score=25.9, Change=+1.23%
+2025-10-19 12:55:50: MEDIUM SIGNAL: DAPH: Score=43.3, Ratio=1.32, Change=+4.46%
+2025-10-19 12:56:01: ATQA Score=40.0: Velocity=0.000 (+0.0), Imbalance=3.10 (+20.0), Depth=216 (+10.0), Consistency (+10)
+2025-10-19 12:56:16: MPRC Score=42.6: Velocity=0.033 (+1.7), Imbalance=3.75 (+20.0), PriceMomentum=0.09% (+0.9), Depth=187 (+10.0), Consistency (+10)
+2025-10-19 12:56:18: AMER Score=40.3: Velocity=0.006 (+0.3), Imbalance=2.54 (+20.0), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 12:56:25: ZMID Score=44.4: Ratio=1.27 (+6.8), Velocity=0.024 (+1.2), Imbalance=1.73 (+14.5), PriceMomentum=0.18% (+1.8), Depth=146 (+10.0), Consistency (+10)
+2025-10-19 12:56:26: DAPH Score=38.7: Ratio=1.18 (+4.4), Imbalance=27.98 (+20.0), PriceMomentum=0.43% (+4.3), Depth=121 (+10.0)
+2025-10-19 12:57:36: MEDIUM SIGNAL: ZMID: Score=44.4, Ratio=1.27, Change=+4.83%
+2025-10-19 12:57:36: DAPH: Ratio=1.18, Score=38.7, Change=-10.76%
+2025-10-19 12:57:47: 📱 Telegram market summary sent
+2025-10-19 12:58:06: GDWA Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.36 (+20.0), Depth=42 (+10.0)
+2025-10-19 12:58:09: NCCW Score=30.6: Imbalance=2.17 (+20.0), PriceMomentum=0.06% (+0.6), Depth=111 (+10.0)
+2025-10-19 12:58:10: OLFI Score=30.2: Velocity=0.003 (+0.2), Imbalance=6.91 (+20.0), Depth=193 (+10.0)
+2025-10-19 12:58:12: MPRC Score=31.1: Velocity=0.021 (+1.1), Imbalance=12.55 (+20.0), Depth=185 (+10.0)
+2025-10-19 12:58:14: AMER Score=40.3: Velocity=0.005 (+0.3), Imbalance=2.54 (+20.0), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 12:58:17: ZMID Score=36.3: Ratio=1.24 (+5.9), Velocity=0.008 (+0.4), Imbalance=2.76 (+20.0), Depth=146 (+10.0)
+2025-10-19 12:58:18: DAPH Score=47.9: Ratio=1.45 (+11.2), Velocity=0.042 (+2.1), Imbalance=2.74 (+20.0), PriceMomentum=0.46% (+4.6), Depth=119 (+10.0)
+2025-10-19 12:58:30: EFID Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.47 (+20.0), Depth=124 (+10.0)
+2025-10-19 12:59:02: CRST Score=33.4: Velocity=0.023 (+1.1), Imbalance=2.70 (+20.0), PriceMomentum=0.23% (+2.3), Depth=114 (+10.0)
+2025-10-19 12:59:33: ISMQ: Ratio=1.01, Score=27.5, Change=+11.88%
+2025-10-19 12:59:33: ZMID: Ratio=1.24, Score=36.3, Change=-2.82%
+2025-10-19 12:59:33: MEDIUM SIGNAL: DAPH: Score=47.9, Ratio=1.45, Change=+22.88%
+2025-10-19 12:59:44: AMER Score=40.1: Velocity=0.001 (+0.1), Imbalance=2.66 (+20.0), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 12:59:52: CRST Score=31.1: Velocity=0.023 (+1.1), Imbalance=2.72 (+20.0), Depth=114 (+10.0)
+2025-10-19 12:59:55: NCCW Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.21 (+20.0), Depth=111 (+10.0)
+2025-10-19 12:59:56: OLFI Score=30.0: Velocity=0.000 (+0.0), Imbalance=6.93 (+20.0), Depth=193 (+10.0)
+2025-10-19 12:59:56: PHDC Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.41 (+20.0), Depth=178 (+10.0)
+2025-10-19 12:59:58: MPRC Score=33.8: Velocity=0.006 (+0.3), Imbalance=2.73 (+20.0), PriceMomentum=0.35% (+3.5), Depth=184 (+10.0)
+2025-10-19 13:00:06: DAPH Score=40.6: Ratio=1.32 (+8.1), Velocity=0.049 (+2.5), Imbalance=3.92 (+20.0), Depth=117 (+10.0)
+2025-10-19 13:00:17: EFID Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.47 (+20.0), Depth=125 (+10.0)
+2025-10-19 13:00:33: ZMID Score=36.2: Ratio=1.25 (+6.2), Imbalance=3.27 (+20.0), Depth=146 (+10.0)
+2025-10-19 13:00:59: 📱 Telegram alert sent for ISMQ
+2025-10-19 13:00:59: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.01, Now=0.96, Score=11.0
+2025-10-19 13:00:59: MEDIUM SIGNAL: DAPH: Score=40.6, Ratio=1.32, Change=-8.43%
+2025-10-19 13:00:59: ZMID: Ratio=1.25, Score=36.2, Change=+0.94%
+2025-10-19 13:01:10: 📱 Telegram market summary sent
+2025-10-19 13:01:21: EHDR Score=30.0: Velocity=0.001 (+0.0), Imbalance=4.46 (+20.0), Depth=118 (+10.0)
+2025-10-19 13:01:31: NCCW Score=40.0: Velocity=0.000 (+0.0), Imbalance=2.14 (+20.0), Depth=111 (+10.0), Consistency (+10)
+2025-10-19 13:01:32: MPRC Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.89 (+20.0), Depth=185 (+10.0)
+2025-10-19 13:01:41: ZMID Score=36.7: Ratio=1.26 (+6.4), Velocity=0.006 (+0.3), Imbalance=3.77 (+20.0), Depth=146 (+10.0)
+2025-10-19 13:01:42: DAPH Score=44.9: Ratio=1.54 (+13.4), Velocity=0.030 (+1.5), Imbalance=20.86 (+20.0), Depth=123 (+10.0)
+2025-10-19 13:01:53: SPMD Score=31.8: Velocity=0.036 (+1.8), Imbalance=2.50 (+20.0), Depth=96 (+10.0)
+2025-10-19 13:02:56: AMER Score=41.1: Ratio=1.02 (+0.6), Velocity=0.011 (+0.6), Imbalance=3.42 (+20.0), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 13:02:56: ZMID: Ratio=1.26, Score=36.7, Change=+0.56%
+2025-10-19 13:02:56: MEDIUM SIGNAL: DAPH: Score=44.9, Ratio=1.54, Change=+15.91%
+2025-10-19 13:02:56: MEDIUM SIGNAL: AMER: Score=41.1, Ratio=1.02, Change=+2.98%
+2025-10-19 13:03:09: AMER Score=31.1: Ratio=1.02 (+0.6), Velocity=0.010 (+0.5), Imbalance=3.42 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:03:14: ISMQ Score=31.4: Ratio=1.02 (+0.5), Velocity=0.018 (+0.9), Imbalance=2.97 (+20.0), Depth=153 (+10.0)
+2025-10-19 13:03:18: NCCW Score=40.0: Velocity=0.000 (+0.0), Imbalance=2.14 (+20.0), Depth=111 (+10.0), Consistency (+10)
+2025-10-19 13:03:26: DAPH Score=42.7: Ratio=1.48 (+12.1), Velocity=0.053 (+2.6), Imbalance=1.88 (+17.6), PriceMomentum=0.05% (+0.5), Depth=124 (+10.0)
+2025-10-19 13:03:39: ZMID Score=46.3: Ratio=1.27 (+6.8), Velocity=0.008 (+0.4), Imbalance=1.86 (+17.3), PriceMomentum=0.18% (+1.8), Depth=146 (+10.0), Consistency (+10)
+2025-10-19 13:05:12: AMER: Ratio=1.02, Score=31.1, Change=-0.00%
+2025-10-19 13:05:12: ISMQ: Ratio=1.02, Score=31.4, Change=+4.85%
+2025-10-19 13:05:12: MEDIUM SIGNAL: DAPH: Score=42.7, Ratio=1.48, Change=-3.45%
+2025-10-19 13:05:12: MEDIUM SIGNAL: ZMID: Score=46.3, Ratio=1.27, Change=+1.36%
+2025-10-19 13:05:30: MPRC Score=30.3: Imbalance=4.03 (+20.0), PriceMomentum=0.03% (+0.3), Depth=185 (+10.0)
+2025-10-19 13:05:32: ISMA Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.32 (+20.0), Depth=165 (+10.0)
+2025-10-19 13:05:40: ARCC Score=31.2: Velocity=0.016 (+0.8), Imbalance=2.20 (+20.0), PriceMomentum=0.04% (+0.4), Depth=270 (+10.0)
+2025-10-19 13:05:42: ZMID Score=31.6: Ratio=1.29 (+7.3), Velocity=0.013 (+0.6), Imbalance=1.09 (+1.8), PriceMomentum=0.18% (+1.8), Depth=146 (+10.0), Consistency (+10)
+2025-10-19 13:05:44: DAPH Score=57.5: Ratio=1.67 (+16.8), Velocity=0.045 (+2.3), Imbalance=4.45 (+20.0), PriceMomentum=0.84% (+8.4), Depth=134 (+10.0)
+2025-10-19 13:05:49: OLFI Score=30.0: Velocity=0.000 (+0.0), Imbalance=11.11 (+20.0), Depth=193 (+10.0)
+2025-10-19 13:05:56: EHDR Score=31.2: Imbalance=4.64 (+20.0), PriceMomentum=0.12% (+1.2), Depth=118 (+10.0)
+2025-10-19 13:06:58: ISMQ: Ratio=1.06, Score=26.6, Change=+3.61%
+2025-10-19 13:06:58: ZMID: Ratio=1.29, Score=31.6, Change=+1.67%
+2025-10-19 13:06:58: MEDIUM SIGNAL: DAPH: Score=57.5, Ratio=1.67, Change=+12.73%
+2025-10-19 13:06:58: AMER: Ratio=1.04, Score=26.3, Change=+1.53%
+2025-10-19 13:07:12: EHDR Score=31.2: Imbalance=2.33 (+20.0), PriceMomentum=0.12% (+1.2), Depth=120 (+10.0)
+2025-10-19 13:07:15: ISMQ Score=57.6: Ratio=1.38 (+9.4), Velocity=0.119 (+6.0), Imbalance=2.06 (+20.0), PriceMomentum=0.23% (+2.3), Depth=153 (+10.0), Consistency (+10)
+2025-10-19 13:07:22: OLFI Score=30.1: Velocity=0.002 (+0.1), Imbalance=11.08 (+20.0), Depth=193 (+10.0)
+2025-10-19 13:07:31: DAPH Score=48.7: Ratio=1.64 (+16.0), Velocity=0.053 (+2.6), Imbalance=2.30 (+20.0), Depth=138 (+10.0)
+2025-10-19 13:08:13: FWRY Score=40.0: Velocity=0.001 (+0.0), Imbalance=2.16 (+20.0), Depth=197 (+10.0), Consistency (+10)
+2025-10-19 13:08:44: AMER: Ratio=1.04, Score=19.0, Change=+0.00%
+2025-10-19 13:08:44: MEDIUM SIGNAL: ISMQ: Score=57.6, Ratio=1.38, Change=+30.33%
+2025-10-19 13:08:44: ZMID: Ratio=1.28, Score=17.3, Change=-0.74%
+2025-10-19 13:08:44: MEDIUM SIGNAL: DAPH: Score=48.7, Ratio=1.64, Change=-1.82%
+2025-10-19 13:08:54: 📱 Telegram market summary sent
+2025-10-19 13:09:11: ISMQ Score=56.8: Ratio=1.76 (+19.0), Velocity=0.235 (+11.7), PriceMomentum=0.60% (+6.0), Depth=153 (+10.0), Consistency (+10)
+2025-10-19 13:09:13: MPRC Score=30.2: Imbalance=4.19 (+20.0), PriceMomentum=0.02% (+0.2), Depth=184 (+10.0)
+2025-10-19 13:09:18: OLFI Score=31.1: Imbalance=7.25 (+20.0), PriceMomentum=0.11% (+1.1), Depth=191 (+10.0)
+2025-10-19 13:09:22: ZMID Score=37.2: Ratio=1.29 (+7.2), Imbalance=2.73 (+20.0), Depth=147 (+10.0)
+2025-10-19 13:09:24: DAPH Score=45.1: Ratio=1.60 (+15.1), Imbalance=21.76 (+20.0), Depth=138 (+10.0)
+2025-10-19 13:11:11: MEDIUM SIGNAL: ISMQ: Score=56.8, Ratio=1.76, Change=+27.93%
+2025-10-19 13:11:11: ZMID: Ratio=1.29, Score=37.2, Change=+0.18%
+2025-10-19 13:11:11: MEDIUM SIGNAL: DAPH: Score=45.1, Ratio=1.60, Change=-2.25%
+2025-10-19 13:11:11: AMER: Ratio=1.03, Score=18.6, Change=-0.52%
+2025-10-19 13:11:29: MPRC Score=32.8: Velocity=0.011 (+0.6), Imbalance=3.13 (+20.0), PriceMomentum=0.22% (+2.2), Depth=182 (+10.0)
+2025-10-19 13:11:36: NCCW Score=30.6: Imbalance=2.21 (+20.0), PriceMomentum=0.06% (+0.6), Depth=111 (+10.0)
+2025-10-19 13:11:38: EHDR Score=31.3: Velocity=0.000 (+0.0), Imbalance=2.92 (+20.0), PriceMomentum=0.12% (+1.2), Depth=120 (+10.0)
+2025-10-19 13:11:40: TALM Score=45.3: Velocity=0.071 (+3.5), Imbalance=2.50 (+20.0), PriceMomentum=0.18% (+1.8), Depth=118 (+10.0), Consistency (+10)
+2025-10-19 13:11:40: ZMID Score=36.3: Ratio=1.25 (+6.3), Imbalance=2.62 (+20.0), Depth=147 (+10.0)
+2025-10-19 13:11:46: DAPH Score=44.7: Ratio=1.59 (+14.7), Imbalance=17.19 (+20.0), Depth=140 (+10.0)
+2025-10-19 13:11:51: ODIN Score=38.5: Velocity=0.003 (+0.1), Imbalance=1.92 (+18.3), Depth=58 (+10.0), Consistency (+10)
+2025-10-19 13:12:26: ISMA Score=31.3: Velocity=0.002 (+0.1), Imbalance=3.11 (+20.0), PriceMomentum=0.12% (+1.2), Depth=167 (+10.0)
+2025-10-19 13:12:56: AMER: Ratio=1.03, Score=17.6, Change=-0.47%
+2025-10-19 13:12:56: ISMQ: Ratio=1.03, Score=10.8, Change=-41.44%
+2025-10-19 13:12:56: ZMID: Ratio=1.25, Score=36.3, Change=-2.74%
+2025-10-19 13:12:56: MEDIUM SIGNAL: DAPH: Score=44.7, Ratio=1.59, Change=-1.01%
+2025-10-19 13:13:25: EHDR Score=30.4: Velocity=0.007 (+0.4), Imbalance=3.02 (+20.0), Depth=120 (+10.0)
+2025-10-19 13:13:29: ISMA Score=30.2: Velocity=0.004 (+0.2), Imbalance=3.11 (+20.0), Depth=168 (+10.0)
+2025-10-19 13:13:32: MPRC Score=31.7: Velocity=0.019 (+1.0), Imbalance=3.12 (+20.0), PriceMomentum=0.08% (+0.8), Depth=186 (+10.0)
+2025-10-19 13:13:33: NCCW Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.30 (+20.0), Depth=111 (+10.0)
+2025-10-19 13:13:42: DAPH Score=49.0: Ratio=1.55 (+13.7), Imbalance=12.88 (+20.0), PriceMomentum=0.53% (+5.3), Depth=138 (+10.0)
+2025-10-19 13:13:46: PRCL Score=31.5: Velocity=0.002 (+0.1), Imbalance=3.43 (+20.0), PriceMomentum=0.14% (+1.4), Depth=179 (+10.0)
+2025-10-19 13:14:13: ZMID Score=35.9: Ratio=1.23 (+5.9), Imbalance=2.12 (+20.0), Depth=147 (+10.0)
+2025-10-19 13:15:08: 📱 Telegram alert sent for ISMQ
+2025-10-19 13:15:08: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.03, Now=0.96, Score=10.0
+2025-10-19 13:15:08: MEDIUM SIGNAL: DAPH: Score=49.0, Ratio=1.55, Change=-2.60%
+2025-10-19 13:15:08: AMER: Ratio=1.01, Score=15.0, Change=-1.53%
+2025-10-19 13:15:08: ZMID: Ratio=1.23, Score=35.9, Change=-1.30%
+2025-10-19 13:15:18: 📱 Telegram market summary sent
+2025-10-19 13:15:30: GDWA Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.18 (+20.0), Depth=42 (+10.0)
+2025-10-19 13:15:32: EHDR Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.02 (+20.0), Depth=120 (+10.0)
+2025-10-19 13:15:38: ISMA Score=40.0: Velocity=0.001 (+0.0), Imbalance=3.11 (+20.0), Depth=168 (+10.0), Consistency (+10)
+2025-10-19 13:15:48: ZMID Score=35.0: Ratio=1.22 (+5.6), Imbalance=1.97 (+19.4), Depth=148 (+10.0)
+2025-10-19 13:15:54: DAPH Score=43.8: Ratio=1.51 (+12.6), Imbalance=10.48 (+20.0), PriceMomentum=0.12% (+1.2), Depth=142 (+10.0)
+2025-10-19 13:17:34: MPRC: Ratio=1.00, Score=29.1, Change=+28.22%
+2025-10-19 13:17:34: ZMID: Ratio=1.22, Score=35.0, Change=-1.03%
+2025-10-19 13:17:34: MEDIUM SIGNAL: DAPH: Score=43.8, Ratio=1.51, Change=-2.65%
+2025-10-19 13:17:47: 📱 Telegram alert sent for AMER
+2025-10-19 13:17:47: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.01, Now=1.00, Score=13.1
+2025-10-19 13:17:57: 📱 Telegram market summary sent
+2025-10-19 13:18:10: EHDR Score=30.0: Velocity=0.001 (+0.0), Imbalance=3.39 (+20.0), Depth=121 (+10.0)
+2025-10-19 13:18:14: IFAP Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.46 (+20.0), Depth=183 (+10.0)
+2025-10-19 13:18:16: GDWA Score=30.5: Velocity=0.010 (+0.5), Imbalance=3.28 (+20.0), Depth=42 (+10.0)
+2025-10-19 13:18:28: ZMID Score=35.5: Ratio=1.22 (+5.5), Imbalance=2.03 (+20.0), Depth=148 (+10.0)
+2025-10-19 13:18:36: DAPH Score=48.8: Ratio=1.67 (+16.7), Velocity=0.040 (+2.0), Imbalance=9.76 (+20.0), PriceMomentum=0.01% (+0.1), Depth=142 (+10.0)
+2025-10-19 13:19:53: 📱 Telegram alert sent for MPRC
+2025-10-19 13:19:53: TAKE CARE: MPRC: Ratio dropped below 1! Previous=1.00, Now=0.83, Score=11.3
+2025-10-19 13:19:53: ZMID: Ratio=1.22, Score=35.5, Change=-0.10%
+2025-10-19 13:19:53: MEDIUM SIGNAL: DAPH: Score=48.8, Ratio=1.67, Change=+10.76%
+2025-10-19 13:19:53: PHDC: Ratio=1.03, Score=25.3, Change=+11.32%
+2025-10-19 13:20:04: 📱 Telegram market summary sent
+2025-10-19 13:20:21: ISMA Score=36.3: Velocity=0.002 (+0.1), Imbalance=1.81 (+16.2), Depth=166 (+10.0), Consistency (+10)
+2025-10-19 13:20:33: TALM Score=30.2: Velocity=0.005 (+0.2), Imbalance=2.86 (+20.0), Depth=115 (+10.0)
+2025-10-19 13:20:34: ZMID Score=31.4: Ratio=1.23 (+5.9), Velocity=0.004 (+0.2), Imbalance=1.49 (+9.8), PriceMomentum=0.55% (+5.5), Depth=148 (+10.0)
+2025-10-19 13:20:43: DAPH Score=48.8: Ratio=1.65 (+16.3), Velocity=0.049 (+2.5), Imbalance=13.17 (+20.0), Depth=145 (+10.0)
+2025-10-19 13:20:47: EHDR Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.34 (+20.0), Depth=121 (+10.0)
+2025-10-19 13:22:20: BIOC Score=30.2: Velocity=0.005 (+0.2), Imbalance=2.00 (+20.0), Depth=202 (+10.0)
+2025-10-19 13:22:20: PHDC: Ratio=1.06, Score=23.6, Change=+2.52%
+2025-10-19 13:22:20: ZMID: Ratio=1.23, Score=31.4, Change=+1.15%
+2025-10-19 13:22:20: MEDIUM SIGNAL: DAPH: Score=48.8, Ratio=1.65, Change=-0.84%
+2025-10-19 13:22:20: AMER: Ratio=1.01, Score=14.9, Change=+1.71%
+2025-10-19 13:22:20: FWRY: Ratio=1.00, Score=11.2, Change=+2.73%
+2025-10-19 13:22:31: 📱 Telegram market summary sent
+2025-10-19 13:22:42: BIOC Score=32.0: Velocity=0.004 (+0.2), Imbalance=2.85 (+20.0), PriceMomentum=0.18% (+1.8), Depth=200 (+10.0)
+2025-10-19 13:23:00: ZMID Score=43.4: Ratio=1.37 (+9.1), Velocity=0.048 (+2.4), Imbalance=2.21 (+20.0), PriceMomentum=0.18% (+1.8), Depth=148 (+10.0)
+2025-10-19 13:23:06: DAPH Score=41.2: Ratio=1.45 (+11.2), Imbalance=76.87 (+20.0), Depth=148 (+10.0)
+2025-10-19 13:24:18: ARCC Score=30.1: Imbalance=2.71 (+20.0), PriceMomentum=0.01% (+0.1), Depth=264 (+10.0)
+2025-10-19 13:24:29: 📱 Telegram alert sent for AMER
+2025-10-19 13:24:29: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.01, Now=0.99, Score=30.0
+2025-10-19 13:24:29: MEDIUM SIGNAL: ZMID: Score=43.4, Ratio=1.37, Change=+10.60%
+2025-10-19 13:24:29: MEDIUM SIGNAL: DAPH: Score=41.2, Ratio=1.45, Change=-12.35%
+2025-10-19 13:24:39: 📱 Telegram alert sent for FWRY
+2025-10-19 13:24:40: TAKE CARE: FWRY: Ratio dropped below 1! Previous=1.00, Now=0.97, Score=10.0
+2025-10-19 13:24:40: PHDC: Ratio=1.04, Score=11.1, Change=-1.74%
+2025-10-19 13:24:50: 📱 Telegram market summary sent
+2025-10-19 13:25:04: EMFD Score=30.2: Velocity=0.004 (+0.2), Imbalance=2.59 (+20.0), Depth=155 (+10.0)
+2025-10-19 13:25:22: DAPH Score=41.9: Ratio=1.48 (+11.9), Imbalance=65.77 (+20.0), Depth=147 (+10.0)
+2025-10-19 13:25:34: CRST Score=30.7: Velocity=0.014 (+0.7), Imbalance=2.17 (+20.0), Depth=112 (+10.0)
+2025-10-19 13:26:46: 📱 Telegram alert sent for PHDC
+2025-10-19 13:26:46: TAKE CARE: PHDC: Ratio dropped below 1! Previous=1.04, Now=0.97, Score=10.0
+2025-10-19 13:26:46: ISMQ: Ratio=1.01, Score=18.1, Change=+14.47%
+2025-10-19 13:26:46: SPMD: Ratio=1.05, Score=12.3, Change=+4.97%
+2025-10-19 13:26:46: MEDIUM SIGNAL: DAPH: Score=41.9, Ratio=1.48, Change=+1.84%
+2025-10-19 13:26:46: ZMID: Ratio=1.34, Score=25.1, Change=-1.60%
+2025-10-19 13:26:56: 📱 Telegram market summary sent
+2025-10-19 13:27:27: KZPC Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.19 (+20.0), Depth=142 (+10.0)
+2025-10-19 13:27:28: DAPH Score=40.1: Ratio=1.36 (+9.0), Imbalance=4.55 (+20.0), PriceMomentum=0.11% (+1.1), Depth=143 (+10.0)
+2025-10-19 13:27:30: TALM Score=30.7: Velocity=0.009 (+0.5), Imbalance=4.78 (+20.0), PriceMomentum=0.03% (+0.3), Depth=116 (+10.0)
+2025-10-19 13:28:42: EHDR Score=30.5: Velocity=0.010 (+0.5), Imbalance=2.25 (+20.0), Depth=121 (+10.0)
+2025-10-19 13:28:52: 📱 Telegram alert sent for ISMQ
+2025-10-19 13:28:52: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.01, Now=0.99, Score=13.3
+2025-10-19 13:28:52: SPMD: Ratio=1.00, Score=10.1, Change=-4.41%
+2025-10-19 13:28:52: ZMID: Ratio=1.34, Score=21.9, Change=+0.04%
+2025-10-19 13:28:52: MEDIUM SIGNAL: DAPH: Score=40.1, Ratio=1.36, Change=-7.75%
+2025-10-19 13:29:03: 📱 Telegram market summary sent
+2025-10-19 13:29:24: KZPC Score=30.2: Velocity=0.003 (+0.2), Imbalance=3.36 (+20.0), Depth=142 (+10.0)
+2025-10-19 13:29:34: ZMID Score=39.0: Ratio=1.35 (+8.8), Velocity=0.003 (+0.2), Imbalance=2.51 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:29:36: DAPH Score=39.3: Ratio=1.37 (+9.3), Imbalance=5.89 (+20.0), Depth=143 (+10.0)
+2025-10-19 13:29:36: TALM Score=31.7: Velocity=0.017 (+0.8), Imbalance=3.37 (+20.0), PriceMomentum=0.09% (+0.9), Depth=114 (+10.0)
+2025-10-19 13:29:47: DOMT Score=40.4: Velocity=0.009 (+0.4), Imbalance=2.39 (+20.0), Depth=136 (+10.0), Consistency (+10)
+2025-10-19 13:30:48: ISMQ: Ratio=1.04, Score=13.0, Change=+4.77%
+2025-10-19 13:30:59: 📱 Telegram alert sent for SPMD
+2025-10-19 13:30:59: TAKE CARE: SPMD: Ratio dropped below 1! Previous=1.00, Now=0.97, Score=10.0
+2025-10-19 13:30:59: ZMID: Ratio=1.35, Score=39.0, Change=+0.67%
+2025-10-19 13:30:59: DAPH: Ratio=1.37, Score=39.3, Change=+0.91%
+2025-10-19 13:31:10: 📱 Telegram market summary sent
+2025-10-19 13:31:21: DOMT Score=30.2: Velocity=0.004 (+0.2), Imbalance=2.39 (+20.0), Depth=136 (+10.0)
+2025-10-19 13:31:22: GDWA Score=30.3: Velocity=0.028 (+1.4), Imbalance=1.44 (+8.9), Depth=42 (+10.0), Consistency (+10)
+2025-10-19 13:31:40: ZMID Score=31.9: Ratio=1.31 (+7.8), Imbalance=1.70 (+14.0), Depth=149 (+10.0)
+2025-10-19 13:31:42: DAPH Score=39.4: Ratio=1.37 (+9.3), Velocity=0.003 (+0.2), Imbalance=19.04 (+20.0), Depth=145 (+10.0)
+2025-10-19 13:32:55: ISMQ: Ratio=1.01, Score=12.2, Change=-2.42%
+2025-10-19 13:32:55: ZMID: Ratio=1.31, Score=31.9, Change=-2.93%
+2025-10-19 13:32:55: DAPH: Ratio=1.37, Score=39.4, Change=-0.21%
+2025-10-19 13:33:34: ZMID Score=36.8: Ratio=1.27 (+6.8), Imbalance=4.02 (+20.0), Depth=149 (+10.0)
+2025-10-19 13:33:36: DAPH Score=34.0: Ratio=1.16 (+4.0), Imbalance=10.23 (+20.0), Depth=139 (+10.0)
+2025-10-19 13:34:51: 📱 Telegram alert sent for ISMQ
+2025-10-19 13:34:51: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.01, Now=0.94, Score=10.0
+2025-10-19 13:34:51: SPMD: Ratio=1.00, Score=13.5, Change=+2.61%
+2025-10-19 13:34:51: ZMID: Ratio=1.27, Score=36.8, Change=-3.22%
+2025-10-19 13:34:51: DAPH: Ratio=1.16, Score=34.0, Change=-15.50%
+2025-10-19 13:35:01: 📱 Telegram market summary sent
+2025-10-19 13:35:30: AMER Score=30.3: Velocity=0.005 (+0.3), Imbalance=3.14 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:35:36: OBRI Score=31.7: Velocity=0.016 (+0.8), Imbalance=2.61 (+20.0), PriceMomentum=0.09% (+0.9), Depth=130 (+10.0)
+2025-10-19 13:35:44: DOMT Score=30.2: Velocity=0.000 (+0.0), Imbalance=2.26 (+20.0), PriceMomentum=0.02% (+0.2), Depth=138 (+10.0)
+2025-10-19 13:35:50: ZMID Score=38.1: Ratio=1.29 (+7.2), Imbalance=2.68 (+20.0), PriceMomentum=0.09% (+0.9), Depth=148 (+10.0)
+2025-10-19 13:37:02: SPMD: Ratio=1.01, Score=20.9, Change=+1.01%
+2025-10-19 13:37:13: 📱 Telegram alert sent for DAPH
+2025-10-19 13:37:13: TAKE CARE: DAPH: Ratio dropped below 1! Previous=1.16, Now=0.59, Score=10.0
+2025-10-19 13:37:13: ZMID: Ratio=1.29, Score=38.1, Change=+1.21%
+2025-10-19 13:37:13: PHDC: Ratio=1.01, Score=11.1, Change=+2.86%
+2025-10-19 13:37:23: 📱 Telegram market summary sent
+2025-10-19 13:37:49: OBRI Score=35.2: Velocity=0.012 (+0.6), Imbalance=1.71 (+14.3), PriceMomentum=0.03% (+0.3), Depth=132 (+10.0), Consistency (+10)
+2025-10-19 13:37:50: OLFI Score=40.1: Velocity=0.003 (+0.1), Imbalance=2.60 (+20.0), Depth=189 (+10.0), Consistency (+10)
+2025-10-19 13:37:52: EHDR Score=30.2: Velocity=0.004 (+0.2), Imbalance=2.84 (+20.0), Depth=121 (+10.0)
+2025-10-19 13:37:57: ZMID Score=36.5: Ratio=1.26 (+6.5), Imbalance=3.49 (+20.0), Depth=149 (+10.0)
+2025-10-19 13:38:00: DAPH Score=30.5: Imbalance=1.98 (+19.5), PriceMomentum=0.09% (+0.9), Depth=134 (+10.0)
+2025-10-19 13:38:09: DOMT Score=40.0: Velocity=0.001 (+0.0), Imbalance=2.59 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 13:38:09: FWRY Score=36.6: Ratio=1.13 (+3.3), Velocity=0.058 (+2.9), Imbalance=4.22 (+20.0), PriceMomentum=0.03% (+0.3), Depth=196 (+10.0)
+2025-10-19 13:39:41: ISMQ: Ratio=1.23, Score=26.6, Change=+29.09%
+2025-10-19 13:39:41: PHDC: Ratio=1.00, Score=11.7, Change=-0.72%
+2025-10-19 13:39:41: SPMD: Ratio=1.01, Score=20.5, Change=+0.15%
+2025-10-19 13:39:41: ZMID: Ratio=1.26, Score=36.5, Change=-2.01%
+2025-10-19 13:39:41: FWRY: Ratio=1.13, Score=36.6, Change=+18.31%
+2025-10-19 13:39:52: DOMT Score=40.0: Velocity=0.001 (+0.0), Imbalance=2.59 (+20.0), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 13:39:55: AMER Score=30.0: Velocity=0.001 (+0.0), Imbalance=3.04 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:39:58: IFAP Score=39.9: Velocity=0.003 (+0.2), Imbalance=1.99 (+19.7), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 13:40:00: FWRY Score=36.5: Ratio=1.22 (+5.6), Velocity=0.089 (+4.4), Imbalance=1.77 (+15.4), PriceMomentum=0.10% (+1.0), Depth=197 (+10.0)
+2025-10-19 13:40:02: OLFI Score=46.4: Velocity=0.043 (+2.2), Imbalance=3.80 (+20.0), PriceMomentum=0.43% (+4.3), Depth=191 (+10.0), Consistency (+10)
+2025-10-19 13:40:04: ISMQ Score=55.6: Ratio=1.66 (+16.5), Velocity=0.235 (+11.7), PriceMomentum=0.74% (+7.4), Depth=157 (+10.0), Consistency (+10)
+2025-10-19 13:40:08: OBRI Score=42.0: Velocity=0.017 (+0.9), Imbalance=2.70 (+20.0), PriceMomentum=0.12% (+1.2), Depth=130 (+10.0), Consistency (+10)
+2025-10-19 13:40:12: DAPH Score=34.4: Velocity=0.087 (+4.4), Imbalance=4.69 (+20.0), Depth=135 (+10.0)
+2025-10-19 13:40:25: ZMID Score=35.5: Ratio=1.22 (+5.5), Imbalance=2.38 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:40:56: ARCC Score=30.8: Velocity=0.017 (+0.8), Imbalance=4.06 (+20.0), Depth=262 (+10.0)
+2025-10-19 13:41:27: FWRY: Ratio=1.22, Score=36.5, Change=+8.05%
+2025-10-19 13:41:27: MEDIUM SIGNAL: ISMQ: Score=55.6, Ratio=1.66, Change=+34.59%
+2025-10-19 13:41:27: PHDC: Ratio=1.03, Score=11.3, Change=+3.14%
+2025-10-19 13:41:27: SPMD: Ratio=1.01, Score=10.2, Change=-0.55%
+2025-10-19 13:41:27: ZMID: Ratio=1.22, Score=35.5, Change=-3.35%
+2025-10-19 13:41:40: AMER Score=30.4: Velocity=0.009 (+0.4), Imbalance=3.52 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:41:44: IFAP Score=38.8: Velocity=0.004 (+0.2), Imbalance=1.86 (+17.1), PriceMomentum=0.15% (+1.5), Depth=184 (+10.0), Consistency (+10)
+2025-10-19 13:41:49: OBRI Score=49.9: Velocity=0.018 (+0.9), Imbalance=2.51 (+20.0), PriceMomentum=0.90% (+9.0), Depth=127 (+10.0), Consistency (+10)
+2025-10-19 13:41:50: MPRC Score=31.6: Velocity=0.010 (+0.5), Imbalance=2.23 (+20.0), PriceMomentum=0.11% (+1.1), Depth=183 (+10.0)
+2025-10-19 13:41:53: OLFI Score=31.5: Velocity=0.029 (+1.5), Imbalance=2.16 (+20.0), Depth=187 (+10.0)
+2025-10-19 13:41:54: ARCC Score=30.8: Velocity=0.017 (+0.8), Imbalance=3.31 (+20.0), Depth=264 (+10.0)
+2025-10-19 13:42:06: DAPH Score=30.1: Imbalance=4.44 (+20.0), PriceMomentum=0.01% (+0.1), Depth=137 (+10.0)
+2025-10-19 13:43:12: FWRY Score=38.4: Ratio=1.24 (+6.0), Velocity=0.036 (+1.8), Imbalance=1.51 (+10.2), PriceMomentum=0.03% (+0.3), Depth=198 (+10.0), Consistency (+10)
+2025-10-19 13:43:12: ISMQ: Ratio=1.28, Score=23.7, Change=-22.81%
+2025-10-19 13:43:12: SPMD: Ratio=1.01, Score=10.1, Change=-0.26%
+2025-10-19 13:43:12: PHDC: Ratio=1.06, Score=13.6, Change=+2.29%
+2025-10-19 13:43:12: ZMID: Ratio=1.20, Score=25.3, Change=-1.29%
+2025-10-19 13:43:12: FWRY: Ratio=1.24, Score=38.4, Change=+1.45%
+2025-10-19 13:43:23: DOMT Score=30.5: Velocity=0.001 (+0.0), Imbalance=1.52 (+10.5), Depth=137 (+10.0), Consistency (+10)
+2025-10-19 13:43:30: AMER Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.42 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:43:32: IFAP Score=40.7: Velocity=0.005 (+0.2), Imbalance=2.01 (+20.0), PriceMomentum=0.05% (+0.5), Depth=185 (+10.0), Consistency (+10)
+2025-10-19 13:43:38: OBRI Score=40.7: Velocity=0.014 (+0.7), Imbalance=4.24 (+20.0), Depth=129 (+10.0), Consistency (+10)
+2025-10-19 13:43:44: ZMID Score=34.8: Ratio=1.19 (+4.8), Imbalance=2.32 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:44:26: EMFD Score=32.3: Velocity=0.035 (+1.8), Imbalance=3.04 (+20.0), PriceMomentum=0.05% (+0.5), Depth=157 (+10.0)
+2025-10-19 13:44:58: ISMQ: Ratio=1.20, Score=17.2, Change=-6.48%
+2025-10-19 13:44:58: PHDC: Ratio=1.03, Score=10.8, Change=-2.63%
+2025-10-19 13:44:58: ZMID: Ratio=1.19, Score=34.8, Change=-0.76%
+2025-10-19 13:44:58: SPMD: Ratio=1.01, Score=22.9, Change=+0.54%
+2025-10-19 13:44:58: FWRY: Ratio=1.20, Score=16.7, Change=-3.50%
+2025-10-19 13:45:09: DOMT Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.50 (+20.0), Depth=138 (+10.0)
+2025-10-19 13:45:19: OLFI Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.17 (+20.0), Depth=189 (+10.0)
+2025-10-19 13:45:28: ZMID Score=34.8: Ratio=1.19 (+4.8), Imbalance=2.22 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:45:31: DAPH Score=37.6: Ratio=1.11 (+2.9), Velocity=0.087 (+4.3), Imbalance=23.45 (+20.0), PriceMomentum=0.04% (+0.4), Depth=140 (+10.0)
+2025-10-19 13:45:42: EMFD Score=31.8: Velocity=0.036 (+1.8), Imbalance=3.09 (+20.0), Depth=157 (+10.0)
+2025-10-19 13:46:44: ISMQ: Ratio=1.11, Score=12.8, Change=-7.02%
+2025-10-19 13:46:44: PHDC: Ratio=1.01, Score=10.2, Change=-2.33%
+2025-10-19 13:46:44: SPMD: Ratio=1.00, Score=16.3, Change=-0.71%
+2025-10-19 13:46:44: ZMID: Ratio=1.19, Score=34.8, Change=-0.32%
+2025-10-19 13:46:44: DAPH: Ratio=1.11, Score=37.6, Change=+63.72%
+2025-10-19 13:46:44: ARCC: Ratio=1.11, Score=20.3, Change=+37.79%
+2025-10-19 13:46:44: FWRY: Ratio=1.18, Score=14.5, Change=-1.35%
+2025-10-19 13:46:54: 📱 Telegram market summary sent
+2025-10-19 13:47:14: MPRC Score=38.4: Velocity=0.007 (+0.3), Imbalance=1.89 (+17.9), PriceMomentum=0.02% (+0.2), Depth=180 (+10.0), Consistency (+10)
+2025-10-19 13:47:25: TALM Score=31.9: Velocity=0.039 (+1.9), Imbalance=2.63 (+20.0), Depth=123 (+10.0)
+2025-10-19 13:47:25: ZMID Score=35.2: Ratio=1.20 (+5.1), Velocity=0.003 (+0.1), Imbalance=2.39 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:47:26: DAPH Score=51.4: Ratio=1.38 (+9.4), Velocity=0.232 (+11.6), Imbalance=6.19 (+20.0), PriceMomentum=0.04% (+0.4), Depth=142 (+10.0)
+2025-10-19 13:48:40: ARCC Score=30.2: Ratio=1.12 (+2.9), Velocity=0.104 (+5.2), PriceMomentum=0.20% (+2.0), Depth=260 (+10.0), Consistency (+10)
+2025-10-19 13:48:40: ISMQ: Ratio=1.21, Score=20.6, Change=+8.56%
+2025-10-19 13:48:40: ZMID: Ratio=1.20, Score=35.2, Change=+1.06%
+2025-10-19 13:48:40: MEDIUM SIGNAL: DAPH: Score=51.4, Ratio=1.38, Change=+23.51%
+2025-10-19 13:48:40: SPMD: Ratio=1.00, Score=12.9, Change=-0.22%
+2025-10-19 13:48:40: PHDC: Ratio=1.04, Score=11.3, Change=+3.77%
+2025-10-19 13:48:40: FWRY: Ratio=1.17, Score=21.0, Change=-0.64%
+2025-10-19 13:48:40: ARCC: Ratio=1.12, Score=30.2, Change=+0.84%
+2025-10-19 13:48:51: AMER Score=30.2: Velocity=0.003 (+0.2), Imbalance=4.04 (+20.0), Depth=53 (+10.0)
+2025-10-19 13:48:54: FWRY Score=33.3: Ratio=1.27 (+6.7), Velocity=0.029 (+1.4), Imbalance=1.74 (+14.8), PriceMomentum=0.03% (+0.3), Depth=196 (+10.0)
+2025-10-19 13:48:58: MPRC Score=41.1: Velocity=0.016 (+0.8), Imbalance=3.81 (+20.0), PriceMomentum=0.03% (+0.3), Depth=178 (+10.0), Consistency (+10)
+2025-10-19 13:49:01: OBRI Score=30.0: Velocity=0.001 (+0.0), Imbalance=4.17 (+20.0), Depth=133 (+10.0)
+2025-10-19 13:49:08: ZMID Score=34.2: Ratio=1.20 (+4.9), Velocity=0.002 (+0.1), Imbalance=1.96 (+19.2), Depth=150 (+10.0)
+2025-10-19 13:49:15: TALM Score=32.0: Velocity=0.039 (+2.0), Imbalance=2.63 (+20.0), Depth=123 (+10.0)
+2025-10-19 13:49:16: DAPH Score=42.9: Ratio=1.35 (+8.8), Velocity=0.079 (+4.0), Imbalance=9.87 (+20.0), PriceMomentum=0.02% (+0.2), Depth=140 (+10.0)
+2025-10-19 13:49:24: DOMT Score=30.0: Velocity=0.000 (+0.0), Imbalance=2.52 (+20.0), Depth=138 (+10.0)
+2025-10-19 13:50:26: FWRY: Ratio=1.27, Score=33.3, Change=+7.93%
+2025-10-19 13:50:26: ISMQ: Ratio=1.02, Score=20.4, Change=-15.46%
+2025-10-19 13:50:36: 📱 Telegram alert sent for PHDC
+2025-10-19 13:50:36: TAKE CARE: PHDC: Ratio dropped below 1! Previous=1.04, Now=0.98, Score=10.0
+2025-10-19 13:50:36: ZMID: Ratio=1.20, Score=34.2, Change=-0.64%
+2025-10-19 13:50:36: SPMD: Ratio=1.00, Score=15.8, Change=-0.02%
+2025-10-19 13:50:36: MEDIUM SIGNAL: DAPH: Score=42.9, Ratio=1.35, Change=-1.78%
+2025-10-19 13:50:36: ARCC: Ratio=1.12, Score=23.7, Change=+0.49%
+2025-10-19 13:50:47: 📱 Telegram market summary sent
+2025-10-19 13:51:04: ISMQ Score=30.3: Ratio=1.01 (+0.3), Imbalance=7.81 (+20.0), Depth=163 (+10.0)
+2025-10-19 13:51:06: ISMA Score=31.2: Imbalance=3.13 (+20.0), PriceMomentum=0.12% (+1.2), Depth=168 (+10.0)
+2025-10-19 13:51:09: OBRI Score=32.7: Velocity=0.002 (+0.1), Imbalance=3.15 (+20.0), PriceMomentum=0.26% (+2.6), Depth=133 (+10.0)
+2025-10-19 13:51:12: MPRC Score=41.4: Velocity=0.012 (+0.6), Imbalance=2.10 (+20.0), PriceMomentum=0.08% (+0.8), Depth=179 (+10.0), Consistency (+10)
+2025-10-19 13:51:17: TALM Score=40.1: Velocity=0.001 (+0.1), Imbalance=2.21 (+20.0), Depth=121 (+10.0), Consistency (+10)
+2025-10-19 13:51:17: ZMID Score=35.9: Ratio=1.22 (+5.5), Velocity=0.006 (+0.3), Imbalance=2.00 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:51:26: DAPH Score=38.8: Ratio=1.35 (+8.8), Imbalance=2.77 (+20.0), Depth=142 (+10.0)
+2025-10-19 13:52:32: FWRY: Ratio=1.09, Score=12.3, Change=-13.80%
+2025-10-19 13:52:32: ISMQ: Ratio=1.01, Score=30.3, Change=-1.07%
+2025-10-19 13:52:32: ZMID: Ratio=1.22, Score=35.9, Change=+2.24%
+2025-10-19 13:52:32: SPMD: Ratio=1.01, Score=13.3, Change=+0.85%
+2025-10-19 13:52:32: DAPH: Ratio=1.35, Score=38.8, Change=+0.05%
+2025-10-19 13:52:32: ARCC: Ratio=1.07, Score=12.2, Change=-4.48%
+2025-10-19 13:52:49: ISMQ Score=31.0: Ratio=1.03 (+0.8), Velocity=0.004 (+0.2), Imbalance=5.18 (+20.0), Depth=163 (+10.0)
+2025-10-19 13:52:51: MPRC Score=35.0: Velocity=0.007 (+0.3), Imbalance=1.73 (+14.7), Depth=181 (+10.0), Consistency (+10)
+2025-10-19 13:52:52: ISMA Score=30.0: Velocity=0.000 (+0.0), Imbalance=4.16 (+20.0), Depth=168 (+10.0)
+2025-10-19 13:52:54: OBRI Score=30.9: Imbalance=2.74 (+20.0), PriceMomentum=0.09% (+0.9), Depth=134 (+10.0)
+2025-10-19 13:53:03: ZMID Score=36.9: Ratio=1.24 (+6.1), Velocity=0.016 (+0.8), Imbalance=2.44 (+20.0), Depth=150 (+10.0)
+2025-10-19 13:53:16: AMER Score=30.7: Ratio=1.00 (+0.1), Velocity=0.006 (+0.3), Imbalance=1.52 (+10.4), Depth=53 (+10.0), Consistency (+10)
+2025-10-19 13:53:47: ARCC Score=32.0: Ratio=1.08 (+2.0), Imbalance=3.32 (+20.0), Depth=258 (+10.0)
+2025-10-19 13:54:18: ISMQ: Ratio=1.03, Score=31.0, Change=+2.16%
+2025-10-19 13:54:18: PHDC: Ratio=1.07, Score=14.6, Change=+10.29%
+2025-10-19 13:54:18: ZMID: Ratio=1.24, Score=36.9, Change=+1.69%
+2025-10-19 13:54:18: SPMD: Ratio=1.04, Score=14.5, Change=+2.94%
+2025-10-19 13:54:18: DAPH: Ratio=1.34, Score=25.2, Change=-1.01%
+2025-10-19 13:54:18: AMER: Ratio=1.00, Score=30.7, Change=+0.87%
+2025-10-19 13:54:18: ARCC: Ratio=1.08, Score=32.0, Change=+0.94%
+2025-10-19 13:54:18: FWRY: Ratio=1.10, Score=27.4, Change=+0.63%
+2025-10-19 13:54:52: MOED Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.07 (+20.0), Depth=114 (+10.0)
+2025-10-19 13:54:54: ISMA Score=30.8: Imbalance=2.30 (+20.0), PriceMomentum=0.08% (+0.8), Depth=168 (+10.0)
+2025-10-19 13:55:06: ZMID Score=46.4: Ratio=1.24 (+6.1), Velocity=0.007 (+0.3), Imbalance=2.34 (+20.0), Depth=150 (+10.0), Consistency (+10)
+2025-10-19 13:55:14: DAPH Score=41.6: Ratio=1.43 (+10.8), Velocity=0.027 (+1.4), Imbalance=1.97 (+19.4), Depth=138 (+10.0)
+2025-10-19 13:55:18: ATQA Score=32.9: Velocity=0.001 (+0.0), Imbalance=1.64 (+12.9), Depth=214 (+10.0), Consistency (+10)
+2025-10-19 13:56:19: ARCC: Ratio=1.07, Score=26.3, Change=-0.82%
+2025-10-19 13:56:19: AMER: Ratio=1.00, Score=20.6, Change=-0.14%
+2025-10-19 13:56:30: 📱 Telegram alert sent for ISMQ
+2025-10-19 13:56:30: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.03, Now=0.97, Score=30.0
+2025-10-19 13:56:30: PHDC: Ratio=1.04, Score=12.3, Change=-2.72%
+2025-10-19 13:56:30: MEDIUM SIGNAL: ZMID: Score=46.4, Ratio=1.24, Change=+0.02%
+2025-10-19 13:56:30: SPMD: Ratio=1.00, Score=13.0, Change=-3.41%
+2025-10-19 13:56:30: MEDIUM SIGNAL: DAPH: Score=41.6, Ratio=1.43, Change=+7.10%
+2025-10-19 13:56:41: 📱 Telegram alert sent for FWRY
+2025-10-19 13:56:41: TAKE CARE: FWRY: Ratio dropped below 1! Previous=1.10, Now=0.91, Score=11.0
+2025-10-19 13:56:51: 📱 Telegram market summary sent
+2025-10-19 13:57:05: ATQA Score=32.9: Velocity=0.000 (+0.0), Imbalance=1.64 (+12.9), Depth=214 (+10.0), Consistency (+10)
+2025-10-19 13:57:05: FWRY Score=30.3: Imbalance=2.35 (+20.0), PriceMomentum=0.03% (+0.3), Depth=197 (+10.0)
+2025-10-19 13:57:12: ISMQ Score=30.7: Imbalance=2.44 (+20.0), PriceMomentum=0.07% (+0.7), Depth=165 (+10.0)
+2025-10-19 13:57:26: ZMID Score=36.1: Ratio=1.29 (+7.3), Velocity=0.017 (+0.8), Imbalance=1.30 (+6.1), PriceMomentum=0.18% (+1.8), Depth=150 (+10.0), Consistency (+10)
+2025-10-19 13:57:28: DAPH Score=42.5: Ratio=1.44 (+10.9), Velocity=0.033 (+1.6), Imbalance=2.30 (+20.0), Depth=138 (+10.0)
+2025-10-19 13:57:34: PRCL Score=31.0: Velocity=0.020 (+1.0), Imbalance=3.60 (+20.0), Depth=182 (+10.0)
+2025-10-19 13:57:44: MOED Score=39.8: Velocity=0.044 (+2.2), Imbalance=1.71 (+14.2), PriceMomentum=0.35% (+3.5), Depth=115 (+10.0), Consistency (+10)
+2025-10-19 13:58:05: ARCC Score=42.0: Ratio=1.32 (+8.0), Velocity=0.079 (+4.0), Imbalance=4.49 (+20.0), Depth=263 (+10.0)
+2025-10-19 13:59:07: AMER: Ratio=1.00, Score=20.5, Change=+0.02%
+2025-10-19 13:59:07: PHDC: Ratio=1.04, Score=11.0, Change=-0.18%
+2025-10-19 13:59:07: SPMD: Ratio=1.04, Score=11.0, Change=+3.41%
+2025-10-19 13:59:07: ZMID: Ratio=1.29, Score=36.1, Change=+4.09%
+2025-10-19 13:59:07: MEDIUM SIGNAL: DAPH: Score=42.5, Ratio=1.44, Change=+0.18%
+2025-10-19 13:59:07: MEDIUM SIGNAL: ARCC: Score=42.0, Ratio=1.32, Change=+23.06%
+2025-10-19 13:59:18: 📱 Telegram market summary sent
+2025-10-19 13:59:36: BIOC Score=30.2: Velocity=0.004 (+0.2), Imbalance=2.88 (+20.0), Depth=199 (+10.0)
+2025-10-19 13:59:38: MOED Score=49.3: Velocity=0.152 (+7.6), Imbalance=2.21 (+20.0), PriceMomentum=0.17% (+1.7), Depth=115 (+10.0), Consistency (+10)
+2025-10-19 13:59:50: DAPH Score=58.4: Ratio=1.60 (+15.1), Velocity=0.057 (+2.8), Imbalance=10.62 (+20.0), PriceMomentum=0.05% (+0.5), Depth=138 (+10.0), Consistency (+10)
+2025-10-19 13:59:52: ZMID Score=39.0: Ratio=1.31 (+7.7), Velocity=0.022 (+1.1), Imbalance=1.51 (+10.1), Depth=150 (+10.0), Consistency (+10)
+2025-10-19 14:00:01: ARCC Score=54.0: Ratio=1.56 (+14.0), Velocity=0.163 (+8.1), Imbalance=21.40 (+20.0), PriceMomentum=0.18% (+1.8), Depth=260 (+10.0)
+2025-10-19 14:01:03: PHDC: Ratio=1.12, Score=14.1, Change=+7.20%
+2025-10-19 14:01:03: SPMD: Ratio=1.03, Score=11.3, Change=-0.54%
+2025-10-19 14:01:03: MEDIUM SIGNAL: DAPH: Score=58.4, Ratio=1.60, Change=+11.62%
+2025-10-19 14:01:03: ZMID: Ratio=1.31, Score=39.0, Change=+1.16%
+2025-10-19 14:01:03: MEDIUM SIGNAL: ARCC: Score=54.0, Ratio=1.56, Change=+18.27%
+2025-10-19 14:01:14: 📱 Telegram alert sent for AMER
+2025-10-19 14:01:14: TAKE CARE: AMER: Ratio dropped below 1! Previous=1.00, Now=0.97, Score=30.0
+2025-10-19 14:01:24: 📱 Telegram market summary sent
+2025-10-19 14:01:38: ARCC Score=44.8: Ratio=1.48 (+12.1), Velocity=0.055 (+2.7), Imbalance=12.44 (+20.0), Depth=259 (+10.0)
+2025-10-19 14:01:42: ISMQ Score=36.3: Ratio=1.14 (+3.5), Velocity=0.056 (+2.8), Imbalance=4.37 (+20.0), Depth=163 (+10.0)
+2025-10-19 14:01:46: OBRI Score=37.7: Velocity=0.005 (+0.3), Imbalance=1.87 (+17.4), Depth=141 (+10.0), Consistency (+10)
+2025-10-19 14:01:55: DAPH Score=58.0: Ratio=1.60 (+15.1), Velocity=0.056 (+2.8), Imbalance=5.10 (+20.0), PriceMomentum=0.01% (+0.1), Depth=140 (+10.0), Consistency (+10)
+2025-10-19 14:01:58: ZMID Score=37.7: Ratio=1.30 (+7.5), Velocity=0.003 (+0.1), Imbalance=3.90 (+20.0), Depth=150 (+10.0)
+2025-10-19 14:02:39: DOMT Score=30.7: Velocity=0.004 (+0.2), Imbalance=2.91 (+20.0), PriceMomentum=0.05% (+0.5), Depth=138 (+10.0)
+2025-10-19 14:03:10: MEDIUM SIGNAL: ARCC: Score=44.8, Ratio=1.48, Change=-4.97%
+2025-10-19 14:03:10: ISMQ: Ratio=1.14, Score=36.3, Change=+18.58%
+2025-10-19 14:03:10: PHDC: Ratio=1.10, Score=13.5, Change=-1.36%
+2025-10-19 14:03:10: MEDIUM SIGNAL: DAPH: Score=58.0, Ratio=1.60, Change=+0.06%
+2025-10-19 14:03:10: ZMID: Ratio=1.30, Score=37.7, Change=-0.56%
+2025-10-19 14:03:10: SPMD: Ratio=1.00, Score=11.5, Change=-2.80%
+2025-10-19 14:03:28: AMER Score=30.4: Velocity=0.008 (+0.4), Imbalance=3.01 (+20.0), Depth=53 (+10.0)
+2025-10-19 14:03:32: OBRI Score=40.1: Velocity=0.001 (+0.1), Imbalance=2.38 (+20.0), Depth=144 (+10.0), Consistency (+10)
+2025-10-19 14:03:40: DAPH Score=55.2: Ratio=1.61 (+15.2), Velocity=0.001 (+0.1), Imbalance=5.06 (+20.0), Depth=140 (+10.0), Consistency (+10)
+2025-10-19 14:03:40: ZMID Score=37.2: Ratio=1.29 (+7.2), Imbalance=3.27 (+20.0), Depth=150 (+10.0)
+2025-10-19 14:03:44: TALM Score=30.1: Velocity=0.002 (+0.1), Imbalance=3.21 (+20.0), Depth=120 (+10.0)
+2025-10-19 14:04:02: NCCW Score=30.0: Velocity=0.001 (+0.0), Imbalance=3.88 (+20.0), Depth=114 (+10.0)
+2025-10-19 14:04:25: ARCC Score=41.9: Ratio=1.47 (+11.9), Imbalance=14.86 (+20.0), Depth=262 (+10.0)
+2025-10-19 14:04:56: DOMT Score=30.6: Velocity=0.012 (+0.6), Imbalance=6.80 (+20.0), Depth=140 (+10.0)
+2025-10-19 14:04:56: PHDC: Ratio=1.09, Score=12.2, Change=-1.05%
+2025-10-19 14:04:56: SPMD: Ratio=1.01, Score=10.1, Change=+0.14%
+2025-10-19 14:04:56: MEDIUM SIGNAL: DAPH: Score=55.2, Ratio=1.61, Change=+0.15%
+2025-10-19 14:04:56: ZMID: Ratio=1.29, Score=37.2, Change=-1.06%
+2025-10-19 14:04:56: ISMQ: Ratio=1.06, Score=17.8, Change=-6.54%
+2025-10-19 14:04:56: MEDIUM SIGNAL: ARCC: Score=41.9, Ratio=1.47, Change=-0.68%
+2025-10-19 14:05:09: ATQA Score=30.0: Velocity=0.001 (+0.0), Imbalance=3.07 (+20.0), Depth=214 (+10.0)
+2025-10-19 14:05:18: OBRI Score=40.1: Velocity=0.002 (+0.1), Imbalance=2.11 (+20.0), Depth=145 (+10.0), Consistency (+10)
+2025-10-19 14:05:25: ZMID Score=38.4: Ratio=1.26 (+6.6), Imbalance=3.14 (+20.0), PriceMomentum=0.18% (+1.8), Depth=150 (+10.0)
+2025-10-19 14:05:29: DAPH Score=41.0: Ratio=1.62 (+15.4), Velocity=0.004 (+0.2), Imbalance=1.26 (+5.1), PriceMomentum=0.02% (+0.2), Depth=141 (+10.0), Consistency (+10)
+2025-10-19 14:05:34: PRCL Score=30.8: Velocity=0.002 (+0.1), Imbalance=2.45 (+20.0), PriceMomentum=0.07% (+0.7), Depth=184 (+10.0)
+2025-10-19 14:05:40: ARCC Score=42.0: Ratio=1.48 (+12.0), Imbalance=21.94 (+20.0), Depth=262 (+10.0)
+2025-10-19 14:06:41: DOMT Score=30.6: Velocity=0.007 (+0.3), Imbalance=4.25 (+20.0), PriceMomentum=0.02% (+0.2), Depth=142 (+10.0)
+2025-10-19 14:07:12: EFID Score=30.0: Velocity=0.000 (+0.0), Imbalance=2.27 (+20.0), Depth=121 (+10.0)
+2025-10-19 14:07:23: 📱 Telegram alert sent for ISMQ
+2025-10-19 14:07:23: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.06, Now=0.85, Score=20.4
+2025-10-19 14:07:23: PHDC: Ratio=1.15, Score=15.3, Change=+5.85%
+2025-10-19 14:07:23: ZMID: Ratio=1.26, Score=38.4, Change=-1.95%
+2025-10-19 14:07:23: MEDIUM SIGNAL: DAPH: Score=41.0, Ratio=1.62, Change=+0.67%
+2025-10-19 14:07:23: SPMD: Ratio=1.00, Score=10.1, Change=-0.17%
+2025-10-19 14:07:23: MEDIUM SIGNAL: ARCC: Score=42.0, Ratio=1.48, Change=+0.28%
+2025-10-19 14:07:33: 📱 Telegram market summary sent
+2025-10-19 14:08:04: ZMID Score=38.6: Ratio=1.27 (+6.8), Imbalance=2.25 (+20.0), PriceMomentum=0.18% (+1.8), Depth=150 (+10.0)
+2025-10-19 14:08:08: PRCL Score=30.5: Velocity=0.011 (+0.5), Imbalance=3.57 (+20.0), Depth=185 (+10.0)
+2025-10-19 14:08:12: DAPH Score=36.0: Ratio=1.24 (+6.0), Imbalance=5.42 (+20.0), Depth=137 (+10.0)
+2025-10-19 14:08:17: ARCC Score=42.0: Ratio=1.46 (+11.4), Imbalance=6.53 (+20.0), PriceMomentum=0.05% (+0.5), Depth=259 (+10.0)
+2025-10-19 14:09:19: ENGC Score=31.2: Velocity=0.023 (+1.2), Imbalance=12.59 (+20.0), Depth=150 (+10.0)
+2025-10-19 14:09:19: PHDC: Ratio=1.16, Score=15.1, Change=+0.36%
+2025-10-19 14:09:29: 📱 Telegram alert sent for SPMD
+2025-10-19 14:09:29: TAKE CARE: SPMD: Ratio dropped below 1! Previous=1.00, Now=0.98, Score=10.0
+2025-10-19 14:09:29: ZMID: Ratio=1.27, Score=38.6, Change=+0.82%
+2025-10-19 14:09:29: DAPH: Ratio=1.24, Score=36.0, Change=-23.40%
+2025-10-19 14:09:29: MEDIUM SIGNAL: ARCC: Score=42.0, Ratio=1.46, Change=-1.44%
+2025-10-19 14:09:40: 📱 Telegram market summary sent
+2025-10-19 14:09:51: ENGC Score=42.7: Velocity=0.021 (+1.0), Imbalance=4.11 (+20.0), PriceMomentum=0.16% (+1.6), Depth=149 (+10.0), Consistency (+10)
+2025-10-19 14:09:53: DOMT Score=30.0: Velocity=0.000 (+0.0), Imbalance=3.55 (+20.0), Depth=142 (+10.0)
+2025-10-19 14:10:10: ZMID Score=50.4: Ratio=1.90 (+22.5), Velocity=0.213 (+10.7), PriceMomentum=0.72% (+7.2), Depth=146 (+10.0)
+2025-10-19 14:10:13: PRCL Score=30.0: Velocity=0.001 (+0.0), Imbalance=2.43 (+20.0), Depth=183 (+10.0)
+2025-10-19 14:10:18: DAPH Score=36.1: Ratio=1.24 (+6.1), Imbalance=5.69 (+20.0), Depth=140 (+10.0)
+2025-10-19 14:10:54: EHDR Score=30.1: Velocity=0.002 (+0.1), Imbalance=2.41 (+20.0), Depth=121 (+10.0)
+2025-10-19 14:11:25: FWRY Score=30.6: Velocity=0.011 (+0.6), Imbalance=2.76 (+20.0), Depth=197 (+10.0)
+2025-10-19 14:11:56: ARCC: Ratio=1.47, Score=29.4, Change=+1.18%
+2025-10-19 14:11:56: PHDC: Ratio=1.11, Score=14.0, Change=-4.29%
+2025-10-19 14:11:56: MEDIUM SIGNAL: ZMID: Score=50.4, Ratio=1.90, Change=+49.44%
+2025-10-19 14:11:56: DAPH: Ratio=1.24, Score=36.1, Change=+0.49%
+2025-10-19 14:12:07: 📱 Telegram market summary sent
+2025-10-19 14:12:17: DOMT Score=30.2: Imbalance=3.05 (+20.0), PriceMomentum=0.02% (+0.2), Depth=141 (+10.0)
+2025-10-19 14:12:18: ARCC Score=42.5: Ratio=1.48 (+12.1), Velocity=0.009 (+0.4), Imbalance=19.77 (+20.0), Depth=262 (+10.0)
+2025-10-19 14:12:20: EMFD Score=31.0: Imbalance=1.99 (+19.9), PriceMomentum=0.11% (+1.1), Depth=156 (+10.0)
+2025-10-19 14:12:24: ISMQ Score=37.7: Ratio=1.02 (+0.5), Velocity=0.056 (+2.8), Imbalance=2.18 (+20.0), PriceMomentum=0.44% (+4.4), Depth=160 (+10.0)
+2025-10-19 14:12:38: DAPH Score=41.3: Ratio=1.33 (+8.3), Velocity=0.031 (+1.5), Imbalance=3.31 (+20.0), PriceMomentum=0.14% (+1.4), Depth=142 (+10.0)
+2025-10-19 14:12:42: ZMID Score=44.1: Ratio=1.86 (+21.6), Velocity=0.197 (+9.9), PriceMomentum=0.27% (+2.7), Depth=149 (+10.0)
+2025-10-19 14:12:47: GGCC Score=30.9: Imbalance=2.26 (+20.0), PriceMomentum=0.09% (+0.9), Depth=116 (+10.0)
+2025-10-19 14:12:47: PRCL Score=30.4: Velocity=0.008 (+0.4), Imbalance=5.92 (+20.0), Depth=184 (+10.0)
+2025-10-19 14:12:50: AMER Score=31.5: Ratio=1.00 (+0.1), Velocity=0.029 (+1.4), Imbalance=2.60 (+20.0), Depth=53 (+10.0)
+2025-10-19 14:13:22: ENGC Score=31.3: Imbalance=3.52 (+20.0), PriceMomentum=0.13% (+1.3), Depth=149 (+10.0)
+2025-10-19 14:13:53: ISMA Score=31.7: Velocity=0.034 (+1.7), Imbalance=7.79 (+20.0), Depth=167 (+10.0)
+2025-10-19 14:13:53: MEDIUM SIGNAL: ARCC: Score=42.5, Ratio=1.48, Change=+0.63%
+2025-10-19 14:13:53: ISMQ: Ratio=1.02, Score=37.7, Change=+21.24%
+2025-10-19 14:14:04: 📱 Telegram alert sent for PHDC
+2025-10-19 14:14:04: TAKE CARE: PHDC: Ratio dropped below 1! Previous=1.11, Now=0.96, Score=10.0
+2025-10-19 14:14:04: MEDIUM SIGNAL: DAPH: Score=41.3, Ratio=1.33, Change=+6.96%
+2025-10-19 14:14:04: MEDIUM SIGNAL: ZMID: Score=44.1, Ratio=1.86, Change=-1.98%
+2025-10-19 14:14:04: AMER: Ratio=1.00, Score=31.5, Change=+10.64%
+2025-10-19 14:14:15: 📱 Telegram market summary sent
+2025-10-19 14:14:28: AMER Score=57.4: Ratio=1.46 (+11.4), Velocity=0.183 (+9.2), Imbalance=1.59 (+11.8), PriceMomentum=1.81% (+15.0), Depth=54 (+10.0)
+2025-10-19 14:14:30: ISMA Score=44.7: Velocity=0.031 (+1.6), Imbalance=2.97 (+20.0), PriceMomentum=0.31% (+3.1), Depth=168 (+10.0), Consistency (+10)
+2025-10-19 14:14:34: MPRC Score=30.0: Velocity=0.001 (+0.0), Imbalance=4.49 (+20.0), Depth=175 (+10.0)
+2025-10-19 14:14:36: OBRI Score=30.3: Velocity=0.001 (+0.0), Imbalance=2.47 (+20.0), PriceMomentum=0.03% (+0.3), Depth=143 (+10.0)
+2025-10-19 14:14:42: ARCC Score=33.8: Ratio=1.15 (+3.8), Imbalance=3.44 (+20.0), Depth=251 (+10.0)
+2025-10-19 14:14:44: ZMID Score=34.0: Ratio=1.78 (+19.5), Imbalance=1.23 (+4.5), Depth=151 (+10.0)
+2025-10-19 14:14:47: PRCL Score=30.4: Velocity=0.001 (+0.1), Imbalance=3.53 (+20.0), PriceMomentum=0.03% (+0.3), Depth=180 (+10.0)
+2025-10-19 14:14:47: GGCC Score=30.1: Velocity=0.003 (+0.1), Imbalance=2.89 (+20.0), Depth=116 (+10.0)
+2025-10-19 14:14:50: DAPH Score=35.5: Ratio=1.22 (+5.5), Imbalance=23.34 (+20.0), Depth=141 (+10.0)
+2025-10-19 14:14:59: BIOC Score=30.4: Velocity=0.008 (+0.4), Imbalance=3.28 (+20.0), Depth=192 (+10.0)
+2025-10-19 14:14:59: ATQA Score=32.2: Velocity=0.025 (+1.2), Imbalance=2.11 (+20.0), PriceMomentum=0.09% (+0.9), Depth=215 (+10.0)
+2025-10-19 14:16:01: MEDIUM SIGNAL: AMER: Score=57.4, Ratio=1.46, Change=+45.04%
+2025-10-19 14:16:12: 📱 Telegram alert sent for ISMQ
+2025-10-19 14:16:12: TAKE CARE: ISMQ: Ratio dropped below 1! Previous=1.02, Now=0.88, Score=12.1
+2025-10-19 14:16:12: ARCC: Ratio=1.15, Score=33.8, Change=-22.46%
+2025-10-19 14:16:12: ZMID: Ratio=1.78, Score=34.0, Change=-4.52%
+2025-10-19 14:16:12: DAPH: Ratio=1.22, Score=35.5, Change=-8.52%
+2025-10-19 14:16:22: 📱 Telegram market summary sent
+2025-10-19 22:07:27: 📱 Start-of-day message sent to Telegram
+2025-10-19 22:08:13: 📱 Start-of-day message sent to Telegram
+2025-10-19 22:12:44: EGAL: Ratio=1.08, Score=0.0, Change=N/A (first record)
+2025-10-19 22:12:44: CRST: Ratio=1.21, Score=0.0, Change=N/A (first record)
+2025-10-19 22:12:44: NEDA: Ratio=1.59, Score=0.0, Change=N/A (first record)
+2025-10-19 22:12:44: PHAR: Ratio=1.11, Score=0.0, Change=N/A (first record)
+2025-10-19 22:12:44: ZMID: Ratio=2.04, Score=0.0, Change=N/A (first record)
+2025-10-19 22:13:24: CRST Score=35.4: Ratio=1.21 (+5.4), Imbalance=22.40 (+20.0), Depth=91 (+10.0)
+2025-10-19 22:13:43: ZMID Score=55.0: Ratio=2.04 (+25.0), Imbalance=2.44 (+20.0), Depth=119 (+10.0)
+2025-10-19 22:15:09: 📱 Telegram alert sent for ASCM
+2025-10-19 22:15:09: STRONG RECOMMEND: ASCM: Score=10.0, Ratio=0.11, Change=+0.00%
+2025-10-19 22:15:20: 📱 Telegram alert sent for ABUK
+2025-10-19 22:15:20: STRONG RECOMMEND: ABUK: Score=10.0, Ratio=0.25, Change=+0.00%
+2025-10-19 22:15:30: 📱 Telegram alert sent for CLHO
+2025-10-19 22:15:30: STRONG RECOMMEND: CLHO: Score=10.0, Ratio=0.75, Change=+0.00%
+2025-10-19 22:15:41: 📱 Telegram alert sent for CCAP
+2025-10-19 22:15:41: STRONG RECOMMEND: CCAP: Score=10.0, Ratio=0.40, Change=+0.00%
+2025-10-19 22:15:51: 📱 Telegram alert sent for BIOC
+2025-10-19 22:15:51: STRONG RECOMMEND: BIOC: Score=30.0, Ratio=0.46, Change=+0.00%
+2025-10-19 22:16:02: 📱 Telegram alert sent for DOMT
+2025-10-19 22:16:02: STRONG RECOMMEND: DOMT: Score=12.1, Ratio=0.18, Change=+0.00%
+2025-10-19 22:16:12: 📱 Telegram alert sent for ECAP
+2025-10-19 22:16:12: STRONG RECOMMEND: ECAP: Score=17.8, Ratio=0.10, Change=+0.00%
+2025-10-19 22:16:23: 📱 Telegram alert sent for EFID
+2025-10-19 22:16:23: STRONG RECOMMEND: EFID: Score=10.0, Ratio=0.15, Change=+0.00%
+2025-10-19 22:16:33: 📱 Telegram alert sent for AJWA
+2025-10-19 22:16:33: STRONG RECOMMEND: AJWA: Score=10.0, Ratio=0.17, Change=+0.00%
+2025-10-19 22:16:44: 📱 Telegram alert sent for ARAB
+2025-10-19 22:16:44: STRONG RECOMMEND: ARAB: Score=10.0, Ratio=0.30, Change=+0.00%
+2025-10-19 22:16:54: 📱 Telegram alert sent for EHDR
+2025-10-19 22:16:54: STRONG RECOMMEND: EHDR: Score=10.0, Ratio=0.37, Change=+0.00%
+2025-10-19 22:17:05: 📱 Telegram alert sent for EGCH
+2025-10-19 22:17:05: STRONG RECOMMEND: EGCH: Score=29.4, Ratio=0.21, Change=+0.00%
+2025-10-19 22:17:15: 📱 Telegram alert sent for ENGC
+2025-10-19 22:17:15: STRONG RECOMMEND: ENGC: Score=30.0, Ratio=0.61, Change=+0.00%
+2025-10-19 22:17:26: 📱 Telegram alert sent for EPCO
+2025-10-19 22:17:26: STRONG RECOMMEND: EPCO: Score=28.0, Ratio=0.29, Change=+0.00%
+2025-10-19 22:17:36: 📱 Telegram alert sent for ETRS
+2025-10-19 22:17:36: STRONG RECOMMEND: ETRS: Score=10.0, Ratio=0.67, Change=+0.00%
+2025-10-19 22:17:47: 📱 Telegram alert sent for FWRY
+2025-10-19 22:17:47: STRONG RECOMMEND: FWRY: Score=30.0, Ratio=0.35, Change=+0.00%
+2025-10-19 22:17:58: 📱 Telegram alert sent for ALCN
+2025-10-19 22:17:58: STRONG RECOMMEND: ALCN: Score=10.0, Ratio=0.29, Change=+0.00%
+2025-10-19 22:18:08: 📱 Telegram alert sent for ATQA
+2025-10-19 22:18:08: STRONG RECOMMEND: ATQA: Score=30.0, Ratio=0.29, Change=+0.00%
+2025-10-19 22:18:19: 📱 Telegram alert sent for HELI
+2025-10-19 22:18:19: STRONG RECOMMEND: HELI: Score=10.0, Ratio=0.36, Change=+0.00%
+2025-10-19 22:18:29: 📱 Telegram alert sent for IFAP
+2025-10-19 22:18:29: STRONG RECOMMEND: IFAP: Score=30.0, Ratio=0.24, Change=+0.00%
+2025-10-19 22:18:40: 📱 Telegram alert sent for EGAL
+2025-10-19 22:18:40: STRONG RECOMMEND: EGAL: Score=11.9, Ratio=1.08, Change=+0.00%
+2025-10-19 22:18:50: 📱 Telegram alert sent for ISMQ
+2025-10-19 22:18:50: STRONG RECOMMEND: ISMQ: Score=10.0, Ratio=0.60, Change=+0.00%
+2025-10-19 22:19:01: 📱 Telegram alert sent for ISMA
+2025-10-19 22:19:01: STRONG RECOMMEND: ISMA: Score=30.0, Ratio=0.48, Change=+0.00%
+2025-10-19 22:19:11: 📱 Telegram alert sent for KZPC
+2025-10-19 22:19:11: STRONG RECOMMEND: KZPC: Score=10.0, Ratio=0.15, Change=+0.00%
+2025-10-19 22:19:22: 📱 Telegram alert sent for ELEC
+2025-10-19 22:19:22: STRONG RECOMMEND: ELEC: Score=30.0, Ratio=0.39, Change=+0.00%
+2025-10-19 22:19:32: 📱 Telegram alert sent for EMFD
+2025-10-19 22:19:32: STRONG RECOMMEND: EMFD: Score=10.0, Ratio=0.25, Change=+0.00%
+2025-10-19 22:19:43: 📱 Telegram alert sent for LCSW
+2025-10-19 22:19:43: STRONG RECOMMEND: LCSW: Score=10.0, Ratio=0.25, Change=+0.00%
+2025-10-19 22:19:53: 📱 Telegram alert sent for MOED
+2025-10-19 22:19:53: STRONG RECOMMEND: MOED: Score=10.0, Ratio=0.51, Change=+0.00%
+2025-10-19 22:20:04: 📱 Telegram alert sent for ISPH
+2025-10-19 22:20:04: STRONG RECOMMEND: ISPH: Score=10.0, Ratio=0.45, Change=+0.00%
+2025-10-19 22:20:14: 📱 Telegram alert sent for NCCW
+2025-10-19 22:20:14: STRONG RECOMMEND: NCCW: Score=30.0, Ratio=0.68, Change=+0.00%
+2025-10-19 22:20:25: 📱 Telegram alert sent for NEDA
+2025-10-19 22:20:25: STRONG RECOMMEND: NEDA: Score=17.8, Ratio=1.59, Change=+0.00%
+2025-10-19 22:20:35: 📱 Telegram alert sent for CRST
+2025-10-19 22:20:35: STRONG RECOMMEND: CRST: Score=35.4, Ratio=1.21, Change=+0.00%
+2025-10-19 22:20:46: 📱 Telegram alert sent for MASR
+2025-10-19 22:20:46: STRONG RECOMMEND: MASR: Score=10.0, Ratio=0.52, Change=+0.00%
+2025-10-19 22:20:56: 📱 Telegram alert sent for MFPC
+2025-10-19 22:20:56: STRONG RECOMMEND: MFPC: Score=30.0, Ratio=0.41, Change=+0.00%
+2025-10-19 22:21:07: 📱 Telegram alert sent for MPRC
+2025-10-19 22:21:07: STRONG RECOMMEND: MPRC: Score=10.0, Ratio=0.15, Change=+0.00%
+2025-10-19 22:21:17: 📱 Telegram alert sent for OLFI
+2025-10-19 22:21:17: STRONG RECOMMEND: OLFI: Score=10.0, Ratio=0.20, Change=+0.00%
+2025-10-19 22:21:28: 📱 Telegram alert sent for PHAR
+2025-10-19 22:21:28: STRONG RECOMMEND: PHAR: Score=12.8, Ratio=1.11, Change=+0.00%
+2025-10-19 22:21:38: 📱 Telegram alert sent for PHDC
+2025-10-19 22:21:38: STRONG RECOMMEND: PHDC: Score=10.0, Ratio=0.35, Change=+0.00%
+2025-10-19 22:21:49: 📱 Telegram alert sent for OCDI
+2025-10-19 22:21:49: STRONG RECOMMEND: OCDI: Score=10.0, Ratio=0.23, Change=+0.00%
+2025-10-19 22:21:59: 📱 Telegram alert sent for ORWE
+2025-10-19 22:21:59: STRONG RECOMMEND: ORWE: Score=14.9, Ratio=0.18, Change=+0.00%
+2025-10-19 22:22:10: 📱 Telegram alert sent for ORAS
+2025-10-19 22:22:10: STRONG RECOMMEND: ORAS: Score=12.1, Ratio=0.49, Change=+0.00%
+2025-10-19 22:22:20: 📱 Telegram alert sent for RAYA
+2025-10-19 22:22:20: STRONG RECOMMEND: RAYA: Score=14.7, Ratio=0.22, Change=+0.00%
+2025-10-19 22:22:31: 📱 Telegram alert sent for SNFC
+2025-10-19 22:22:31: STRONG RECOMMEND: SNFC: Score=10.0, Ratio=0.23, Change=+0.00%
+2025-10-19 22:22:41: 📱 Telegram alert sent for SUGR
+2025-10-19 22:22:41: STRONG RECOMMEND: SUGR: Score=10.0, Ratio=0.22, Change=+0.00%
+2025-10-19 22:22:52: 📱 Telegram alert sent for SWDY
+2025-10-19 22:22:52: STRONG RECOMMEND: SWDY: Score=10.0, Ratio=0.23, Change=+0.00%
+2025-10-19 22:23:02: 📱 Telegram alert sent for TALM
+2025-10-19 22:23:02: STRONG RECOMMEND: TALM: Score=29.8, Ratio=0.60, Change=+0.00%
+2025-10-19 22:23:13: 📱 Telegram alert sent for RREI
+2025-10-19 22:23:13: STRONG RECOMMEND: RREI: Score=14.7, Ratio=0.38, Change=+0.00%
+2025-10-19 22:23:23: 📱 Telegram alert sent for SPMD
+2025-10-19 22:23:23: STRONG RECOMMEND: SPMD: Score=10.0, Ratio=0.37, Change=+0.00%
+2025-10-19 22:23:34: 📱 Telegram alert sent for TANM
+2025-10-19 22:23:34: STRONG RECOMMEND: TANM: Score=28.5, Ratio=0.51, Change=+0.00%
+2025-10-19 22:23:44: 📱 Telegram alert sent for ZMID
+2025-10-19 22:23:44: STRONG RECOMMEND: ZMID: Score=55.0, Ratio=2.04, Change=+0.00%
+2025-10-19 22:23:55: 📱 Telegram alert sent for JUFO
+2025-10-19 22:23:55: STRONG RECOMMEND: JUFO: Score=13.2, Ratio=0.24, Change=+0.00%
+2025-10-19 22:24:05: 📱 Telegram alert sent for MICH
+2025-10-19 22:24:05: STRONG RECOMMEND: MICH: Score=10.0, Ratio=0.15, Change=+0.00%
+2025-10-19 22:24:16: 📱 Telegram alert sent for RMDA
+2025-10-19 22:24:16: STRONG RECOMMEND: RMDA: Score=10.0, Ratio=0.16, Change=+0.00%
+2025-10-19 22:24:26: 📱 Telegram alert sent for DAPH
+2025-10-19 22:24:26: STRONG RECOMMEND: DAPH: Score=30.0, Ratio=0.15, Change=+0.00%
+2025-10-19 22:24:37: 📱 Telegram alert sent for ALUM
+2025-10-19 22:24:37: STRONG RECOMMEND: ALUM: Score=10.0, Ratio=0.16, Change=+0.00%
+2025-10-19 22:24:47: 📱 Telegram alert sent for GGCC
+2025-10-19 22:24:47: STRONG RECOMMEND: GGCC: Score=28.6, Ratio=0.22, Change=+0.00%
+2025-10-19 22:24:58: 📱 Telegram alert sent for ODIN
+2025-10-19 22:24:58: STRONG RECOMMEND: ODIN: Score=9.5, Ratio=0.57, Change=+0.00%
+2025-10-19 22:25:08: 📱 Telegram alert sent for TGMH
+2025-10-19 22:25:08: STRONG RECOMMEND: TGMH: Score=30.0, Ratio=0.33, Change=+0.00%
+2025-10-19 22:25:19: 📱 Telegram alert sent for TAQA
+2025-10-19 22:25:19: STRONG RECOMMEND: TAQA: Score=30.0, Ratio=0.58, Change=+0.00%
+2025-10-19 22:25:29: 📱 Telegram alert sent for CSAG
+2025-10-19 22:25:29: STRONG RECOMMEND: CSAG: Score=10.0, Ratio=0.47, Change=+0.00%
+2025-10-19 22:25:40: 📱 Telegram alert sent for GBCO
+2025-10-19 22:25:40: STRONG RECOMMEND: GBCO: Score=10.0, Ratio=0.40, Change=+0.00%
+2025-10-19 22:25:50: 📱 Telegram alert sent for GDWA
+2025-10-19 22:25:50: STRONG RECOMMEND: GDWA: Score=25.2, Ratio=0.91, Change=+0.00%
+2025-10-19 22:26:01: 📱 Telegram alert sent for OBRI
+2025-10-19 22:26:01: STRONG RECOMMEND: OBRI: Score=24.9, Ratio=0.10, Change=+0.00%
+2025-10-19 22:26:11: 📱 Telegram alert sent for AMOC
+2025-10-19 22:26:11: STRONG RECOMMEND: AMOC: Score=10.0, Ratio=0.32, Change=+0.00%
+2025-10-19 22:26:22: 📱 Telegram alert sent for ARCC
+2025-10-19 22:26:22: STRONG RECOMMEND: ARCC: Score=10.0, Ratio=0.49, Change=+0.00%
+2025-10-19 22:26:32: 📱 Telegram alert sent for ACAP
+2025-10-19 22:26:32: STRONG RECOMMEND: ACAP: Score=30.0, Ratio=0.96, Change=+0.00%
+2025-10-19 22:26:43: 📱 Telegram alert sent for AMER
+2025-10-19 22:26:43: STRONG RECOMMEND: AMER: Score=10.0, Ratio=0.48, Change=+0.00%

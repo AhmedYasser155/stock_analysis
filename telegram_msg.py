@@ -11,14 +11,14 @@ from datetime import datetime
 # Telegram Bot Configuration
 # Get from environment variables for GitHub Actions, fallback to hardcoded for local testing
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8369324693:AAFXewPCtGDs0rMLSZwtO5miaXxcCyRvtrM")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "819131470")
+CHAT_GROUP_ID = os.environ.get("TELEGRAM_CHAT_GROUP_ID", "-1003165147844")
 
 print(f"🔧 BOT_TOKEN loaded: {'✅ from environment' if 'TELEGRAM_BOT_TOKEN' in os.environ else '⚠️ using fallback'}")
-print(f"🔧 CHAT_ID loaded: {'✅ from environment' if 'TELEGRAM_CHAT_ID' in os.environ else '⚠️ using fallback'}")
+print(f"🔧 CHAT_GROUP_ID loaded: {'✅ from environment' if 'TELEGRAM_CHAT_GROUP_ID' in os.environ else '⚠️ using fallback'}")
 
 def send_telegram_message(message, parse_mode="HTML"):
     """
-    Send a message to Telegram chat.
+    Send a message to Telegram group chat.
     
     Args:
         message (str): The message to send
@@ -31,7 +31,7 @@ def send_telegram_message(message, parse_mode="HTML"):
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
         
         payload = {
-            'chat_id': CHAT_ID,
+            'chat_id': CHAT_GROUP_ID,
             'text': message,
             'parse_mode': parse_mode
         }
@@ -70,7 +70,8 @@ def format_stock_alert(stock_code, alert_type, score, ratio, change_pct):
     emoji_map = {
         "STRONG": "🚀",
         "MEDIUM": "📊", 
-        "TAKE_CARE": "⚠️"
+        "TAKE_CARE": "⚠️",
+        "TOKEN_EXPIRED": "🔴"
     }
     
     emoji = emoji_map.get(alert_type, "📈")
@@ -97,6 +98,18 @@ def format_stock_alert(stock_code, alert_type, score, ratio, change_pct):
 🕐 <b>Time:</b> {timestamp}
 
 <i>Ratio has declined - monitor closely</i>
+        """
+    elif alert_type == "TOKEN_EXPIRED":
+        message = f"""
+🔴 <b>TOKEN EXPIRED ALERT</b> 🔴
+
+🏷️ <b>Stock:</b> {stock_code}
+🚫 <b>Status:</b> Authentication Failed
+🕐 <b>Time:</b> {timestamp}
+
+⚠️ <b>ACTION REQUIRED:</b> Update API token immediately!
+
+<i>Stock monitoring has stopped. Please update the token in price_depth.py</i>
         """
     else:  # MEDIUM
         message = f"""
@@ -134,14 +147,14 @@ def format_market_summary(strong_count, take_care_count, top_stocks, total_stock
     return message
 
 def test_telegram_connection():
-    """Test the Telegram bot connection with a simple message."""
+    """Test the Telegram bot connection with a simple message to the group."""
     test_message = f"""
 🔧 <b>Test Message</b>
 
-✅ Telegram bot connection successful!
+✅ Telegram bot connection to group successful!
 🕐 <b>Time:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
-<i>Your stock monitoring system is ready to send alerts.</i>
+<i>Your stock monitoring system is ready to send alerts to the group.</i>
     """
     
     return send_telegram_message(test_message)
@@ -150,12 +163,12 @@ def test_telegram_connection():
 if __name__ == "__main__":
     print("=== Telegram Bot Test ===")
     
-    # Check if bot token and chat ID are configured
-    if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE" or CHAT_ID == "YOUR_CHAT_ID_HERE":
-        print("❌ Please configure BOT_TOKEN and CHAT_ID first!")
+    # Check if bot token and chat group ID are configured
+    if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE" or CHAT_GROUP_ID == "YOUR_CHAT_GROUP_ID_HERE":
+        print("❌ Please configure BOT_TOKEN and CHAT_GROUP_ID first!")
         print("\nSee setup instructions:")
         print("1. Create a bot with @BotFather on Telegram")
-        print("2. Get your chat ID by messaging @userinfobot")
+        print("2. Add the bot to your group and get the group ID")
         print("3. Update the tokens in this file")
     else:
         # Test connection
@@ -184,4 +197,4 @@ if __name__ == "__main__":
             send_telegram_message(summary)
             
         else:
-            print("❌ Telegram setup failed! Check your bot token and chat ID.")
+            print("❌ Telegram setup failed! Check your bot token and group ID.")
