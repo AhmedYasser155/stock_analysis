@@ -189,7 +189,7 @@ def send_end_of_day_summary():
         
         # Calculate session statistics
         total_alerts = sum(alert_counts.values()) if alert_counts else 0
-        active_stocks = len([score for score in signal_scores.values() if score > 60])
+        active_stocks = len([score for score in signal_scores.values() if score > 75])
         top_performers = sorted(signal_scores.items(), key=lambda x: x[1], reverse=True)[:5]
         
         # Analyze recommendation performance
