@@ -1,0 +1,52 @@
+# Stock Analysis System - Python Dependencies
+# Core dependencies for the stock monitoring and analysis system
+
+# HTTP requests for API calls
+requests>=2.28.0
+
+# Windows toast notifications
+win10toast>=0.9
+
+# Telegram bot integration (python-telegram-bot)
+python-telegram-bot>=20.0
+
+# Date and time handling (included in Python standard library, but listed for clarity)
+# datetime - built-in module
+
+# Threading and concurrent execution (built-in modules)
+# threading - built-in module
+# concurrent.futures - built-in module
+
+# Data structures and collections (built-in)
+# collections - built-in module
+
+# Statistics calculations (built-in)
+# statistics - built-in module
+
+# CSV file handling (built-in)
+# csv - built-in module
+
+# JSON handling (built-in)
+# json - built-in module
+
+# Operating system interface (built-in)
+# os - built-in module
+
+# Time-related functions (built-in)
+# time - built-in module
+
+# Oracle database connectivity (optional - commented out in current version)
+# oracledb>=1.0.0
+
+# Installation Instructions:
+# 1. Open command prompt or terminal
+# 2. Navigate to the project directory: cd "e:\Projects\Stock Analysis"
+# 3. Install all dependencies: pip install -r requirements.txt
+#
+# Alternative individual installations:
+# pip install requests
+# pip install win10toast
+# pip install python-telegram-bot
+#
+# For Oracle database support (if needed):
+# pip install oracledb
